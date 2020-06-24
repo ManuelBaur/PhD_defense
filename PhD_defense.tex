@@ -1,0 +1,114 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage[english]{babel} % just for german
+
+\usepackage[utf8]{inputenc}
+\usepackage[scaled]{helvet}
+
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amstext}
+\usepackage[overlay,absolute]{textpos} % for textboxes
+\usepackage{beamerthemesplit}
+\usepackage[]{media9}
+\usepackage{multimedia} % for videos
+\usepackage{graphicx} % not needed in beamer
+\usepackage[export]{adjustbox} % align images left,center...
+\usepackage{import} % to import images with tex text from inkscape - use path to image
+\usepackage{xcolor} % to change textcolor
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{siunitx}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\usepackage{subfig}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{tcolorbox}
+\usepackage{epstopdf}
+\usepackage{pdfcomment}
+\usepackage[makeroom]{cancel} % to cross out
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\usepackage{tikz}
+\usetikzlibrary{tikzmark}
+\usetikzlibrary{arrows}
+\usetheme{Boadilla} %{Pittsburgh} %{boxes} %{Boadilla}
+%\usecolortheme{lily}
+
+%% define origin of coordinate system for tikz
+%\newcommand*{\xMin}{0}
+%\newcommand*{\xMax}{1}
+%\newcommand*{\yMin}{0}
+%\newcommand*{\yMax}{1}
+
+%% set color box 
+%\tcbset{highlight math style={colframe=red,colback=white}}
+
+% length scale for text positions
+\setlength{\TPHorizModule}{\paperwidth}
+\setlength{\TPVertModule}{\paperheight}
+
+
+
+% colors definitions
+\definecolor{royalblue}{RGB}{65,105,255}	% 4169ff
+\definecolor{darkblue}{RGB}{0,0,153}		% 000099
+\definecolor{navy}{RGB}{0,0,128}			% 000080
+\definecolor{blue1}{RGB}{0,102,204}			% 0066cc
+\definecolor{cyan0}{RGB}{0,255,255}			% 00ffff
+\definecolor{red0}{RGB}{255,0,0}			% ff0000
+\definecolor{orange0}{RGB}{255,128,0}		% ff8000
+\definecolor{violet}{RGB}{159,64,255}		% 7f00ff
+%\definecolor{yellow0}{RGB}{255,255,0}		% ffff00
+\definecolor{green1}{RGB}{76,153,0}			% 4c9900
+\definecolor{darkgreen}{RGB}{0,126,0}		% 007e00	
+\definecolor{pink}{RGB}{204,0,126}			% cc0066
+
+% colors for model functions in beam hardening paper in HEX-format
+\definecolor{BS}{HTML}{007e00} 
+\definecolor{Yu1}{HTML}{cc00cc}
+\definecolor{Yu2}{HTML}{6600cc}  
+\definecolor{KS}{HTML}{66cc00} 
+\definecolor{MU}{HTML}{ff8000} 
+\definecolor{BA}{HTML}{0066cc}
+
+% get rid of bottom navigaiton bars
+\setbeamertemplate{footline}{}
+% get rid of navigation symbols
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{frametitle}{fg=blue1} % set color of title
+
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\footnotesize
+	\insertframenumber %/\inserttotalframenumber
+}
+
+\setbeamercolor{footline}{fg=blue1}
+\setbeamerfont{footline}{series=\bfseries}
+%\setbeamerfont{footline}{\large}
+
+\includeonly{%
+%Title,
+%Motivation,
+BeamHardening,
+%X-DFA,
+%SedimentingBed
+}
+
+
+\begin{document}
+\include{Title}
+
+\include{Motivation}
+
+\include{BeamHardening}
+%
+\include{X-DFA}
+%
+\include{SedimentingBed}
+\end{document}
+
+
+

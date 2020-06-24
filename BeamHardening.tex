@@ -1,0 +1,356 @@
+\frame{
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=12.cm,yshift=-10.cm]current page.east|-{pic cs:end});
+\end{tikzpicture}
+\begin{textblock}{0.9}(0.05,0.3)
+\centering
+\Huge{
+	\textcolor{white}{Correction of beam hardening \\
+		in X-ray radiograms}}
+\end{textblock}
+}
+
+
+%% ------------------ ATTENUATION OF X-RAYS -----------------------
+\frame{
+\frametitle{Attenuation of X-rays}
+
+\begin{textblock}{0.45}(0.5,0.1)
+\centering
+Beer-Lambert's law\\[0.2cm]
+\visible<1>{
+$\textcolor{red}{I(x)} = \textcolor{blue}{I_0} \exp(- \mu\, x)$\\
+Thickness: $x = - \frac{1}{\mu} \ln\frac{I(x)}{I_0}$}
+\end{textblock}
+
+\begin{textblock}{0.45}(0.5,0.1)
+\centering
+Beer-Lambert's law\\[0.2cm]
+\visible<2->{
+$\textcolor{red}{I(x)} = \textcolor{blue}{I_0} \exp(- \textcolor{darkgreen}{\mu(E,Z,\rho)}\, x)$\\
+$\mu \neq \text{const}$\\
+Thickness: \colorbox{red}{$x =\, ?$}}
+\end{textblock}
+
+\begin{textblock}{0.48}(0.5,0.3)
+	\visible<2->{
+	\centering
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/Attenuation_vs_energy.eps}}
+\end{textblock}
+\begin{textblock}{0.48}(0.5,0.9)
+	\centering
+	\visible<2->{\scriptsize{
+		\url{https://www.nist.gov/pml/x-ray-mass-attenuation-coefficients}}}
+\end{textblock}
+
+\begin{textblock}{0.45}(0.03,0.14)
+	\centering
+	\only<1> {%% image of beam through material
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/beam_through_material.pdf}}
+	\only<2>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/x-ray_spectrum_N0.pdf}}
+	\only<3>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/x-ray_spectra_beam_hardening.pdf}}
+\end{textblock}
+\begin{textblock}{0.45}(0.035,0.36)
+	\centering
+	\only<3>{
+	\colorbox{red}{Beam hardening}}
+\end{textblock}
+
+\note{Attenuation of X-rays}
+
+
+}
+
+
+%% ------------------ INTESITY INTEGRAL -------------------------
+\frame{
+	\frametitle{Measurement of X-ray intensities}
+	\begin{textblock}{1.}(0.0,0.15)
+		\centering
+		\visible<1->{
+			\includegraphics[width=0.45\textwidth]
+			{Sources/beam_hardening/beam_through_material.pdf}}
+	\end{textblock}
+	
+	\begin{textblock}{0.3}(0.03,0.35)
+		\centering
+		\visible<1-> {
+			\includegraphics[width=\textwidth]
+			{Sources/beam_hardening/N0_initial_spectrum_filled_curves.eps}}
+	\end{textblock}
+	
+	\begin{textblock}{0.3}(0.345,0.35)
+		\centering
+		\visible<1-> {
+			\includegraphics[width=\textwidth]
+			{Sources/beam_hardening/Attenuation_vs_energy_Al.eps}}
+	\end{textblock}
+	
+	\begin{textblock}{0.3}(0.67,0.35)
+		\centering
+		\visible<1-> {
+			\includegraphics[width=\textwidth]
+			{Sources/beam_hardening/Detector_response.eps}}
+	\end{textblock}
+	
+	
+	\begin{textblock}{0.9}(0.05,0.8)
+		\centering
+		\visible<2-> {
+			$I(x) \propto \int \textcolor{blue}{N(E)} \exp\{-
+			\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
+			\textcolor{red}{S(E)}~\mathrm{d}E$}
+	\end{textblock}
+}
+
+
+%%%-------------- ENERGY AVERAGED ATTENUATION ----------------
+\frame{
+\frametitle{Energy averaged attenuation coefficient, $\mu_\text{eff}$}
+
+
+\begin{textblock}{0.45}(0.03,0.1)
+	\centering
+	\only<1>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/x-ray_spectra_beam_hardening_step1.pdf}}
+	\only<2>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/x-ray_spectra_beam_hardening_step2.pdf}}
+	\only<3,4>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/x-ray_spectra_beam_hardening.pdf}}
+	\only<5>{
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/x-ray_spectra_beam_hardening_dx0.pdf}}
+\end{textblock}
+
+\begin{textblock}{0.5}(0.5,0.15)
+	\centering
+	\includegraphics[width=0.8\textwidth]
+	{Sources/beam_hardening/Plates_on_slide_horizontal.pdf}
+\end{textblock}
+
+\begin{textblock}{0.45}(0.5,0.5)
+	\centering
+	\visible<1-> {
+		$I(x) \propto \int N(E) \exp\{-
+		\mu(E,Z,\rho) x\} 
+		S(E)~\mathrm{d}E$}
+\end{textblock}
+
+
+\begin{textblock}{0.45}(0.5,0.6)
+	\centering
+	\visible<4->{
+		\textcolor{darkgreen}{\textit{effective}} attenuation coefficient: 
+		$\textcolor{red}{I(x)} = \textcolor{blue}{I_0} \exp(- \textcolor{darkgreen}{\mu_\text{eff}(x)}\, x)$}
+\end{textblock}
+
+\begin{textblock}{0.45}(0.5,0.75)
+	\centering
+	\visible<5->{
+		\textit{differential} attenuation coefficient:
+		\[
+		\frac{\mathrm{d} I(x)}{\mathrm{d}x} = \bar{\mu} (x)\, I(x)
+		\]
+}
+\end{textblock}
+}
+
+
+%% ------------- HEURISTIC MODEL-FUNCTION ------------
+\frame{
+\frametitle{Experimental procedure}
+
+\begin{textblock}{0.9}(0.05,0.12)
+	\centering
+	\textcolor{darkgreen}{\textit{effective}} attenuation coefficient: 
+	$\textcolor{red}{I(x)} = \textcolor{blue}{I_0} \exp(- \textcolor{darkgreen}{\mu_\text{eff}(x)}\, x)$
+\end{textblock}
+
+\begin{textblock}{0.25}(0.05,0.2)
+	\centering
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/Plates_on_slide_vertical.pdf}
+\end{textblock}
+
+\begin{textblock}{0.55}(0.35,0.2)
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/attenuation_boro_glass_140kV.pdf}
+\end{textblock}
+
+
+}
+
+%% ------------- HEURISTIC MODEL-FUNCTION ------------
+\frame{
+\frametitle{Heuristic model functions}
+
+\begin{textblock}{0.4}(0.03,0.08)
+	\visible<1->{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/borosilicate_glass_140kV_model_comparison_multiplot.eps}}
+\end{textblock}
+
+\begin{textblock}{0.5}(0.4, 0.12)
+\begin{tabular}{ll}
+{\small
+	\textcolor{BS}{$\mu_\text{eff} (x)= \mu_0 - \lambda x$}} &
+	{\small Bjärngard \& Shackford} \\
+		& {\small (1994)}\\[0.7cm]
+	
+{\small	
+\textcolor{Yu1}{$\mu_\text{eff}(x) = \frac{\mu_0}{1+\lambda x}$}} &
+\multirow{2}{\linewidth}{\small Yu \textit{et al.} (1997)}\\
+
+{\small
+\textcolor{Yu2}{$\mu_\text{eff}(x) = \frac{\mu_0}{(1+\lambda x)^\beta}$}} \\[0.7cm]
+
+{\small
+\textcolor{KS}{
+	$\mu_\text{eff}(x) = \mu(E_\text{max}) +
+	\frac{2 \mu_1}{x \sqrt{-\lambda_1^2 + 4 \lambda_2}} \times$}} & Kleinschmidt (1999)
+\\
+\multicolumn{2}{l}{\small
+\textcolor{KS}{
+	$\quad\left[
+	\arctan\left(
+	\frac{\lambda_1 + 2 \lambda_2 x}{\sqrt{-\lambda_1^2 + 4 \lambda_2}}
+	\right)
+	-\arctan\left(
+	\frac{\lambda_1}{\sqrt{-\lambda_1^2 + 4 \lambda_2}}
+	\right)
+	\right]
+	$ }} \\[0.7cm]
+
+{\small
+\textcolor{MU}{$\mu_\text{eff}(x) = -\frac{1}{x} \ln \left[A+B \exp(-x/C)\right]$}} & 
+{\small
+	Mudde \textit{et al.} (2008) }\\[0.7cm]
+
+{\small
+\textcolor{BA}{$\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}$}} &
+{\small Baur \textit{et al.} (2019)}\\
+& {\small (this work)}
+\end{tabular}
+
+\end{textblock}
+}
+
+%% ------------- RESULTS -----------------------------
+\frame{
+\frametitle{Universality of $\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}$}
+
+%%% VOLTAGES
+\begin{textblock}{0.35}(0.05,0.08)
+	\visible<1->{
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/borosilicate_glass_voltages_mu_eff.eps}}
+\end{textblock}
+
+\begin{textblock}{0.6}(0.05,0.08)
+	\vspace{0.5cm}	
+	\visible<1->{
+		\hspace{3.cm} \colorbox{blue1}{\textcolor{white}{
+		 varying voltages}}}
+\end{textblock}
+
+
+%% FILTERS
+\begin{textblock}{0.35}(0.5,0.08)
+	\visible<2->{
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/borosilicate_glass_filters_mu_eff.eps}}
+\end{textblock}
+
+\begin{textblock}{0.6}(0.5,0.08)
+	\vspace{0.5cm}	
+	\visible<2->{
+		\hspace{3.cm} \colorbox{blue1}{\textcolor{white}{
+				different filters}}}
+\end{textblock}
+
+%% MATERIALS
+\begin{textblock}{0.35}(0.05,0.53)
+	\visible<3->{
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/materials_mu_eff_140kV_fit.eps}}
+\end{textblock}
+
+\begin{textblock}{0.6}(0.05,0.53)
+	\vspace{0.5cm}	
+	\visible<3->{
+		\hspace{3.cm} \colorbox{blue1}{\textcolor{white}{
+				different materials}}}
+\end{textblock}
+
+%% SETUPS
+\begin{textblock}{0.35}(0.5,0.53)
+	\visible<4->{
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/comp_both_setups.eps}}
+\end{textblock}
+
+\begin{textblock}{0.6}(0.5,0.53)
+	\vspace{0.5cm}	
+	\visible<4->{
+		\hspace{3.cm} \colorbox{blue1}{\textcolor{white}{
+				2 X-ray setups}}}
+\end{textblock}
+}
+
+%% ------------- MATERIAL THICKNESS X
+\frame{
+\frametitle{Determining the material thickness $x$}
+
+\begin{textblock}{0.5}(0.05,0.15)
+\visible<1->{
+Generalized Beer-Lambert
+\[ I(x) = I_0 \exp(-\mu_\text{eff} (x) \, x) \]
+
+Model function
+\[ \mu_\text{eff} (x) = a + \frac{b}{x^\alpha} \]\\[0.5cm]
+}
+
+\visible<2->{
+Solve
+\[ a x + b x^{1-\alpha} + \ln \left(\frac{I(x)}{I_0}\right) = 0\]
+e.g.\ Newtons method or look-up table}
+\end{textblock}
+
+\begin{textblock}{0.4}(0.55,0.05)
+\only<1>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_1.eps}
+}
+
+\only<2>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_2.eps}
+}
+
+\visible<3->{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot.eps}
+}
+\end{textblock}
+}
+
+%% ------------- Applications ------------------------
+\frame{
+\frametitle{Applications}
+\begin{textblock}{0.9}(0.05,0.12)
+	\centering
+	\only<1>{
+	\includegraphics[width=0.9\textwidth]
+	{Sources/beam_hardening/experiment.pdf}}
+\end{textblock}
+}

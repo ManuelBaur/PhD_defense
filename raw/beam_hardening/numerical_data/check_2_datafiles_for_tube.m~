@@ -1,0 +1,6 @@
+clear 
+close all
+
+
+old_data = load('2CX
+new_data = load('data_sent_2018-10-09/Comet_with_energies.dat');

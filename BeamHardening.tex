@@ -154,47 +154,59 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 
 \frame{
 \frametitle{Numerical approximation of $\mu_\text{eff}$}
+
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.22\textwidth,yshift=0.3\textheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.2}(0.0,0.05)
+	\centering
+	\textcolor{white}{
+	\Large Numerical approximation of $\mu_\text{eff}$}
+\end{textblock}
+
+
+
+\begin{textblock}{1.}(0.0,0.1)
+	\centering
+	\visible<1->{
+		\includegraphics[width=0.4\textwidth]
+		{Sources/beam_hardening/beam_through_material.pdf}}
+\end{textblock}
+
+\begin{textblock}{0.32}(0.03,0.25)
+	\centering
+	\visible<1-> {
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/N0_initial_spectrum_filled_curves.eps}}
+\end{textblock}
+
+\begin{textblock}{0.32}(0.345,0.25)
+	\centering
+	\visible<1-> {
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/Attenuation_vs_energy_Al.eps}}
+\end{textblock}
+
+\begin{textblock}{0.32}(0.67,0.25)
+	\centering
+	\visible<1-> {
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/Detector_response_0.eps}}
+\end{textblock}
+
+
+\begin{textblock}{0.9}(0.05,0.6)
+	\centering
+	\visible<1->{
+		$I(x) \propto \int \textcolor{blue}{N(E)} \exp\{-
+		\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
+		\textcolor{red}{S(E)}~\mathrm{d}E $}
+\end{textblock}
 }
 
-\frame{
-	\frametitle{Measurement of X-ray intensities}
-	\begin{textblock}{1.}(0.0,0.15)
-		\centering
-		\visible<1->{
-			\includegraphics[width=0.45\textwidth]
-			{Sources/beam_hardening/beam_through_material.pdf}}
-	\end{textblock}
-	
-	\begin{textblock}{0.3}(0.03,0.35)
-		\centering
-		\visible<1-> {
-			\includegraphics[width=\textwidth]
-			{Sources/beam_hardening/N0_initial_spectrum_filled_curves.eps}}
-	\end{textblock}
-	
-	\begin{textblock}{0.3}(0.345,0.35)
-		\centering
-		\visible<1-> {
-			\includegraphics[width=\textwidth]
-			{Sources/beam_hardening/Attenuation_vs_energy_Al.eps}}
-	\end{textblock}
-	
-	\begin{textblock}{0.3}(0.67,0.35)
-		\centering
-		\visible<1-> {
-			\includegraphics[width=\textwidth]
-			{Sources/beam_hardening/Detector_response.eps}}
-	\end{textblock}
-	
-	
-	\begin{textblock}{0.9}(0.05,0.8)
-		\centering
-		\visible<1->{
-			$I(x) \propto \int \textcolor{blue}{N(E)} \exp\{-
-			\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
-			\textcolor{red}{S(E)}~\mathrm{d}E $}
-	\end{textblock}
-}
+
 
 
 %% ------------- HEURISTIC MODEL-FUNCTION ------------

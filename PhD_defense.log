@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  30 JUN 2020 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  30 JUN 2020 19:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2111,14 +2111,14 @@ DFA/cropped_80kV_340uA_38ms_0000.png (PNG copy)>])
 
  (./BeamHardening.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 24.
+(Font)              scaled to size 23.63593pt on input line 31.
 <Sources/beam_hardening/2beams_attenuation_marked.pdf, id=45, 1621.8071pt x 327
 .2067pt>
 File: Sources/beam_hardening/2beams_attenuation_marked.pdf Graphic file (type p
 df)
 <use Sources/beam_hardening/2beams_attenuation_marked.pdf>
 Package pdftex.def Info: Sources/beam_hardening/2beams_attenuation_marked.pdf  
-used on input line 24.
+used on input line 31.
 (pdftex.def)             Requested size: 327.77475pt x 66.12917pt.
  [7
 
@@ -2137,7 +2137,7 @@ gy-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Att
 enuation_vs_energy-eps-converted-to.pdf Sources/beam_hardening/Attenuation_vs_e
 nergy.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2150,20 +2150,20 @@ File: Sources/beam_hardening/Attenuation_vs_energy-eps-converted-to.pdf Graphic
  file (type pdf)
 <use Sources/beam_hardening/Attenuation_vs_energy-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/Attenuation_vs_energy-eps-conve
-rted-to.pdf  used on input line 81.
+rted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 218.51521pt x 152.96078pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 81.
+(Font)              scaled to size 4.74998pt on input line 88.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 81.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 88.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 4.74998pt on input line 81.
+(Font)              scaled to size 4.74998pt on input line 88.
 <Sources/beam_hardening/beam_through_material.pdf, id=187, 560.93298pt x 114.42
 143pt>
 File: Sources/beam_hardening/beam_through_material.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/beam_through_material.pdf>
 Package pdftex.def Info: Sources/beam_hardening/beam_through_material.pdf  used
- on input line 81.
+ on input line 88.
 (pdftex.def)             Requested size: 204.85844pt x 41.78703pt.
 [8
 
@@ -2180,20 +2180,20 @@ gy-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Att
 enuation_vs_energy-eps-converted-to.pdf Sources/beam_hardening/Attenuation_vs_e
 nergy.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/Attenuation_vs_energy-eps-converted-to.pdf Graphic
  file (type pdf)
 <use Sources/beam_hardening/Attenuation_vs_energy-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/Attenuation_vs_energy-eps-conve
-rted-to.pdf  used on input line 81.
+rted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 218.51521pt x 152.96078pt.
 <Sources/beam_hardening/x-ray_spectrum_N0.pdf, id=226, 561.54605pt x 526.66776p
 t>
 File: Sources/beam_hardening/x-ray_spectrum_N0.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/x-ray_spectrum_N0.pdf>
 Package pdftex.def Info: Sources/beam_hardening/x-ray_spectrum_N0.pdf  used on 
-input line 81.
+input line 88.
 (pdftex.def)             Requested size: 204.85844pt x 192.13167pt.
  [9
 
@@ -2209,19 +2209,19 @@ gy-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Att
 enuation_vs_energy-eps-converted-to.pdf Sources/beam_hardening/Attenuation_vs_e
 nergy.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/Attenuation_vs_energy-eps-converted-to.pdf Graphic
  file (type pdf)
 <use Sources/beam_hardening/Attenuation_vs_energy-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/Attenuation_vs_energy-eps-conve
-rted-to.pdf  used on input line 81.
+rted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 218.51521pt x 152.96078pt.
 File: Sources/beam_hardening/x-ray_spectra_beam_hardening.pdf Graphic file (typ
 e pdf)
 <use Sources/beam_hardening/x-ray_spectra_beam_hardening.pdf>
 Package pdftex.def Info: Sources/beam_hardening/x-ray_spectra_beam_hardening.pd
-f  used on input line 81.
+f  used on input line 88.
 (pdftex.def)             Requested size: 204.85844pt x 192.13167pt.
  [10
 
@@ -2232,16 +2232,16 @@ File: Sources/beam_hardening/x-ray_spectra_beam_hardening_step1.pdf Graphic fil
 e (type pdf)
 <use Sources/beam_hardening/x-ray_spectra_beam_hardening_step1.pdf>
 Package pdftex.def Info: Sources/beam_hardening/x-ray_spectra_beam_hardening_st
-ep1.pdf  used on input line 144.
+ep1.pdf  used on input line 151.
 (pdftex.def)             Requested size: 204.85844pt x 192.13167pt.
 <Sources/beam_hardening/02_plates.png, id=254, 685.8423pt x 544.1931pt>
 File: Sources/beam_hardening/02_plates.png Graphic file (type png)
 <use Sources/beam_hardening/02_plates.png>
 Package pdftex.def Info: Sources/beam_hardening/02_plates.png  used on input li
-ne 144.
+ne 151.
 (pdftex.def)             Requested size: 68.28383pt x 54.17339pt.
 
-Overfull \hbox (9.69176pt too wide) in paragraph at lines 144--144
+Overfull \hbox (9.69176pt too wide) in paragraph at lines 151--151
 [][] 
  []
 
@@ -2251,30 +2251,30 @@ File: Sources/beam_hardening/attenuation_boro_glass_140kV.pdf Graphic file (typ
 e pdf)
 <use Sources/beam_hardening/attenuation_boro_glass_140kV.pdf>
 Package pdftex.def Info: Sources/beam_hardening/attenuation_boro_glass_140kV.pd
-f  used on input line 144.
+f  used on input line 151.
 (pdftex.def)             Requested size: 218.51521pt x 168.3331pt.
 <Sources/beam_hardening/plates_on_slide.png, id=256, 492.84125pt x 337.26pt>
 File: Sources/beam_hardening/plates_on_slide.png Graphic file (type png)
 <use Sources/beam_hardening/plates_on_slide.png>
 Package pdftex.def Info: Sources/beam_hardening/plates_on_slide.png  used on in
-put line 144.
+put line 151.
 (pdftex.def)             Requested size: 68.28383pt x 46.72719pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 144.
+(Font)              scaled to size 9.49997pt on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 144.
+(Font)              scaled to size 6.64998pt on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 144.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 13.67995pt on input line 144.
+(Font)              scaled to size 13.67995pt on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 144.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 144.
+(Font)              scaled to size 9.49997pt on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 144.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.64998pt on input line 144.
+(Font)              scaled to size 6.64998pt on input line 151.
 [11
 
  <./Sources/beam_hardening/x-ray_spectra_beam_hardening_step1.pdf> <./Sources/b
@@ -2291,16 +2291,16 @@ File: Sources/beam_hardening/x-ray_spectra_beam_hardening_step2.pdf Graphic fil
 e (type pdf)
 <use Sources/beam_hardening/x-ray_spectra_beam_hardening_step2.pdf>
 Package pdftex.def Info: Sources/beam_hardening/x-ray_spectra_beam_hardening_st
-ep2.pdf  used on input line 144.
+ep2.pdf  used on input line 151.
 (pdftex.def)             Requested size: 204.85844pt x 192.13167pt.
 <Sources/beam_hardening/04_plates.png, id=323, 685.8423pt x 544.1931pt>
 File: Sources/beam_hardening/04_plates.png Graphic file (type png)
 <use Sources/beam_hardening/04_plates.png>
 Package pdftex.def Info: Sources/beam_hardening/04_plates.png  used on input li
-ne 144.
+ne 151.
 (pdftex.def)             Requested size: 68.28383pt x 54.17339pt.
 
-Overfull \hbox (9.69176pt too wide) in paragraph at lines 144--144
+Overfull \hbox (9.69176pt too wide) in paragraph at lines 151--151
 [][] 
  []
 
@@ -2308,12 +2308,12 @@ File: Sources/beam_hardening/attenuation_boro_glass_140kV.pdf Graphic file (typ
 e pdf)
 <use Sources/beam_hardening/attenuation_boro_glass_140kV.pdf>
 Package pdftex.def Info: Sources/beam_hardening/attenuation_boro_glass_140kV.pd
-f  used on input line 144.
+f  used on input line 151.
 (pdftex.def)             Requested size: 218.51521pt x 168.3331pt.
 File: Sources/beam_hardening/plates_on_slide.png Graphic file (type png)
 <use Sources/beam_hardening/plates_on_slide.png>
 Package pdftex.def Info: Sources/beam_hardening/plates_on_slide.png  used on in
-put line 144.
+put line 151.
 (pdftex.def)             Requested size: 68.28383pt x 46.72719pt.
 [12
 
@@ -2323,16 +2323,16 @@ File: Sources/beam_hardening/x-ray_spectra_beam_hardening.pdf Graphic file (typ
 e pdf)
 <use Sources/beam_hardening/x-ray_spectra_beam_hardening.pdf>
 Package pdftex.def Info: Sources/beam_hardening/x-ray_spectra_beam_hardening.pd
-f  used on input line 144.
+f  used on input line 151.
 (pdftex.def)             Requested size: 204.85844pt x 192.13167pt.
 <Sources/beam_hardening/20_plates.png, id=342, 685.8423pt x 544.1931pt>
 File: Sources/beam_hardening/20_plates.png Graphic file (type png)
 <use Sources/beam_hardening/20_plates.png>
 Package pdftex.def Info: Sources/beam_hardening/20_plates.png  used on input li
-ne 144.
+ne 151.
 (pdftex.def)             Requested size: 68.28383pt x 54.17339pt.
 
-Overfull \hbox (9.69176pt too wide) in paragraph at lines 144--144
+Overfull \hbox (9.69176pt too wide) in paragraph at lines 151--151
 [][]  
  []
 
@@ -2340,12 +2340,12 @@ File: Sources/beam_hardening/attenuation_boro_glass_140kV.pdf Graphic file (typ
 e pdf)
 <use Sources/beam_hardening/attenuation_boro_glass_140kV.pdf>
 Package pdftex.def Info: Sources/beam_hardening/attenuation_boro_glass_140kV.pd
-f  used on input line 144.
+f  used on input line 151.
 (pdftex.def)             Requested size: 218.51521pt x 168.3331pt.
 File: Sources/beam_hardening/plates_on_slide.png Graphic file (type png)
 <use Sources/beam_hardening/plates_on_slide.png>
 Package pdftex.def Info: Sources/beam_hardening/plates_on_slide.png  used on in
-put line 144.
+put line 151.
 (pdftex.def)             Requested size: 68.28383pt x 46.72719pt.
 [13
 
@@ -2354,15 +2354,15 @@ File: Sources/beam_hardening/x-ray_spectra_beam_hardening.pdf Graphic file (typ
 e pdf)
 <use Sources/beam_hardening/x-ray_spectra_beam_hardening.pdf>
 Package pdftex.def Info: Sources/beam_hardening/x-ray_spectra_beam_hardening.pd
-f  used on input line 144.
+f  used on input line 151.
 (pdftex.def)             Requested size: 204.85844pt x 192.13167pt.
 File: Sources/beam_hardening/20_plates.png Graphic file (type png)
 <use Sources/beam_hardening/20_plates.png>
 Package pdftex.def Info: Sources/beam_hardening/20_plates.png  used on input li
-ne 144.
+ne 151.
 (pdftex.def)             Requested size: 68.28383pt x 54.17339pt.
 
-Overfull \hbox (9.69176pt too wide) in paragraph at lines 144--144
+Overfull \hbox (9.69176pt too wide) in paragraph at lines 151--151
 [][]  
  []
 
@@ -2370,22 +2370,20 @@ File: Sources/beam_hardening/attenuation_boro_glass_140kV.pdf Graphic file (typ
 e pdf)
 <use Sources/beam_hardening/attenuation_boro_glass_140kV.pdf>
 Package pdftex.def Info: Sources/beam_hardening/attenuation_boro_glass_140kV.pd
-f  used on input line 144.
+f  used on input line 151.
 (pdftex.def)             Requested size: 218.51521pt x 168.3331pt.
 File: Sources/beam_hardening/plates_on_slide.png Graphic file (type png)
 <use Sources/beam_hardening/plates_on_slide.png>
 Package pdftex.def Info: Sources/beam_hardening/plates_on_slide.png  used on in
-put line 144.
+put line 151.
 (pdftex.def)             Requested size: 68.28383pt x 46.72719pt.
 [14
-
-] [15
 
 ]
 File: Sources/beam_hardening/beam_through_material.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/beam_through_material.pdf>
 Package pdftex.def Info: Sources/beam_hardening/beam_through_material.pdf  used
- on input line 207.
+ on input line 251.
 (pdftex.def)             Requested size: 182.09485pt x 37.1446pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/N0_initial_spectrum
 _filled_curves.eps>
@@ -2398,7 +2396,7 @@ _filled_curves-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/N0_
 initial_spectrum_filled_curves-eps-converted-to.pdf Sources/beam_hardening/N0_i
 nitial_spectrum_filled_curves.eps>
-(epstopdf)             \includegraphics on input line 207.
+(epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2406,13 +2404,13 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/N0_initial_spe
 ctrum_filled_curves-eps-converted-to.pdf): PDF inclusion: found PDF version <1.
 7>, but at most version <1.5> allowed
 <Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to.pdf,
- id=358, 361.35pt x 252.945pt>
+ id=353, 361.35pt x 252.945pt>
 File: Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to.
 pdf>
 Package pdftex.def Info: Sources/beam_hardening/N0_initial_spectrum_filled_curv
-es-eps-converted-to.pdf  used on input line 207.
+es-eps-converted-to.pdf  used on input line 251.
 (pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/Attenuation_vs_ener
 gy_Al.eps>
@@ -2425,20 +2423,20 @@ gy_Al-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Att
 enuation_vs_energy_Al-eps-converted-to.pdf Sources/beam_hardening/Attenuation_v
 s_energy_Al.eps>
-(epstopdf)             \includegraphics on input line 207.
+(epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/Attenuation_vs
 _energy_Al-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but a
 t most version <1.5> allowed
-<Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf, id=359, 
+<Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf, id=354, 
 361.35pt x 252.945pt>
 File: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf Grap
 hic file (type pdf)
 <use Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-co
-nverted-to.pdf  used on input line 207.
+nverted-to.pdf  used on input line 251.
 (pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/Detector_response_0
 .eps>
@@ -2451,26 +2449,516 @@ Package epstopdf Info: Source file: <Sources/beam_hardening/Detector_response_0
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Det
 ector_response_0-eps-converted-to.pdf Sources/beam_hardening/Detector_response_
 0.eps>
-(epstopdf)             \includegraphics on input line 207.
+(epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/Detector_respo
 nse_0-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
-<Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf, id=360, 361.3
+<Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf, id=355, 361.3
 5pt x 252.945pt>
 File: Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/Detector_response_0-eps-convert
-ed-to.pdf  used on input line 207.
+ed-to.pdf  used on input line 251.
 (pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
-[16
+Package epstopdf Info: Source file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman.eps>
+(epstopdf)                    date: 2020-06-30 18:34:29
+(epstopdf)                    size: 24841 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 18:36:35
+(epstopdf)                    size: 10439 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/mu_
+eff_140kV_exp_vs_numeric_data_norman-eps-converted-to.pdf Sources/beam_hardenin
+g/mu_eff_140kV_exp_vs_numeric_data_norman.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/mu_eff_140kV_e
+xp_vs_numeric_data_norman-eps-converted-to.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-converted-t
+o.pdf, id=356, 361.35pt x 252.945pt>
+File: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-conver
+ted-to.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_dat
+a_norman-eps-converted-to.pdf  used on input line 251.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+<Sources/beam_hardening/cross.pdf, id=357, 455.2441pt x 256.0748pt>
+File: Sources/beam_hardening/cross.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/cross.pdf>
+Package pdftex.def Info: Sources/beam_hardening/cross.pdf  used on input line 2
+51.
+(pdftex.def)             Requested size: 455.24408pt x 256.08588pt.
+[15
 
  <./Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to.p
 df> <./Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf> <.
-/Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf>]
+/Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf> <./Sources/be
+am_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-converted-to.pdf> <./S
+ources/beam_hardening/cross.pdf>]
+File: Sources/beam_hardening/beam_through_material.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/beam_through_material.pdf>
+Package pdftex.def Info: Sources/beam_hardening/beam_through_material.pdf  used
+ on input line 251.
+(pdftex.def)             Requested size: 182.09485pt x 37.1446pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/N0_initial_spectrum
+_filled_curves.eps>
+(epstopdf)                    date: 2020-05-25 15:14:25
+(epstopdf)                    size: 27998 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/N0_initial_spectrum
+_filled_curves-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-25 15:15:59
+(epstopdf)                    size: 7863 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/N0_
+initial_spectrum_filled_curves-eps-converted-to.pdf Sources/beam_hardening/N0_i
+nitial_spectrum_filled_curves.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to
+.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to.
+pdf>
+Package pdftex.def Info: Sources/beam_hardening/N0_initial_spectrum_filled_curv
+es-eps-converted-to.pdf  used on input line 251.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/Attenuation_vs_ener
+gy_Al.eps>
+(epstopdf)                    date: 2020-05-20 16:26:13
+(epstopdf)                    size: 25401 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/Attenuation_vs_ener
+gy_Al-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-26 10:21:48
+(epstopdf)                    size: 9677 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Att
+enuation_vs_energy_Al-eps-converted-to.pdf Sources/beam_hardening/Attenuation_v
+s_energy_Al.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-co
+nverted-to.pdf  used on input line 251.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/Detector_response_0
+.eps>
+(epstopdf)                    date: 2020-06-30 16:03:45
+(epstopdf)                    size: 23396 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/Detector_response_0
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 16:04:56
+(epstopdf)                    size: 8178 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Det
+ector_response_0-eps-converted-to.pdf Sources/beam_hardening/Detector_response_
+0.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/Detector_response_0-eps-convert
+ed-to.pdf  used on input line 251.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman.eps>
+(epstopdf)                    date: 2020-06-30 18:34:29
+(epstopdf)                    size: 24841 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 18:36:35
+(epstopdf)                    size: 10439 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/mu_
+eff_140kV_exp_vs_numeric_data_norman-eps-converted-to.pdf Sources/beam_hardenin
+g/mu_eff_140kV_exp_vs_numeric_data_norman.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-conver
+ted-to.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_dat
+a_norman-eps-converted-to.pdf  used on input line 251.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+File: Sources/beam_hardening/cross.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/cross.pdf>
+Package pdftex.def Info: Sources/beam_hardening/cross.pdf  used on input line 2
+51.
+(pdftex.def)             Requested size: 455.24408pt x 256.08588pt.
+ [16
+
+]
+File: Sources/beam_hardening/beam_through_material.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/beam_through_material.pdf>
+Package pdftex.def Info: Sources/beam_hardening/beam_through_material.pdf  used
+ on input line 251.
+(pdftex.def)             Requested size: 182.09485pt x 37.1446pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/N0_initial_spectrum
+_filled_curves.eps>
+(epstopdf)                    date: 2020-05-25 15:14:25
+(epstopdf)                    size: 27998 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/N0_initial_spectrum
+_filled_curves-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-25 15:15:59
+(epstopdf)                    size: 7863 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/N0_
+initial_spectrum_filled_curves-eps-converted-to.pdf Sources/beam_hardening/N0_i
+nitial_spectrum_filled_curves.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to
+.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to.
+pdf>
+Package pdftex.def Info: Sources/beam_hardening/N0_initial_spectrum_filled_curv
+es-eps-converted-to.pdf  used on input line 251.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/Attenuation_vs_ener
+gy_Al.eps>
+(epstopdf)                    date: 2020-05-20 16:26:13
+(epstopdf)                    size: 25401 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/Attenuation_vs_ener
+gy_Al-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-26 10:21:48
+(epstopdf)                    size: 9677 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Att
+enuation_vs_energy_Al-eps-converted-to.pdf Sources/beam_hardening/Attenuation_v
+s_energy_Al.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-co
+nverted-to.pdf  used on input line 251.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/Detector_response_0
+.eps>
+(epstopdf)                    date: 2020-06-30 16:03:45
+(epstopdf)                    size: 23396 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/Detector_response_0
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 16:04:56
+(epstopdf)                    size: 8178 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Det
+ector_response_0-eps-converted-to.pdf Sources/beam_hardening/Detector_response_
+0.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/Detector_response_0-eps-convert
+ed-to.pdf  used on input line 251.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman.eps>
+(epstopdf)                    date: 2020-06-30 18:34:29
+(epstopdf)                    size: 24841 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 18:36:35
+(epstopdf)                    size: 10439 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/mu_
+eff_140kV_exp_vs_numeric_data_norman-eps-converted-to.pdf Sources/beam_hardenin
+g/mu_eff_140kV_exp_vs_numeric_data_norman.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-conver
+ted-to.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_dat
+a_norman-eps-converted-to.pdf  used on input line 251.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+File: Sources/beam_hardening/cross.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/cross.pdf>
+Package pdftex.def Info: Sources/beam_hardening/cross.pdf  used on input line 2
+51.
+(pdftex.def)             Requested size: 455.24408pt x 256.08588pt.
+ [17
+
+]
+File: Sources/beam_hardening/beam_through_material.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/beam_through_material.pdf>
+Package pdftex.def Info: Sources/beam_hardening/beam_through_material.pdf  used
+ on input line 347.
+(pdftex.def)             Requested size: 182.09485pt x 37.1446pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/N0_initial_spectrum
+_filled_curves.eps>
+(epstopdf)                    date: 2020-05-25 15:14:25
+(epstopdf)                    size: 27998 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/N0_initial_spectrum
+_filled_curves-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-25 15:15:59
+(epstopdf)                    size: 7863 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/N0_
+initial_spectrum_filled_curves-eps-converted-to.pdf Sources/beam_hardening/N0_i
+nitial_spectrum_filled_curves.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to
+.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to.
+pdf>
+Package pdftex.def Info: Sources/beam_hardening/N0_initial_spectrum_filled_curv
+es-eps-converted-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/Attenuation_vs_ener
+gy_Al.eps>
+(epstopdf)                    date: 2020-05-20 16:26:13
+(epstopdf)                    size: 25401 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/Attenuation_vs_ener
+gy_Al-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-26 10:21:48
+(epstopdf)                    size: 9677 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Att
+enuation_vs_energy_Al-eps-converted-to.pdf Sources/beam_hardening/Attenuation_v
+s_energy_Al.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-co
+nverted-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/Detector_response_0
+.eps>
+(epstopdf)                    date: 2020-06-30 16:03:45
+(epstopdf)                    size: 23396 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/Detector_response_0
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 16:04:56
+(epstopdf)                    size: 8178 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Det
+ector_response_0-eps-converted-to.pdf Sources/beam_hardening/Detector_response_
+0.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/Detector_response_0-eps-convert
+ed-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman.eps>
+(epstopdf)                    date: 2020-06-30 18:34:29
+(epstopdf)                    size: 24841 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 18:36:35
+(epstopdf)                    size: 10439 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/mu_
+eff_140kV_exp_vs_numeric_data_norman-eps-converted-to.pdf Sources/beam_hardenin
+g/mu_eff_140kV_exp_vs_numeric_data_norman.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-conver
+ted-to.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_dat
+a_norman-eps-converted-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+File: Sources/beam_hardening/cross.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/cross.pdf>
+Package pdftex.def Info: Sources/beam_hardening/cross.pdf  used on input line 3
+47.
+(pdftex.def)             Requested size: 455.24408pt x 256.08588pt.
+ [18
+
+]
+File: Sources/beam_hardening/beam_through_material.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/beam_through_material.pdf>
+Package pdftex.def Info: Sources/beam_hardening/beam_through_material.pdf  used
+ on input line 347.
+(pdftex.def)             Requested size: 182.09485pt x 37.1446pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/N0_initial_spectrum
+_filled_curves.eps>
+(epstopdf)                    date: 2020-05-25 15:14:25
+(epstopdf)                    size: 27998 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/N0_initial_spectrum
+_filled_curves-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-25 15:15:59
+(epstopdf)                    size: 7863 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/N0_
+initial_spectrum_filled_curves-eps-converted-to.pdf Sources/beam_hardening/N0_i
+nitial_spectrum_filled_curves.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to
+.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to.
+pdf>
+Package pdftex.def Info: Sources/beam_hardening/N0_initial_spectrum_filled_curv
+es-eps-converted-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/Attenuation_vs_ener
+gy_Al.eps>
+(epstopdf)                    date: 2020-05-20 16:26:13
+(epstopdf)                    size: 25401 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/Attenuation_vs_ener
+gy_Al-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-26 10:21:48
+(epstopdf)                    size: 9677 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Att
+enuation_vs_energy_Al-eps-converted-to.pdf Sources/beam_hardening/Attenuation_v
+s_energy_Al.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-co
+nverted-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/Detector_response_0
+.eps>
+(epstopdf)                    date: 2020-06-30 16:03:45
+(epstopdf)                    size: 23396 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/Detector_response_0
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 16:04:56
+(epstopdf)                    size: 8178 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Det
+ector_response_0-eps-converted-to.pdf Sources/beam_hardening/Detector_response_
+0.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/Detector_response_0-eps-convert
+ed-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman.eps>
+(epstopdf)                    date: 2020-06-30 18:34:29
+(epstopdf)                    size: 24841 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 18:36:35
+(epstopdf)                    size: 10439 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/mu_
+eff_140kV_exp_vs_numeric_data_norman-eps-converted-to.pdf Sources/beam_hardenin
+g/mu_eff_140kV_exp_vs_numeric_data_norman.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-conver
+ted-to.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_dat
+a_norman-eps-converted-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+File: Sources/beam_hardening/cross.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/cross.pdf>
+Package pdftex.def Info: Sources/beam_hardening/cross.pdf  used on input line 3
+47.
+(pdftex.def)             Requested size: 455.24408pt x 256.08588pt.
+ [19
+
+]
+File: Sources/beam_hardening/beam_through_material.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/beam_through_material.pdf>
+Package pdftex.def Info: Sources/beam_hardening/beam_through_material.pdf  used
+ on input line 347.
+(pdftex.def)             Requested size: 182.09485pt x 37.1446pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/N0_initial_spectrum
+_filled_curves.eps>
+(epstopdf)                    date: 2020-05-25 15:14:25
+(epstopdf)                    size: 27998 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/N0_initial_spectrum
+_filled_curves-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-25 15:15:59
+(epstopdf)                    size: 7863 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/N0_
+initial_spectrum_filled_curves-eps-converted-to.pdf Sources/beam_hardening/N0_i
+nitial_spectrum_filled_curves.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to
+.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/N0_initial_spectrum_filled_curves-eps-converted-to.
+pdf>
+Package pdftex.def Info: Sources/beam_hardening/N0_initial_spectrum_filled_curv
+es-eps-converted-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/Attenuation_vs_ener
+gy_Al.eps>
+(epstopdf)                    date: 2020-05-20 16:26:13
+(epstopdf)                    size: 25401 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/Attenuation_vs_ener
+gy_Al-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-26 10:21:48
+(epstopdf)                    size: 9677 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Att
+enuation_vs_energy_Al-eps-converted-to.pdf Sources/beam_hardening/Attenuation_v
+s_energy_Al.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use Sources/beam_hardening/Attenuation_vs_energy_Al-eps-converted-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/Attenuation_vs_energy_Al-eps-co
+nverted-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/Detector_response_0
+.eps>
+(epstopdf)                    date: 2020-06-30 16:03:45
+(epstopdf)                    size: 23396 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/Detector_response_0
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 16:04:56
+(epstopdf)                    size: 8178 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/Det
+ector_response_0-eps-converted-to.pdf Sources/beam_hardening/Detector_response_
+0.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use Sources/beam_hardening/Detector_response_0-eps-converted-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/Detector_response_0-eps-convert
+ed-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+Package epstopdf Info: Source file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman.eps>
+(epstopdf)                    date: 2020-06-30 18:34:29
+(epstopdf)                    size: 24841 bytes
+(epstopdf)             Output file: <Sources/beam_hardening/mu_eff_140kV_exp_vs
+_numeric_data_norman-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-30 18:36:35
+(epstopdf)                    size: 10439 bytes
+(epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/mu_
+eff_140kV_exp_vs_numeric_data_norman-eps-converted-to.pdf Sources/beam_hardenin
+g/mu_eff_140kV_exp_vs_numeric_data_norman.eps>
+(epstopdf)             \includegraphics on input line 347.
+Package epstopdf Info: Output file is already uptodate.
+File: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-conver
+ted-to.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_dat
+a_norman-eps-converted-to.pdf  used on input line 347.
+(pdftex.def)             Requested size: 145.68143pt x 101.97514pt.
+File: Sources/beam_hardening/cross.pdf Graphic file (type pdf)
+<use Sources/beam_hardening/cross.pdf>
+Package pdftex.def Info: Sources/beam_hardening/cross.pdf  used on input line 3
+47.
+(pdftex.def)             Requested size: 455.24408pt x 256.08588pt.
+ [20
+
+]
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 140kV_model_comparison_multiplot.eps>
 (epstopdf)                    date: 2020-05-26 14:47:58
@@ -2482,7 +2970,7 @@ Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_140kV_model_comparison_multiplot-eps-converted-to.pdf Sources/b
 eam_hardening/borosilicate_glass_140kV_model_comparison_multiplot.eps>
-(epstopdf)             \includegraphics on input line 265.
+(epstopdf)             \includegraphics on input line 405.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2490,58 +2978,58 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/borosilicate_g
 lass_140kV_model_comparison_multiplot-eps-converted-to.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
 <Sources/beam_hardening/borosilicate_glass_140kV_model_comparison_multiplot-eps
--converted-to.pdf, id=396, 361.35pt x 469.755pt>
+-converted-to.pdf, id=435, 361.35pt x 469.755pt>
 File: Sources/beam_hardening/borosilicate_glass_140kV_model_comparison_multiplo
 t-eps-converted-to.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_140kV_model_comparison_multiplot
 -eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_140kV_model_
-comparison_multiplot-eps-converted-to.pdf  used on input line 265.
+comparison_multiplot-eps-converted-to.pdf  used on input line 405.
 (pdftex.def)             Requested size: 182.09485pt x 236.72623pt.
 
-Overfull \hbox (170.32008pt too wide) in paragraph at lines 265--265
+Overfull \hbox (170.32008pt too wide) in paragraph at lines 405--405
 [][]  
  []
 
-[17
+[21
 
  <./Sources/beam_hardening/borosilicate_glass_140kV_model_comparison_multiplot-
 eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 349.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 349.
+(Font)              scaled to size 11.39996pt on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 349.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.59998pt on input line 349.
+(Font)              scaled to size 7.59998pt on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 349.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 349.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 11.39996pt on input line 349.
+(Font)              scaled to size 11.39996pt on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <8> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 349.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <8> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 349.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 7.59998pt on input line 349.
+(Font)              scaled to size 7.59998pt on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <6> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 349.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <6> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 349.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 489.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 5.69998pt on input line 349.
+(Font)              scaled to size 5.69998pt on input line 489.
 File: Sources/beam_hardening/plates_on_slide.png Graphic file (type png)
 <use Sources/beam_hardening/plates_on_slide.png>
 Package pdftex.def Info: Sources/beam_hardening/plates_on_slide.png  used on in
-put line 349.
+put line 489.
 (pdftex.def)             Requested size: 72.83821pt x 49.84062pt.
 File: Sources/beam_hardening/20_plates.png Graphic file (type png)
 <use Sources/beam_hardening/20_plates.png>
 Package pdftex.def Info: Sources/beam_hardening/20_plates.png  used on input li
-ne 349.
+ne 489.
 (pdftex.def)             Requested size: 72.83821pt x 57.7938pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 voltages_mu_eff.eps>
@@ -2554,7 +3042,7 @@ voltages_mu_eff-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_voltages_mu_eff-eps-converted-to.pdf Sources/beam_hardening/bor
 osilicate_glass_voltages_mu_eff.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2562,13 +3050,13 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/borosilicate_g
 lass_voltages_mu_eff-eps-converted-to.pdf): PDF inclusion: found PDF version <1
 .7>, but at most version <1.5> allowed
 <Sources/beam_hardening/borosilicate_glass_voltages_mu_eff-eps-converted-to.pdf
-, id=418, 361.35pt x 252.945pt>
+, id=457, 361.35pt x 252.945pt>
 File: Sources/beam_hardening/borosilicate_glass_voltages_mu_eff-eps-converted-t
 o.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_voltages_mu_eff-eps-converted-to
 .pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_voltages_mu_
-eff-eps-converted-to.pdf  used on input line 349.
+eff-eps-converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 filters_mu_eff.eps>
@@ -2581,7 +3069,7 @@ filters_mu_eff-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_filters_mu_eff-eps-converted-to.pdf Sources/beam_hardening/boro
 silicate_glass_filters_mu_eff.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2589,13 +3077,13 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/borosilicate_g
 lass_filters_mu_eff-eps-converted-to.pdf): PDF inclusion: found PDF version <1.
 7>, but at most version <1.5> allowed
 <Sources/beam_hardening/borosilicate_glass_filters_mu_eff-eps-converted-to.pdf,
- id=419, 361.35pt x 252.945pt>
+ id=458, 361.35pt x 252.945pt>
 File: Sources/beam_hardening/borosilicate_glass_filters_mu_eff-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_filters_mu_eff-eps-converted-to.
 pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_filters_mu_e
-ff-eps-converted-to.pdf  used on input line 349.
+ff-eps-converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/materials_mu_eff_14
 0kV_fit.eps>
@@ -2608,20 +3096,20 @@ Package epstopdf Info: Source file: <Sources/beam_hardening/materials_mu_eff_14
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/mat
 erials_mu_eff_140kV_fit-eps-converted-to.pdf Sources/beam_hardening/materials_m
 u_eff_140kV_fit.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/materials_mu_e
 ff_140kV_fit-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
-<Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-converted-to.pdf, id=420
+<Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-converted-to.pdf, id=459
 , 361.35pt x 252.945pt>
 File: Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-
-converted-to.pdf  used on input line 349.
+converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/comp_both_setups.ep
 s>
@@ -2634,22 +3122,22 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/com
 p_both_setups-eps-converted-to.pdf Sources/beam_hardening/comp_both_setups.eps>
 
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/comp_both_setu
 ps-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf, id=421, 361.35pt
+<Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf, id=460, 361.35pt
  x 252.945pt>
 File: Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/comp_both_setups-eps-converted-
-to.pdf  used on input line 349.
+to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
-[18
+[22
 
  <./Sources/beam_hardening/borosilicate_glass_voltages_mu_eff-eps-converted-to.
 pdf> <./Sources/beam_hardening/borosilicate_glass_filters_mu_eff-eps-converted-
@@ -2658,12 +3146,12 @@ df> <./Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf>]
 File: Sources/beam_hardening/plates_on_slide.png Graphic file (type png)
 <use Sources/beam_hardening/plates_on_slide.png>
 Package pdftex.def Info: Sources/beam_hardening/plates_on_slide.png  used on in
-put line 349.
+put line 489.
 (pdftex.def)             Requested size: 72.83821pt x 49.84062pt.
 File: Sources/beam_hardening/20_plates.png Graphic file (type png)
 <use Sources/beam_hardening/20_plates.png>
 Package pdftex.def Info: Sources/beam_hardening/20_plates.png  used on input li
-ne 349.
+ne 489.
 (pdftex.def)             Requested size: 72.83821pt x 57.7938pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 voltages_mu_eff.eps>
@@ -2676,14 +3164,14 @@ voltages_mu_eff-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_voltages_mu_eff-eps-converted-to.pdf Sources/beam_hardening/bor
 osilicate_glass_voltages_mu_eff.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/borosilicate_glass_voltages_mu_eff-eps-converted-t
 o.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_voltages_mu_eff-eps-converted-to
 .pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_voltages_mu_
-eff-eps-converted-to.pdf  used on input line 349.
+eff-eps-converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 filters_mu_eff.eps>
@@ -2696,14 +3184,14 @@ filters_mu_eff-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_filters_mu_eff-eps-converted-to.pdf Sources/beam_hardening/boro
 silicate_glass_filters_mu_eff.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/borosilicate_glass_filters_mu_eff-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_filters_mu_eff-eps-converted-to.
 pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_filters_mu_e
-ff-eps-converted-to.pdf  used on input line 349.
+ff-eps-converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/materials_mu_eff_14
 0kV_fit.eps>
@@ -2716,13 +3204,13 @@ Package epstopdf Info: Source file: <Sources/beam_hardening/materials_mu_eff_14
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/mat
 erials_mu_eff_140kV_fit-eps-converted-to.pdf Sources/beam_hardening/materials_m
 u_eff_140kV_fit.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-
-converted-to.pdf  used on input line 349.
+converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/comp_both_setups.ep
 s>
@@ -2735,27 +3223,27 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/com
 p_both_setups-eps-converted-to.pdf Sources/beam_hardening/comp_both_setups.eps>
 
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/comp_both_setups-eps-converted-
-to.pdf  used on input line 349.
+to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 
-[19
+[23
 
 ]
 File: Sources/beam_hardening/plates_on_slide.png Graphic file (type png)
 <use Sources/beam_hardening/plates_on_slide.png>
 Package pdftex.def Info: Sources/beam_hardening/plates_on_slide.png  used on in
-put line 349.
+put line 489.
 (pdftex.def)             Requested size: 72.83821pt x 49.84062pt.
 File: Sources/beam_hardening/20_plates.png Graphic file (type png)
 <use Sources/beam_hardening/20_plates.png>
 Package pdftex.def Info: Sources/beam_hardening/20_plates.png  used on input li
-ne 349.
+ne 489.
 (pdftex.def)             Requested size: 72.83821pt x 57.7938pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 voltages_mu_eff.eps>
@@ -2768,14 +3256,14 @@ voltages_mu_eff-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_voltages_mu_eff-eps-converted-to.pdf Sources/beam_hardening/bor
 osilicate_glass_voltages_mu_eff.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/borosilicate_glass_voltages_mu_eff-eps-converted-t
 o.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_voltages_mu_eff-eps-converted-to
 .pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_voltages_mu_
-eff-eps-converted-to.pdf  used on input line 349.
+eff-eps-converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 filters_mu_eff.eps>
@@ -2788,14 +3276,14 @@ filters_mu_eff-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_filters_mu_eff-eps-converted-to.pdf Sources/beam_hardening/boro
 silicate_glass_filters_mu_eff.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/borosilicate_glass_filters_mu_eff-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_filters_mu_eff-eps-converted-to.
 pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_filters_mu_e
-ff-eps-converted-to.pdf  used on input line 349.
+ff-eps-converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/materials_mu_eff_14
 0kV_fit.eps>
@@ -2808,13 +3296,13 @@ Package epstopdf Info: Source file: <Sources/beam_hardening/materials_mu_eff_14
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/mat
 erials_mu_eff_140kV_fit-eps-converted-to.pdf Sources/beam_hardening/materials_m
 u_eff_140kV_fit.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-
-converted-to.pdf  used on input line 349.
+converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/comp_both_setups.ep
 s>
@@ -2827,26 +3315,26 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/com
 p_both_setups-eps-converted-to.pdf Sources/beam_hardening/comp_both_setups.eps>
 
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/comp_both_setups-eps-converted-
-to.pdf  used on input line 349.
+to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
- [20
+ [24
 
 ]
 File: Sources/beam_hardening/plates_on_slide.png Graphic file (type png)
 <use Sources/beam_hardening/plates_on_slide.png>
 Package pdftex.def Info: Sources/beam_hardening/plates_on_slide.png  used on in
-put line 349.
+put line 489.
 (pdftex.def)             Requested size: 72.83821pt x 49.84062pt.
 File: Sources/beam_hardening/20_plates.png Graphic file (type png)
 <use Sources/beam_hardening/20_plates.png>
 Package pdftex.def Info: Sources/beam_hardening/20_plates.png  used on input li
-ne 349.
+ne 489.
 (pdftex.def)             Requested size: 72.83821pt x 57.7938pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 voltages_mu_eff.eps>
@@ -2859,14 +3347,14 @@ voltages_mu_eff-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_voltages_mu_eff-eps-converted-to.pdf Sources/beam_hardening/bor
 osilicate_glass_voltages_mu_eff.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/borosilicate_glass_voltages_mu_eff-eps-converted-t
 o.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_voltages_mu_eff-eps-converted-to
 .pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_voltages_mu_
-eff-eps-converted-to.pdf  used on input line 349.
+eff-eps-converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 filters_mu_eff.eps>
@@ -2879,14 +3367,14 @@ filters_mu_eff-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_filters_mu_eff-eps-converted-to.pdf Sources/beam_hardening/boro
 silicate_glass_filters_mu_eff.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/borosilicate_glass_filters_mu_eff-eps-converted-to
 .pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_filters_mu_eff-eps-converted-to.
 pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_filters_mu_e
-ff-eps-converted-to.pdf  used on input line 349.
+ff-eps-converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/materials_mu_eff_14
 0kV_fit.eps>
@@ -2899,13 +3387,13 @@ Package epstopdf Info: Source file: <Sources/beam_hardening/materials_mu_eff_14
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/mat
 erials_mu_eff_140kV_fit-eps-converted-to.pdf Sources/beam_hardening/materials_m
 u_eff_140kV_fit.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/materials_mu_eff_140kV_fit-eps-
-converted-to.pdf  used on input line 349.
+converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/comp_both_setups.ep
 s>
@@ -2918,15 +3406,15 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/com
 p_both_setups-eps-converted-to.pdf Sources/beam_hardening/comp_both_setups.eps>
 
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Sources/beam_hardening/comp_both_setups-eps-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/comp_both_setups-eps-converted-
-to.pdf  used on input line 349.
+to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 177.5449pt x 124.27992pt.
- [21
+ [25
 
 ]
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
@@ -2940,7 +3428,7 @@ mueff_3datapoints_multiplot_1-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_mueff_3datapoints_multiplot_1-eps-converted-to.pdf Sources/beam
 _hardening/borosilicate_glass_mueff_3datapoints_multiplot_1.eps>
-(epstopdf)             \includegraphics on input line 386.
+(epstopdf)             \includegraphics on input line 526.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2948,13 +3436,13 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/borosilicate_g
 lass_mueff_3datapoints_multiplot_1-eps-converted-to.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
 <Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_1-eps-co
-nverted-to.pdf, id=496, 361.35pt x 469.755pt>
+nverted-to.pdf, id=535, 361.35pt x 469.755pt>
 File: Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_1-e
 ps-converted-to.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_1-ep
 s-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_mueff_3datap
-oints_multiplot_1-eps-converted-to.pdf  used on input line 386.
+oints_multiplot_1-eps-converted-to.pdf  used on input line 526.
 (pdftex.def)             Requested size: 182.09485pt x 236.72623pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 mueff_3datapoints_multiplot.eps>
@@ -2967,7 +3455,7 @@ mueff_3datapoints_multiplot-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_mueff_3datapoints_multiplot-eps-converted-to.pdf Sources/beam_h
 ardening/borosilicate_glass_mueff_3datapoints_multiplot.eps>
-(epstopdf)             \includegraphics on input line 386.
+(epstopdf)             \includegraphics on input line 526.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2975,15 +3463,15 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/borosilicate_g
 lass_mueff_3datapoints_multiplot-eps-converted-to.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
 <Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot-eps-conv
-erted-to.pdf, id=497, 361.35pt x 469.755pt>
+erted-to.pdf, id=536, 361.35pt x 469.755pt>
 File: Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot-eps
 -converted-to.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot-eps-
 converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_mueff_3datap
-oints_multiplot-eps-converted-to.pdf  used on input line 386.
+oints_multiplot-eps-converted-to.pdf  used on input line 526.
 (pdftex.def)             Requested size: 182.09485pt x 236.72623pt.
-[22
+[26
 
  <./Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_1-eps
 -converted-to.pdf> <./Sources/beam_hardening/borosilicate_glass_mueff_3datapoin
@@ -2999,7 +3487,7 @@ mueff_3datapoints_multiplot_2-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_mueff_3datapoints_multiplot_2-eps-converted-to.pdf Sources/beam
 _hardening/borosilicate_glass_mueff_3datapoints_multiplot_2.eps>
-(epstopdf)             \includegraphics on input line 386.
+(epstopdf)             \includegraphics on input line 526.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -3007,13 +3495,13 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/borosilicate_g
 lass_mueff_3datapoints_multiplot_2-eps-converted-to.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
 <Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_2-eps-co
-nverted-to.pdf, id=528, 361.35pt x 469.755pt>
+nverted-to.pdf, id=567, 361.35pt x 469.755pt>
 File: Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_2-e
 ps-converted-to.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_2-ep
 s-converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_mueff_3datap
-oints_multiplot_2-eps-converted-to.pdf  used on input line 386.
+oints_multiplot_2-eps-converted-to.pdf  used on input line 526.
 (pdftex.def)             Requested size: 182.09485pt x 236.72623pt.
 Package epstopdf Info: Source file: <Sources/beam_hardening/borosilicate_glass_
 mueff_3datapoints_multiplot.eps>
@@ -3026,16 +3514,16 @@ mueff_3datapoints_multiplot-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_mueff_3datapoints_multiplot-eps-converted-to.pdf Sources/beam_h
 ardening/borosilicate_glass_mueff_3datapoints_multiplot.eps>
-(epstopdf)             \includegraphics on input line 386.
+(epstopdf)             \includegraphics on input line 526.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot-eps
 -converted-to.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot-eps-
 converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_mueff_3datap
-oints_multiplot-eps-converted-to.pdf  used on input line 386.
+oints_multiplot-eps-converted-to.pdf  used on input line 526.
 (pdftex.def)             Requested size: 182.09485pt x 236.72623pt.
-[23
+[27
 
  <./Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_2-eps
 -converted-to.pdf>]
@@ -3050,28 +3538,28 @@ mueff_3datapoints_multiplot-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Sources/beam_hardening/bor
 osilicate_glass_mueff_3datapoints_multiplot-eps-converted-to.pdf Sources/beam_h
 ardening/borosilicate_glass_mueff_3datapoints_multiplot.eps>
-(epstopdf)             \includegraphics on input line 386.
+(epstopdf)             \includegraphics on input line 526.
 Package epstopdf Info: Output file is already uptodate.
 File: Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot-eps
 -converted-to.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot-eps-
 converted-to.pdf>
 Package pdftex.def Info: Sources/beam_hardening/borosilicate_glass_mueff_3datap
-oints_multiplot-eps-converted-to.pdf  used on input line 386.
+oints_multiplot-eps-converted-to.pdf  used on input line 526.
 (pdftex.def)             Requested size: 182.09485pt x 236.72623pt.
- [24
+ [28
 
 ]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Sources/beam_hardening/experiment.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Sources/beam_hardening/experiment.pdf, id=552, 4475.72125pt x 2446.13875pt>
+<Sources/beam_hardening/experiment.pdf, id=590, 4475.72125pt x 2446.13875pt>
 File: Sources/beam_hardening/experiment.pdf Graphic file (type pdf)
 <use Sources/beam_hardening/experiment.pdf>
 Package pdftex.def Info: Sources/beam_hardening/experiment.pdf  used on input l
-ine 400.
+ine 540.
 (pdftex.def)             Requested size: 368.74269pt x 201.5178pt.
-[25
+[29
 
  <./Sources/beam_hardening/experiment.pdf>])
 \tf@nav=\write9
@@ -3093,10 +3581,10 @@ Package rerunfilecheck Info: File `PhD_defense.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 41168 strings out of 492982
- 862377 string characters out of 6134895
- 887831 words of memory out of 5000000
- 43882 multiletter control sequences out of 15000+600000
+ 41203 strings out of 492982
+ 863370 string characters out of 6134895
+ 888066 words of memory out of 5000000
+ 43907 multiletter control sequences out of 15000+600000
  629093 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,13n,102p,10389b,734s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3121,10 +3609,10 @@ re/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1
 lvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on PhD_defense.pdf (20 pages, 11380999 bytes).
+Output written on PhD_defense.pdf (24 pages, 11395672 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 459 compressed objects within 5 object streams
- 41 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 695 PDF objects out of 1000 (max. 8388607)
+ 490 compressed objects within 5 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

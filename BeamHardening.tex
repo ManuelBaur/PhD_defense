@@ -21,6 +21,13 @@
 	\textcolor{white}{Correction of beam hardening \\
 		in X-ray radiograms}}}
 \end{textblock}
+
+\begin{textblock}{0.9}(0.05,0.9)
+	\visible<1->{
+		\centering
+		\Huge{
+			\textcolor{red}{Collaboration Norman Uhlmann Fraunhofer EZRT}}}
+\end{textblock}
 }
 
 
@@ -149,60 +156,193 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 
 %% ------------------ INTESITY INTEGRAL -------------------------
 \frame{
-\frametitle{Modeling of $\mu_\text{eff}$}
-}
-
-\frame{
-\frametitle{Numerical approximation of $\mu_\text{eff}$}
-
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.22\textwidth,yshift=0.3\textheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.23\textwidth,yshift=0.32\textheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
-\begin{textblock}{0.2}(0.0,0.05)
+\begin{textblock}{0.22}(0.0,0.03)
 	\centering
 	\textcolor{white}{
-	\Large Numerical approximation of $\mu_\text{eff}$}
+		\Large Modeling of $\mu_\text{eff}$}
 \end{textblock}
 
 
 
-\begin{textblock}{1.}(0.0,0.1)
+\begin{textblock}{1.}(0.0,0.03)
 	\centering
-	\visible<1->{
-		\includegraphics[width=0.4\textwidth]
-		{Sources/beam_hardening/beam_through_material.pdf}}
+	\includegraphics[width=0.4\textwidth]
+	{Sources/beam_hardening/beam_through_material.pdf}
 \end{textblock}
 
-\begin{textblock}{0.32}(0.03,0.25)
+%% Photon spectrum
+\begin{textblock}{0.32}(0.03,0.18)
 	\centering
-	\visible<1-> {
-		\includegraphics[width=\textwidth]
-		{Sources/beam_hardening/N0_initial_spectrum_filled_curves.eps}}
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/N0_initial_spectrum_filled_curves.eps}
 \end{textblock}
 
-\begin{textblock}{0.32}(0.345,0.25)
+\begin{textblock}{0.32}(0.03,0.18)
 	\centering
-	\visible<1-> {
-		\includegraphics[width=\textwidth]
-		{Sources/beam_hardening/Attenuation_vs_energy_Al.eps}}
+	\vspace{0.1cm}	
+	\pgfsetfillopacity{0.85}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
+			Comet X-ray tube$^{(1)}$}}
 \end{textblock}
 
-\begin{textblock}{0.32}(0.67,0.25)
+%% attenuation data
+\begin{textblock}{0.32}(0.345,0.18)
 	\centering
-	\visible<1-> {
-		\includegraphics[width=\textwidth]
-		{Sources/beam_hardening/Detector_response_0.eps}}
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/Attenuation_vs_energy_Al.eps}
+\end{textblock}
+
+\begin{textblock}{0.32}(0.345,0.18)
+	\centering
+	\vspace{0.1cm}
+	\pgfsetfillopacity{0.85}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
+			Aluminum$^{(2)}$}}
+\end{textblock}
+
+%% detector curve
+\begin{textblock}{0.32}(0.67,0.18)
+	\centering
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/Detector_response_0.eps}
+\end{textblock}
+
+\begin{textblock}{0.32}(0.67,0.18)
+	\centering
+	\vspace{0.1cm}
+	\pgfsetfillopacity{0.85}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
+			XEye detector$^{(1)}$}}
 \end{textblock}
 
 
-\begin{textblock}{0.9}(0.05,0.6)
-	\centering
+\begin{textblock}{0.5}(0.05,0.7)
 	\visible<1->{
 		$I(x) \propto \int \textcolor{blue}{N(E)} \exp\{-
 		\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
 		\textcolor{red}{S(E)}~\mathrm{d}E $}
+	%	\visible<2->{
+	%		\[ \textcolor{darkgreen}{\mu_\text{eff} (x)} = - 
+	%		\frac{1}{x} 
+	%		\frac{\textcolor{red}{I(x)}}{\textcolor{blue}{I_0}}\]}
+\end{textblock}
+
+\begin{textblock}{0.32}(0.55,0.58)
+	\visible<2->{
+		\centering
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman.eps}
+	}
+\end{textblock}
+
+\begin{textblock}{0.9}(0.02,0.9)
+	{\scriptsize
+		$(1)$ Supplied by Norman Uhlmann, Fraunhofer EZRT\\
+		$(2)$ XCOM supplied by NIST}
+\end{textblock}
+
+\begin{textblock}{1.}(0,0)
+	\visible<3->{
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/cross.pdf}}
+\end{textblock}
+}
+
+\frame{
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.23\textwidth,yshift=0.27\textheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.22}(0.0,0.03)
+	\centering
+	\textcolor{white}{
+	\Large Numerical approx.\ of 
+	$\mu_\text{eff}$}
+\end{textblock}
+
+
+
+\begin{textblock}{1.}(0.0,0.03)
+	\centering
+	\includegraphics[width=0.4\textwidth]
+	{Sources/beam_hardening/beam_through_material.pdf}
+\end{textblock}
+
+%% Photon spectrum
+\begin{textblock}{0.32}(0.03,0.18)
+	\centering
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/N0_initial_spectrum_filled_curves.eps}
+\end{textblock}
+
+\begin{textblock}{0.32}(0.03,0.18)
+	\centering
+	\vspace{0.1cm}	
+	\pgfsetfillopacity{0.85}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
+			Comet X-ray tube$^{(1)}$}}
+\end{textblock}
+
+%% attenuation data
+\begin{textblock}{0.32}(0.345,0.18)
+	\centering
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/Attenuation_vs_energy_Al.eps}
+\end{textblock}
+
+\begin{textblock}{0.32}(0.345,0.18)
+	\centering
+	\vspace{0.1cm}
+	\pgfsetfillopacity{0.85}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
+			Aluminum$^{(2)}$}}
+\end{textblock}
+
+%% detector curve
+\begin{textblock}{0.32}(0.67,0.18)
+	\centering
+		\includegraphics[width=\textwidth]
+		{Sources/beam_hardening/Detector_response_0.eps}
+\end{textblock}
+
+\begin{textblock}{0.32}(0.67,0.18)
+	\centering
+	\vspace{0.1cm}
+	\pgfsetfillopacity{0.85}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
+			XEye detector$^{(1)}$}}
+\end{textblock}
+
+
+\begin{textblock}{0.5}(0.05,0.7)
+	\visible<1->{
+		$I(x) \propto \int \textcolor{blue}{N(E)} \exp\{-
+		\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
+		\textcolor{red}{S(E)}~\mathrm{d}E $}
+%	\visible<2->{
+%		\[ \textcolor{darkgreen}{\mu_\text{eff} (x)} = - 
+%		\frac{1}{x} 
+%		\frac{\textcolor{red}{I(x)}}{\textcolor{blue}{I_0}}\]}
+\end{textblock}
+
+\begin{textblock}{0.32}(0.55,0.58)
+	\visible<2->{
+	\centering
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman.eps}
+	}
+\end{textblock}
+
+\begin{textblock}{0.9}(0.02,0.9)
+{\scriptsize
+$(1)$ Supplied by Norman Uhlmann, Fraunhofer EZRT\\
+$(2)$ XCOM supplied by NIST}
+\end{textblock}
+
+\begin{textblock}{1.}(0,0)
+	\visible<3->{
+	\includegraphics[width=\textwidth]
+{Sources/beam_hardening/cross.pdf}}
 \end{textblock}
 }
 

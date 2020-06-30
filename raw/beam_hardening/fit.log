@@ -13755,3 +13755,193 @@ correlation matrix of the fit parameters:
 a1              1.000 
 b1             -0.999  1.000 
 alpha1          0.991 -0.990  1.000 
+
+
+*******************************************************************************
+Tue Jun 30 18:31:31 2020
+
+
+FIT:    data read from data_exp_140kV_Al_Norman using 1:2
+        format = x:z
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x)=a2+b2/x**alpha2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            alpha2       
+   0 6.4920684944e+02   0.00e+00  3.31e+00    2.000000e+00   5.000000e+00   5.000000e-01
+ 429 6.6066820269e-04  -9.87e-01  3.31e-03   -6.498579e+00   7.499069e+00   3.073510e-02
+
+After 429 iterations the fit converged.
+final sum of squares of residuals : 0.000660668
+rel. change during last iteration : -9.86557e-06
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00623401
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.88628e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -6.49858         +/- 4.134        (63.61%)
+b2              = 7.49907          +/- 4.135        (55.15%)
+alpha2          = 0.0307351        +/- 0.01697      (55.21%)
+
+correlation matrix of the fit parameters:
+                a2     b2     alpha2 
+a2              1.000 
+b2             -1.000  1.000 
+alpha2          1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Tue Jun 30 18:32:49 2020
+
+
+FIT:    data read from data_exp_140kV_Al_Norman using 1:2
+        format = x:z
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x)=a2+b2/x**alpha2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            alpha2       
+   0 6.4920684944e+02   0.00e+00  3.31e+00    2.000000e+00   5.000000e+00   5.000000e-01
+ 429 6.6066820269e-04  -9.87e-01  3.31e-03   -6.498579e+00   7.499069e+00   3.073510e-02
+
+After 429 iterations the fit converged.
+final sum of squares of residuals : 0.000660668
+rel. change during last iteration : -9.86557e-06
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00623401
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.88628e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -6.49858         +/- 4.134        (63.61%)
+b2              = 7.49907          +/- 4.135        (55.15%)
+alpha2          = 0.0307351        +/- 0.01697      (55.21%)
+
+correlation matrix of the fit parameters:
+                a2     b2     alpha2 
+a2              1.000 
+b2             -1.000  1.000 
+alpha2          1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Tue Jun 30 18:33:16 2020
+
+
+FIT:    data read from data_exp_140kV_Al_Norman using 1:2
+        format = x:z
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x)=a2+b2/x**alpha2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            alpha2       
+   0 6.4920684944e+02   0.00e+00  3.31e+00    2.000000e+00   5.000000e+00   5.000000e-01
+ 429 6.6066820269e-04  -9.87e-01  3.31e-03   -6.498579e+00   7.499069e+00   3.073510e-02
+
+After 429 iterations the fit converged.
+final sum of squares of residuals : 0.000660668
+rel. change during last iteration : -9.86557e-06
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00623401
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.88628e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -6.49858         +/- 4.134        (63.61%)
+b2              = 7.49907          +/- 4.135        (55.15%)
+alpha2          = 0.0307351        +/- 0.01697      (55.21%)
+
+correlation matrix of the fit parameters:
+                a2     b2     alpha2 
+a2              1.000 
+b2             -1.000  1.000 
+alpha2          1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Tue Jun 30 18:33:46 2020
+
+
+FIT:    data read from data_exp_140kV_Al_Norman using 1:2
+        format = x:z
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x)=a2+b2/x**alpha2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            alpha2       
+   0 6.4920684944e+02   0.00e+00  3.31e+00    2.000000e+00   5.000000e+00   5.000000e-01
+ 429 6.6066820269e-04  -9.87e-01  3.31e-03   -6.498579e+00   7.499069e+00   3.073510e-02
+
+After 429 iterations the fit converged.
+final sum of squares of residuals : 0.000660668
+rel. change during last iteration : -9.86557e-06
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00623401
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.88628e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -6.49858         +/- 4.134        (63.61%)
+b2              = 7.49907          +/- 4.135        (55.15%)
+alpha2          = 0.0307351        +/- 0.01697      (55.21%)
+
+correlation matrix of the fit parameters:
+                a2     b2     alpha2 
+a2              1.000 
+b2             -1.000  1.000 
+alpha2          1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Tue Jun 30 18:34:29 2020
+
+
+FIT:    data read from data_exp_140kV_Al_Norman using 1:2
+        format = x:z
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x)=a2+b2/x**alpha2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            alpha2       
+   0 6.4920684944e+02   0.00e+00  3.31e+00    2.000000e+00   5.000000e+00   5.000000e-01
+ 429 6.6066820269e-04  -9.87e-01  3.31e-03   -6.498579e+00   7.499069e+00   3.073510e-02
+
+After 429 iterations the fit converged.
+final sum of squares of residuals : 0.000660668
+rel. change during last iteration : -9.86557e-06
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00623401
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.88628e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = -6.49858         +/- 4.134        (63.61%)
+b2              = 7.49907          +/- 4.135        (55.15%)
+alpha2          = 0.0307351        +/- 0.01697      (55.21%)
+
+correlation matrix of the fit parameters:
+                a2     b2     alpha2 
+a2              1.000 
+b2             -1.000  1.000 
+alpha2          1.000 -1.000  1.000 

@@ -384,6 +384,7 @@ $(2)$ XCOM supplied by NIST}
 	{Sources/beam_hardening/borosilicate_glass_140kV_model_comparison_multiplot.eps}}
 \end{textblock}
 
+
 \begin{textblock}{0.5}(0.4, 0.12)
 \begin{tabular}{ll}
 {\small
@@ -421,8 +422,8 @@ $(2)$ XCOM supplied by NIST}
 	Mudde \textit{et al.} (2008) }\\[0.7cm]
 
 {\small
-\textcolor{BA}{$\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}$}} &
-{\small Baur \textit{et al.} (2019)}\\
+\textcolor{BA}{$\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$}} &
+{\small \textbf{Baur \textit{et al.} (2019)}}\\
 & {\small (this work)}
 \end{tabular}
 
@@ -515,7 +516,16 @@ $(2)$ XCOM supplied by NIST}
 
 %% ------------- MATERIAL THICKNESS X
 \frame{
-\frametitle{Determining the material thickness $x$}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.55\textwidth,yshift=0.34\textheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.5}(0.02,0.03)
+	\textcolor{white}{
+		\Large Determining the material thickness $x$}
+\end{textblock}
+
 
 \begin{textblock}{0.5}(0.05,0.15)
 \visible<1->{
@@ -552,7 +562,16 @@ e.g.\ Newton's method or look-up table}
 
 %% ------------- Applications ------------------------
 \frame{
-\frametitle{Applications}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.21\textwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.5}(0.02,0.03)
+	\textcolor{white}{
+		\Large Applications}
+\end{textblock}
+
 \begin{textblock}{0.9}(0.05,0.12)
 	\centering
 	\only<1>{
@@ -560,6 +579,12 @@ e.g.\ Newton's method or look-up table}
 	{Sources/beam_hardening/experiment.pdf}}
 \end{textblock}
 
+\begin{textblock}{0.9}(0.05,0.45)
+	\centering
 \textcolor{red}{\Huge reduce to useful illustrative}
+\end{textblock}
 
+\begin{textblock}{0.9}(0.03,0.95)
+\scriptsize Kollmer \textit{et al} 2020
+\end{textblock}
 }

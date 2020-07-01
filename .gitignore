@@ -1,2 +1,6 @@
-*1080p.mp4
-/motivation
+*.swp
+*.log
+*.aux
+*.gz
+*.toc
+*.upa

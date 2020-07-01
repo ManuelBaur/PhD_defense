@@ -6,7 +6,7 @@
 \begin{textblock}{0.9}(0.05,0.1)
 \centering
 \Huge{
-\textcolor{white}{Measuring the volume fraction of granular packings}}\\
+\textcolor{white}{Measuring the volume fraction of \textbf{dynamic} granular systems}}\\
 \end{textblock}
 
 \begin{textblock}{0.9}(0.05,0.38)
@@ -33,7 +33,15 @@
 
 %% ------------------ ATTENUATION OF X-RAYS -----------------------
 \frame{
-\frametitle{Attenuation of X-rays}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.33\textwidth,yshift=0.33\textheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.5}(0.02,0.03)
+	\textcolor{white}{
+		\Large Attenuation of X-rays}
+\end{textblock}
 
 \begin{textblock}{0.45}(0.5,0.1)
 \centering
@@ -92,7 +100,15 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 
 %%%-------------- ENERGY AVERAGED ATTENUATION ----------------
 \frame{
-\frametitle{The effective attenuation, $\mu_\text{eff}$}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.45\textwidth,yshift=0.33\textheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.5}(0.02,0.03)
+	\textcolor{white}{
+		\Large The effective attenuation, $\mu_\text{eff}$}
+\end{textblock}
 
 
 \begin{textblock}{0.45}(0.03,0.1)
@@ -185,7 +201,7 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 \begin{textblock}{0.32}(0.03,0.17)
 	\centering
 	\hspace{0.5cm}
-	\pgfsetfillopacity{0.85}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
+	\pgfsetfillopacity{1}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
 			$N (E) = -a E + b$}}
 \end{textblock}
 
@@ -199,7 +215,7 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 \begin{textblock}{0.32}(0.345,0.17)
 	\centering
 	\hspace{0.5cm}
-	\pgfsetfillopacity{0.85}\colorbox{darkgreen}{\pgfsetfillopacity{1}\textcolor{white}{
+	\pgfsetfillopacity{1}\colorbox{darkgreen}{\pgfsetfillopacity{1}\textcolor{white}{
 			$\mu (E) = \mu_\text{C} + c E^{-3}~\,^{(*)}$}}
 \end{textblock}
 
@@ -213,7 +229,7 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 \begin{textblock}{0.32}(0.67,0.17)
 	\centering
 	\hspace{0.5cm}
-	\pgfsetfillopacity{0.85}\colorbox{red}{\pgfsetfillopacity{1}\textcolor{white}{
+	\pgfsetfillopacity{1}\colorbox{red}{\pgfsetfillopacity{1}\textcolor{white}{
 		$S(E) = S~\Theta(E - E_\text{min})$}}
 \end{textblock}
 
@@ -349,10 +365,21 @@ $(2)$ XCOM supplied by NIST}
 
 %% ------------- HEURISTIC MODEL-FUNCTION ------------
 \frame{
-\frametitle{Heuristic model functions}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.5\textwidth,yshift=0.34\textheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.5}(0.02,0.03)
+	\textcolor{white}{
+		\Large Heuristic model functions for $\mu_\text{eff}$}
+\end{textblock}
 
 \begin{textblock}{0.4}(0.03,0.08)
-	\visible<1->{
+	\only<1>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/borosilicate_glass_140kV_model_comparison_upper_plot.eps}}
+	\visible<2->{
 	\includegraphics[width=\textwidth]
 	{Sources/beam_hardening/borosilicate_glass_140kV_model_comparison_multiplot.eps}}
 \end{textblock}
@@ -502,7 +529,7 @@ Model function
 \visible<2->{
 Solve
 \[ a x + b x^{1-\alpha} + \ln \left(\frac{I(x)}{I_0}\right) = 0\]
-e.g.\ Newtons method or look-up table}
+e.g.\ Newton's method or look-up table}
 \end{textblock}
 
 \begin{textblock}{0.4}(0.55,0.05)

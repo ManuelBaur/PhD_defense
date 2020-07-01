@@ -82,137 +82,137 @@ data_1mmCu_140kV='borosilicate_glass_plates/mu_eff_140kV_1mmCu_200uA_300ms.dat'
 
 
 
-# #######################################################################################################
-# ####################### 60kV Measurement, fits and multiplot ##########################################
-# #######################################################################################################
-# 
-# ############ Bjärngard fit 60 kV measurement ########################
-# mu0_60kV_a = 2.554E-1 * 2.23 # value from NIST for 60kV acceleration voltage, multiplied with densitiy of boro glass
-# lambda_60kV_a = 5.
-# 
-# mueff_60kV_a(x) = mu0_60kV_a - lambda_60kV_a * x
-# fit mueff_60kV_a(x) data_60kV using ($1*100):($2/100) via mu0_60kV_a, lambda_60kV_a
-# 
-# ############ Yu 1 = Kleinschmidt c fit 60 kV measurement ########################
-# mu0_60kV_b = 5.4 # 2.554E-1 * 2.23 # value from NIST for 60kV acceleration voltage, multiplied with densitiy of boro glass
-# lambda_60kV_b = 20. # must be positive to fulfill limit for x--> infty
-# 
-# mueff_60kV_b(x) = mu0_60kV_b / (1 + lambda_60kV_b * x)
-# fit mueff_60kV_b(x) data_60kV using ($1*100):($2/100) via mu0_60kV_b, lambda_60kV_b
-# 
-# ############ Yu 2 fit 60 kV measurement ########################
-# mu0_60kV_b2 = 5.4 # 2.554E-1 * 2.23 # value from NIST for 60kV acceleration voltage, multiplied with densitiy of boro glass
-# lambda_60kV_b2 = 20. # must be positive to fulfill limit for x--> infty
-# beta_b2=0.5
-# 
-# mueff_60kV_b2(x) = mu0_60kV_b2 / (1 + lambda_60kV_b2 * x)**beta_b2
-# fit mueff_60kV_b2(x) data_60kV using ($1*100):($2/100) via mu0_60kV_b2, lambda_60kV_b2, beta_b2
-# 
-# ############ Kleinschmidt (1997) Equ. d) fit 60 kV measurement ########################
-# # originally defined for differential attenuation, transformed for integral attenuation coeff.
-# mu0_60kV_d = 2.554E-1 * 2.23 # value from NIST for 60kV acceleration voltage, multiplied with densitiy of boro glass
-# mu1_60kV_d = 5.4 
-# lambda_60kV_d1 = 20.
-# lambda_60kV_d2 = 20.
-# 
-# mueff_60kV_d(x) = mu0_60kV_d + \
-# 	2*mu1_60kV_d / (x * (-lambda_60kV_d1**2 + 4*lambda_60kV_d2)**(0.5)) * \
-# 	(atan((lambda_60kV_d1 + 2*lambda_60kV_d2*x) / (-lambda_60kV_d1**2 + 4*lambda_60kV_d2)**(0.5)) - \
-# 	atan(lambda_60kV_d1 / (-lambda_60kV_d1**2 + 4*lambda_60kV_d2)**(0.5)))
-# 
-# 
-# fit mueff_60kV_d(x) data_60kV using ($1*100):($2/100) via mu1_60kV_d, lambda_60kV_d1, lambda_60kV_d2
-# 
-# ############## Mudde (2008), 60 kV measurement ##########################
-# # originally defined for grayvalue intensity at detector, transformed to integral attenuation coeff.
-# A1_60kV=0.5
-# B1_60kV=0.5
-# C1_60kV=5. 
-#  
-# mudde_60kV(x) = A1_60kV + B1_60kV * exp(-x/C1_60kV)
-# fit mudde_60kV(x) data_60kV using ($1*100):($6/$4) via A1_60kV,B1_60kV,C1_60kV
-#              
-# mueff_60kV_e(x) = -1./x * log(mudde_60kV(x))
-# 
-# ############ our fit-function, 60 kV measurement ########################
-# a1= -75 # 2.554E-1 * 2.23 # value from NIST for 60kV acceleration voltage, multiplied with densitiy of boro glass
-# b1=77.
-# alpha1=0.01
-# 
-# f1(x)=a1+b1/x**alpha1
-# fit f1(x) data_60kV using ($1*100):($2/100) via a1,b1,alpha1
-# 
-# 
-# ######################################################################################################
-# ##################### multiplot of 60 kV measurement - data and fits #################################
-# set output 'borosilicate_glass_60kV_model_comparison_multiplot.eps'
-# 
-# set multiplot layout 2,1 # spacing...0.
-# 
-# set bmargin 0.4
-# set lmargin 7
-# 
-# set origin 0.,0.5
-# set size 1.,0.5
-# 
-# set ylabel 'Attenuation, {/Symbol m}_{eff}({/Helvetica-Italic E,x}) (1/cm)'
-# set xtics 0.4,0.4,4
-# set xtics format ''
-# set xrange [0:4.2]
-# set yrange [0.5:4.]
-# set ytics 1.,0.5,4.5
-# set ytics format '%.1f'
-# 
-# set label 1 at 0.05,0.7 font ',30'  'a)'
-# 
-# ########### write legend #############
-# set key at 4.,3.1 maxrows 7 samplen 6.0
-# 
-# 
-# ####### attenuation plot 60 kV ###########
-# ## d in cm, mu in 1/cm  , \344 = ä
-# plot	data_60kV u ($1*100):($2/100) ls 1 pt 64 ps 1.5 t '60 kV data',\
-# 	[0.1:] mueff_60kV_a(x) lt 3 lc '#007e00' lw 5 t 'BS',\
-# 	[0.1:] mueff_60kV_e(x) lt 7 lc '#ff8000' lw 5 t 'MU',\
-# 	[0.1:] f1(x) lt 1 lc '#0066cc' lw 5 t 'BA'
-# 
-# 
-# ###### deviation plot 60 kV #############
-# unset label
-# set bmargin 3.5
-# set tmargin 0
-# 
-# set size 1.,0.5
-# 
-# set xlabel 'Thickness, {/Helvetica-Italic x} (cm)'
-# set label 2 at 0.05,0.22 font ',30' 'b)'
-# 
-# set xtics format '%.1f'
-# set yrange [-0.2:0.25]
-# set ylabel '{/Symbol D}{/Symbol m}_{eff} (1/cm)' offset 0.8 
-# set ytics -0.2,0.1,0.2
-# 
-# set key at 3.2,-0.105 maxrows 3 noinvert samplen 6.0
-# set arrow from 0.,0. to 4.2,0. nohead lt 3 lw 5 lc '#000000' back # zero line
-# 
-# plot	data_60kV u ($1*100):(mueff_60kV_a($1*100) - $2/100)\
-# 	 lc '#007e00' lt 3 lw 5 pt 15 ps 1.5 with linespoints t 'BS',\
-# 	data_60kV u ($1*100):(mueff_60kV_b($1*100) - $2/100)\
-# 	 lc '#cc00cc' lt 2 lw 5 pt 68 ps 1.5 with linespoints t 'Yu 1',\
-# 	data_60kV u ($1*100):(mueff_60kV_b2($1*100) - $2/100)\
-# 	 lc '#6600cc' lt 6 lw 5 pt 13 ps 1.5 with linespoints t 'Yu 2',\
-# 	data_60kV u ($1*100):(mueff_60kV_d($1*100) - $2/100)\
-# 	 lc '#66cc00' lt 4 lw 5 pt 67 ps 1.5 with linespoints t 'KS',\
-# 	data_60kV u ($1*100):(mueff_60kV_e($1*100) - $2/100)\
-# 	 lc '#ff8000' lt 7 lw 5 pt 9 ps 1.5 with linespoints t 'MU',\
-# 	data_60kV u ($1*100):(f1($1*100) - $2/100)\
-# 	 lc '#0066cc' lt 1 lw 5 pt 65 ps 1.5 with linespoints t 'BA'
-# 
-# unset xlabel
-# unset ylabel
-# unset label
-# unset arrow
-# unset multiplot
+#######################################################################################################
+####################### 60kV Measurement, fits and multiplot ##########################################
+#######################################################################################################
+
+############ Bjärngard fit 60 kV measurement ########################
+mu0_60kV_a = 2.554E-1 * 2.23 # value from NIST for 60kV acceleration voltage, multiplied with densitiy of boro glass
+lambda_60kV_a = 5.
+
+mueff_60kV_a(x) = mu0_60kV_a - lambda_60kV_a * x
+fit mueff_60kV_a(x) data_60kV using ($1*100):($2/100) via mu0_60kV_a, lambda_60kV_a
+
+############ Yu 1 = Kleinschmidt c fit 60 kV measurement ########################
+mu0_60kV_b = 5.4 # 2.554E-1 * 2.23 # value from NIST for 60kV acceleration voltage, multiplied with densitiy of boro glass
+lambda_60kV_b = 20. # must be positive to fulfill limit for x--> infty
+
+mueff_60kV_b(x) = mu0_60kV_b / (1 + lambda_60kV_b * x)
+fit mueff_60kV_b(x) data_60kV using ($1*100):($2/100) via mu0_60kV_b, lambda_60kV_b
+
+############ Yu 2 fit 60 kV measurement ########################
+mu0_60kV_b2 = 5.4 # 2.554E-1 * 2.23 # value from NIST for 60kV acceleration voltage, multiplied with densitiy of boro glass
+lambda_60kV_b2 = 20. # must be positive to fulfill limit for x--> infty
+beta_b2=0.5
+
+mueff_60kV_b2(x) = mu0_60kV_b2 / (1 + lambda_60kV_b2 * x)**beta_b2
+fit mueff_60kV_b2(x) data_60kV using ($1*100):($2/100) via mu0_60kV_b2, lambda_60kV_b2, beta_b2
+
+############ Kleinschmidt (1997) Equ. d) fit 60 kV measurement ########################
+# originally defined for differential attenuation, transformed for integral attenuation coeff.
+mu0_60kV_d = 2.554E-1 * 2.23 # value from NIST for 60kV acceleration voltage, multiplied with densitiy of boro glass
+mu1_60kV_d = 5.4 
+lambda_60kV_d1 = 20.
+lambda_60kV_d2 = 20.
+
+mueff_60kV_d(x) = mu0_60kV_d + \
+	2*mu1_60kV_d / (x * (-lambda_60kV_d1**2 + 4*lambda_60kV_d2)**(0.5)) * \
+	(atan((lambda_60kV_d1 + 2*lambda_60kV_d2*x) / (-lambda_60kV_d1**2 + 4*lambda_60kV_d2)**(0.5)) - \
+	atan(lambda_60kV_d1 / (-lambda_60kV_d1**2 + 4*lambda_60kV_d2)**(0.5)))
+
+
+fit mueff_60kV_d(x) data_60kV using ($1*100):($2/100) via mu1_60kV_d, lambda_60kV_d1, lambda_60kV_d2
+
+############## Mudde (2008), 60 kV measurement ##########################
+# originally defined for grayvalue intensity at detector, transformed to integral attenuation coeff.
+A1_60kV=0.5
+B1_60kV=0.5
+C1_60kV=5. 
+ 
+mudde_60kV(x) = A1_60kV + B1_60kV * exp(-x/C1_60kV)
+fit mudde_60kV(x) data_60kV using ($1*100):($6/$4) via A1_60kV,B1_60kV,C1_60kV
+             
+mueff_60kV_e(x) = -1./x * log(mudde_60kV(x))
+
+############ our fit-function, 60 kV measurement ########################
+a1= -75 # 2.554E-1 * 2.23 # value from NIST for 60kV acceleration voltage, multiplied with densitiy of boro glass
+b1=77.
+alpha1=0.01
+
+f1(x)=a1+b1/x**alpha1
+fit f1(x) data_60kV using ($1*100):($2/100) via a1,b1,alpha1
+
+
+######################################################################################################
+##################### multiplot of 60 kV measurement - data and fits #################################
+set output 'borosilicate_glass_60kV_model_comparison_multiplot.eps'
+
+set multiplot layout 2,1 # spacing...0.
+
+set bmargin 0.4
+set lmargin 7
+
+set origin 0.,0.5
+set size 1.,0.5
+
+set ylabel 'Attenuation, {/Symbol m}_{eff}({/Helvetica-Italic E,x}) (1/cm)'
+set xtics 0.4,0.4,4
+set xtics format ''
+set xrange [0:4.2]
+set yrange [0.5:4.]
+set ytics 1.,0.5,4.5
+set ytics format '%.1f'
+
+set label 1 at 0.05,0.7 font ',30'  'a)'
+
+########### write legend #############
+set key at 4.,3.1 maxrows 7 samplen 6.0
+
+
+####### attenuation plot 60 kV ###########
+## d in cm, mu in 1/cm  , \344 = ä
+plot	data_60kV u ($1*100):($2/100) ls 1 pt 64 ps 1.5 t '60 kV data',\
+	[0.1:] mueff_60kV_a(x) lt 3 lc '#007e00' lw 5 t 'BS',\
+	[0.1:] mueff_60kV_e(x) lt 7 lc '#ff8000' lw 5 t 'MU',\
+	[0.1:] f1(x) lt 1 lc '#0066cc' lw 5 t 'BA'
+
+
+###### deviation plot 60 kV #############
+unset label
+set bmargin 3.5
+set tmargin 0
+
+set size 1.,0.5
+
+set xlabel 'Thickness, {/Helvetica-Italic x} (cm)'
+set label 2 at 0.05,0.22 font ',30' 'b)'
+
+set xtics format '%.1f'
+set yrange [-0.2:0.25]
+set ylabel '{/Symbol D}{/Symbol m}_{eff} (1/cm)' offset 0.8 
+set ytics -0.2,0.1,0.2
+
+set key at 3.2,-0.105 maxrows 3 noinvert samplen 6.0
+set arrow from 0.,0. to 4.2,0. nohead lt 3 lw 5 lc '#000000' back # zero line
+
+plot	data_60kV u ($1*100):(mueff_60kV_a($1*100) - $2/100)\
+	 lc '#007e00' lt 3 lw 5 pt 15 ps 1.5 with linespoints t 'BS',\
+	data_60kV u ($1*100):(mueff_60kV_b($1*100) - $2/100)\
+	 lc '#cc00cc' lt 2 lw 5 pt 68 ps 1.5 with linespoints t 'Yu 1',\
+	data_60kV u ($1*100):(mueff_60kV_b2($1*100) - $2/100)\
+	 lc '#6600cc' lt 6 lw 5 pt 13 ps 1.5 with linespoints t 'Yu 2',\
+	data_60kV u ($1*100):(mueff_60kV_d($1*100) - $2/100)\
+	 lc '#66cc00' lt 4 lw 5 pt 67 ps 1.5 with linespoints t 'KS',\
+	data_60kV u ($1*100):(mueff_60kV_e($1*100) - $2/100)\
+	 lc '#ff8000' lt 7 lw 5 pt 9 ps 1.5 with linespoints t 'MU',\
+	data_60kV u ($1*100):(f1($1*100) - $2/100)\
+	 lc '#0066cc' lt 1 lw 5 pt 65 ps 1.5 with linespoints t 'BA'
+
+unset xlabel
+unset ylabel
+unset label
+unset arrow
+unset multiplot
 
 
 

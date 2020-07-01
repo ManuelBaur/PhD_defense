@@ -1,3 +1,4 @@
+%\documentclass[aspectratio=169,notes]{beamer}
 \documentclass[aspectratio=169]{beamer}
 \usepackage[english]{babel} % just for german
 
@@ -32,13 +33,12 @@
 \usetikzlibrary{tikzmark}
 \usetikzlibrary{arrows}
 \usetheme{Boadilla} %{Pittsburgh} %{boxes} %{Boadilla}
-%\usecolortheme{lily}
 
-%% define origin of coordinate system for tikz
-%\newcommand*{\xMin}{0}
-%\newcommand*{\xMax}{1}
-%\newcommand*{\yMin}{0}
-%\newcommand*{\yMax}{1}
+%%% uncomment to add notes - final step when presentation is ready
+%\usepackage{pgfpages}
+%\setbeamertemplate{note page}[plain]
+%\setbeameroption{show notes on second screen}
+
 
 %% set color box 
 %\tcbset{highlight math style={colframe=red,colback=white}}
@@ -105,9 +105,9 @@ SedimentingBed
 
 \include{BeamHardening}
 %
-\include{X-DFA}
-%
-\include{SedimentingBed}
+%\include{X-DFA}
+%%
+%\include{SedimentingBed}
 \end{document}
 
 

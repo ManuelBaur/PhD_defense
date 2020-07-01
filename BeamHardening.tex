@@ -22,11 +22,11 @@
 		in X-ray radiograms}}}
 \end{textblock}
 
-\begin{textblock}{0.9}(0.05,0.9)
+\begin{textblock}{0.9}(0.05,0.95)
 	\visible<1->{
-		\centering
-		\Huge{
-			\textcolor{red}{Collaboration Norman Uhlmann Fraunhofer EZRT}}}
+	\centering
+	{
+	\textcolor{white}{In collaboration with Norman Uhlmann, Fraunhofer EZRT}}}
 \end{textblock}
 }
 
@@ -154,11 +154,11 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 
 
 
-%% ------------------ INTESITY INTEGRAL -------------------------
+%%%%%%%%%%%%%%%%%%%% Modeling mu_eff %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.23\textwidth,yshift=0.32\textheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.23\textwidth,yshift=0.33\textheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
 \begin{textblock}{0.22}(0.0,0.03)
@@ -179,42 +179,42 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 \begin{textblock}{0.32}(0.03,0.18)
 	\centering
 	\includegraphics[width=\textwidth]
-	{Sources/beam_hardening/N0_initial_spectrum_filled_curves.eps}
+	{Sources/beam_hardening/linear_spectrum.eps}
 \end{textblock}
 
-\begin{textblock}{0.32}(0.03,0.18)
+\begin{textblock}{0.32}(0.03,0.17)
 	\centering
-	\vspace{0.1cm}	
+	\hspace{0.5cm}
 	\pgfsetfillopacity{0.85}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
-			Comet X-ray tube$^{(1)}$}}
+			$N (E) = -a E + b$}}
 \end{textblock}
 
 %% attenuation data
 \begin{textblock}{0.32}(0.345,0.18)
 	\centering
 	\includegraphics[width=\textwidth]
-	{Sources/beam_hardening/Attenuation_vs_energy_Al.eps}
+	{Sources/beam_hardening/XCOM_attenuation.eps}
 \end{textblock}
 
-\begin{textblock}{0.32}(0.345,0.18)
+\begin{textblock}{0.32}(0.345,0.17)
 	\centering
-	\vspace{0.1cm}
-	\pgfsetfillopacity{0.85}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
-			Aluminum$^{(2)}$}}
+	\hspace{0.5cm}
+	\pgfsetfillopacity{0.85}\colorbox{darkgreen}{\pgfsetfillopacity{1}\textcolor{white}{
+			$\mu (E) = \mu_\text{C} + c E^{-3}~\,^{(*)}$}}
 \end{textblock}
 
 %% detector curve
 \begin{textblock}{0.32}(0.67,0.18)
 	\centering
 	\includegraphics[width=\textwidth]
-	{Sources/beam_hardening/Detector_response_0.eps}
+	{Sources/beam_hardening/detector_const.eps}
 \end{textblock}
 
-\begin{textblock}{0.32}(0.67,0.18)
+\begin{textblock}{0.32}(0.67,0.17)
 	\centering
-	\vspace{0.1cm}
-	\pgfsetfillopacity{0.85}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
-			XEye detector$^{(1)}$}}
+	\hspace{0.5cm}
+	\pgfsetfillopacity{0.85}\colorbox{red}{\pgfsetfillopacity{1}\textcolor{white}{
+		$S(E) = S~\Theta(E - E_\text{min})$}}
 \end{textblock}
 
 
@@ -223,24 +223,19 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 		$I(x) \propto \int \textcolor{blue}{N(E)} \exp\{-
 		\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
 		\textcolor{red}{S(E)}~\mathrm{d}E $}
-	%	\visible<2->{
-	%		\[ \textcolor{darkgreen}{\mu_\text{eff} (x)} = - 
-	%		\frac{1}{x} 
-	%		\frac{\textcolor{red}{I(x)}}{\textcolor{blue}{I_0}}\]}
 \end{textblock}
 
 \begin{textblock}{0.32}(0.55,0.58)
 	\visible<2->{
 		\centering
 		\includegraphics[width=\textwidth]
-		{Sources/beam_hardening/mu_eff_140kV_exp_vs_numeric_data_norman.eps}
+		{Sources/beam_hardening/attenuation_borosilicate_glass_voltages_first_principle_fit.eps}
 	}
 \end{textblock}
 
-\begin{textblock}{0.9}(0.02,0.9)
+\begin{textblock}{0.9}(0.02,0.93)
 	{\scriptsize
-		$(1)$ Supplied by Norman Uhlmann, Fraunhofer EZRT\\
-		$(2)$ XCOM supplied by NIST}
+		$(*)$ XCOM supplied by NIST}
 \end{textblock}
 
 \begin{textblock}{1.}(0,0)
@@ -250,6 +245,9 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 \end{textblock}
 }
 
+
+
+%%%%%%%%%%%%%%%%%% Numerical approach %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]

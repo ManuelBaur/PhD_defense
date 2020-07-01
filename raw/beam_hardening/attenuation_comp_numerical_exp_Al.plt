@@ -25,8 +25,8 @@ set for [i=1:5] style line i dt i
 
 ##### linetypes for different measurement series, for fit with heuristic expression ###########
 set style line 1 lt 2 lc rgb "#ff0000" lw 5
-set style line 2 lt 2 lc rgb "#007e00" lw 5
-set style line 3 lt 1 lc rgb "#0000ff" lw 5
+set style line 2 lt 2 lc rgb "#0066cc" lw 5
+set style line 3 lt 1 lc rgb "#ff8000" lw 5
 set style line 4 lt 1 lc rgb "#00cccc" lw 5
 set style line 5 lt 1 lc rgb "#ff8000" lw 5
 
@@ -63,8 +63,8 @@ set xrange [0:4.2]
 set yrange [0.6:1.5]
 set xtics 0.4,0.4,4
 
-set label 2 at 0.4,0.8 textcolor "#007e00" 'Exp. data' front
-set label 3 at 2.4,0.95 textcolor "#0000ff" 'Num. data '
+set label 2 at 0.4,0.85 textcolor "#0066cc" 'Exp. data' front
+set label 3 at 2.4,0.95 textcolor "#ff8000" 'Num. data '
 
 ## d in cm, mu in 1/cm 
 plot	data_exp_140kV_Al_Norman u 1:2 ls 2 pt 65 ps 1.5,\

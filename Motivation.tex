@@ -31,6 +31,42 @@
 }
 \note{hallo is this a note?}
 
+%%%%% MOTIVATION & INTRODUCTION
+\frame{
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.55\paperwidth,yshift=0.27\paperheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+\begin{textblock}{0.55}(0.02,0.03)
+	\textcolor{white}{							
+	\Large{X-ray radiography of granular systems \\
+		-- particle densities and dynamics}
+	}
+\end{textblock}
+
+\begin{textblock}{0.55}(0.02,0.2)
+\includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_final.pdf}
+\end{textblock}
+
+\begin{textblock}{0.38}(0.6,0.2)
+
+	\begin{minipage}[b]{0.2\textwidth}
+	\includegraphics[width=\textwidth]{Sources/motivation/wikipedia_hd.png}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{0.75\textwidth}
+	{\Large Industrial application:\\
+	Fluidized bed reactor}
+	\end{minipage}
+	\vfill
+	\vspace{0.5cm}
+	\begin{minipage}[b]{1.\textwidth}
+	"\textbf{Lack of understanding:}\\
+	It is very difficult to predict and calculate the \textcolor{red}{complex mass} [...] \textcolor{red}{flows} within the bed."
+	\end{minipage}
+\end{textblock}
+}
+
 %% OPAQUE
 \frame{
 	\begin{tikzpicture}[remember picture,overlay]
@@ -44,14 +80,20 @@
 			\textcolor{white}{Particulate flows are \textbf{opaque}}}
 	\end{textblock}
 
-	\begin{textblock}{0.9}(0.05,0.15)
+	\begin{textblock}{0.5}(0.0,0.15)
 		\centering
-		\movie[width =0.3\textwidth,loop]
-		{\includegraphics[width=0.3\textwidth]{Sources/motivation/video_welm_paetzold.png}}	
+		\includegraphics[height=0.75\textheight]{Sources/motivation/setup-fluidized_bed_left.pdf}
+	\end{textblock}
+
+	\begin{textblock}{0.5}(0.5,0.15)
+		\centering
+		\movie[height=0.75\textheight,loop]
+		{\includegraphics[height=0.75\textheight]{Sources/motivation/video_welm_paetzold.png}}	
 		{Sources/motivation/video_welm_paetzold.avi}
 		
 		\textcolor{white}{\footnotesize Master thesis Welm Pätzold}
 	\end{textblock}
+
 }
 
 
@@ -83,7 +125,7 @@
 	\fbox{
 	\movie[width =\textwidth,loop]
 	{\includegraphics[width=\textwidth]{Sources/motivation/Projection0000.png}}
-	{Sources/motivation/Projections360degree.avi}}}
+	{Sources/motivation/Projections360degree_fast.avi}}}
 \end{textblock}
 
 \begin{textblock}{0.28}(0.7,0.25)

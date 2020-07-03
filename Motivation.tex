@@ -1,35 +1,4 @@
-\frame{
-\begin{tikzpicture}[remember picture,overlay]
-\fill[blue1]
-(current page.north west) rectangle ([xshift=0.24\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
-\end{tikzpicture}
 
-\begin{textblock}{0.5}(0.02,0.03)
-	\textcolor{white}{
-		\Large Granular flows}
-\end{textblock}
-
-
-%% GRANUALR FLOWS
-\begin{textblock}{0.95}(0.03,0.12)
-	\textcolor{red}{Example Fluidized bed reactor}
-	
-	Wikipedia: 
-	Disadvantage: Lack of understanding:
-	"It is very difficult to predict and calculate the complex mass and heat flows within the bed."\\
-	
-	Particle dynamics $\leftrightarrow$ densities 
-	
-	1. Motivate physical system of granular flow
-	(nice challenge to study)\\
-	2. Motivate technique of radiography
-	
-
-\end{textblock}	
-
-
-}
-\note{hallo is this a note?}
 
 %%%%% MOTIVATION & INTRODUCTION
 \frame{
@@ -44,26 +13,43 @@
 	}
 \end{textblock}
 
-\begin{textblock}{0.55}(0.02,0.2)
-\includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_final.pdf}
+\begin{textblock}{0.25}(0.1,0.35)
+\only<1>{
+\includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_sedimented.pdf}}
+\only<2>{
+\includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_expanded.pdf}}
 \end{textblock}
 
-\begin{textblock}{0.38}(0.6,0.2)
+\begin{textblock}{0.55}(0.02,0.2)
+\visible<3->{
+	Fluidized bed\\[0.5cm]
+\includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_final.pdf}}
+\end{textblock}
 
-	\begin{minipage}[b]{0.2\textwidth}
+\begin{textblock}{0.4}(0.6,0.02)
+\visible<4->{
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Sources/motivation/linked_together.pdf}
+\end{center}
+}
+\end{textblock}
+
+\begin{textblock}{0.38}(0.6,0.5)
+\visible<5->{
+	\begin{minipage}[c]{0.2\textwidth}
 	\includegraphics[width=\textwidth]{Sources/motivation/wikipedia_hd.png}
 	\end{minipage}
 	\hfill
-	\begin{minipage}[b]{0.75\textwidth}
-	{\Large Industrial application:\\
-	Fluidized bed reactor}
+	\begin{minipage}[c]{0.75\textwidth}
+	{\large Fluidized bed reactor}
 	\end{minipage}
 	\vfill
-	\vspace{0.5cm}
-	\begin{minipage}[b]{1.\textwidth}
+	\vspace{0.2cm}
+	\begin{minipage}[b]{.9\textwidth}
 	"\textbf{Lack of understanding:}\\
 	It is very difficult to predict and calculate the \textcolor{red}{complex mass} [...] \textcolor{red}{flows} within the bed."
 	\end{minipage}
+}
 \end{textblock}
 }
 

@@ -166,15 +166,17 @@ set ytics format '%.1f'
 set label 1 at 0.05,0.7 font ',30'  'a)'
 
 ########### write legend #############
-set key at 4.,3.1 maxrows 7 samplen 6.0
+set key at 4.,3.5 maxrows 7 samplen 6.0
 
 
 ####### attenuation plot 60 kV ###########
 ## d in cm, mu in 1/cm  , \344 = ä
-plot	data_60kV u ($1*100):($2/100) ls 1 pt 64 ps 1.5 t '60 kV data',\
+plot    data_60kV u ($1*100):($2/100) ls 1 pt 64 ps 1.5 t '60 kV data',\
 	[0.1:] mueff_60kV_a(x) lt 3 lc '#007e00' lw 5 t 'BS',\
-	[0.1:] mueff_60kV_e(x) lt 7 lc '#ff8000' lw 5 t 'MU',\
+	[0.1:] mueff_60kV_b(x) lt 2 lc '#cc00cc' lw 5 t 'Yu 1',\
+	[0.1:] mueff_60kV_e(x) lt 4 lc '#66cc00' lw 5 t 'KS',\
 	[0.1:] f1(x) lt 1 lc '#0066cc' lw 5 t 'BA'
+	# [0.1:] mueff_60kV_e(x) lt 7 lc '#ff8000' lw 5 t 'MU',\
 
 
 ###### deviation plot 60 kV #############

@@ -77,13 +77,13 @@
 \setbeamertemplate{navigation symbols}{}
 \setbeamercolor{frametitle}{fg=blue1} % set color of title
 
-\addtobeamertemplate{navigation symbols}{}{%
-	\usebeamerfont{footline}%
-	\usebeamercolor[fg]{footline}%
-	\hspace{1em}%
-	\footnotesize
-	\insertframenumber %/\inserttotalframenumber
-}
+%\addtobeamertemplate{navigation symbols}{}{%
+%	\usebeamerfont{footline}%
+%	\usebeamercolor[fg]{footline}%
+%	\hspace{1em}%
+%	\footnotesize
+%	\insertframenumber %/\inserttotalframenumber
+%}
 
 \setbeamercolor{footline}{fg=blue1}
 \setbeamerfont{footline}{series=\bfseries}
@@ -92,14 +92,22 @@
 \includeonly{%
 Title,
 Motivation,
-BeamHardening,
-X-DFA,
-SedimentingBed
+%BeamHardening,
+%X-DFA,
+%SedimentingBed
 }
 
 
 \begin{document}
 \include{Title}
+
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\footnotesize
+	\insertframenumber %/\inserttotalframenumber
+}
 
 \include{Motivation}
 

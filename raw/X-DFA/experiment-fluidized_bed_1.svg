@@ -11,9 +11,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="599.84827mm"
+   width="602.77661mm"
    height="481.9165mm"
-   viewBox="0 0 599.84831 481.91651"
+   viewBox="0 0 602.77666 481.9165"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -383,11 +383,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="748.30185"
-     inkscape:cy="813.43456"
+     inkscape:zoom="0.7"
+     inkscape:cx="1556.5666"
+     inkscape:cy="1061.2015"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1173"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1848"
      inkscape:window-height="1016"
@@ -403,7 +403,7 @@
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
-       position="92.226189,481.91652"
+       position="92.226179,481.91653"
        orientation="0,1"
        id="guide1448"
        inkscape:locked="false" />
@@ -495,7 +495,7 @@
                id="tspan2537"
                x="-0.83160555"
                y="276.64713"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2725563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">distributor</tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2725563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">Distributor</tspan><tspan
                sodipodi:role="line"
                x="-0.83160555"
                y="293.23782"
@@ -1960,7 +1960,7 @@
                id="tspan3736"
                x="-1.2277915"
                y="191.86819"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2725563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">particle</tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2725563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">Particle</tspan><tspan
                sodipodi:role="line"
                x="-1.2277915"
                y="208.45889"
@@ -1976,7 +1976,7 @@
                x="-0.84021831"
                y="149.4025"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2725563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
-               id="tspan3746">cuvette</tspan></text>
+               id="tspan3746">Cuvette</tspan></text>
           <path
              style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.07256401;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.07256403, 1.07256403;stroke-dashoffset:0;stroke-opacity:1"
              d="M -41.800761,192.89365 H -2.6412389"
@@ -2014,7 +2014,7 @@
                y="381.20227"
                x="-93.94854"
                id="tspan2537-5"
-               sodipodi:role="line">syringe pump</tspan><tspan
+               sodipodi:role="line">Syringe pump</tspan><tspan
                id="tspan2541-9"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2725563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
                y="397.79297"
@@ -2133,7 +2133,7 @@
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6388888px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2585384px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.63888931px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2585384px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="-171.56323"
            y="99.880974"
            id="text2117"
@@ -2142,7 +2142,7 @@
              id="tspan2115"
              x="-171.56323"
              y="99.880974"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6388888px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;stroke-width:0.2585384px;">b)</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.2585384px">b)</tspan></text>
       </g>
     </g>
     <g
@@ -2165,7 +2165,7 @@
              id="tspan2537-5-1"
              x="310.93698"
              y="296.39188"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">time <tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">Time <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="tspan2562">t</tspan></tspan><tspan
              sodipodi:role="line"
@@ -2184,7 +2184,7 @@
              x="-231.17584"
              y="83.401428"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
-             id="tspan2557">bed height <tspan
+             id="tspan2557">Bed height <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="tspan2555">h</tspan></tspan><tspan
              sodipodi:role="line"
@@ -2218,7 +2218,7 @@
                y="253.13307"
                x="117.80365"
                id="tspan3495-3"
-               sodipodi:role="line">expansion</tspan></text>
+               sodipodi:role="line">Expansion</tspan></text>
         </g>
         <g
            id="g1278-6"
@@ -2233,14 +2233,14 @@
           <text
              id="text3497-5-9"
              y="253.13307"
-             x="117.80365"
+             x="112.51199"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
                y="253.13307"
-               x="117.80365"
+               x="112.51199"
                id="tspan3495-3-1"
-               sodipodi:role="line">fluidization</tspan></text>
+               sodipodi:role="line">Fluidization</tspan></text>
         </g>
         <path
            style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#marker3349)"
@@ -2314,7 +2314,7 @@
            sodipodi:nodetypes="cc" />
         <g
            id="g1685"
-           transform="translate(11.641668)">
+           transform="translate(14.560678,-9.8077773)">
           <rect
              y="140.49992"
              x="172.26373"
@@ -2324,15 +2324,15 @@
              style="opacity:0.5;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.08223367;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.08223368, 2.08223368;stroke-dashoffset:0;stroke-opacity:1" />
           <text
              id="text3497-5-3"
-             y="158.81824"
+             y="157.75992"
              x="176.41258"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
-               y="158.81824"
+               y="157.75992"
                x="176.41258"
                id="tspan3495-3-6"
-               sodipodi:role="line">pump rate <tspan
+               sodipodi:role="line">Pump rate <tspan
    id="tspan1354"
    style="font-style:italic">Q</tspan></tspan></text>
         </g>
@@ -2371,8 +2371,7 @@
              sodipodi:role="line">Fluidized bed</tspan></text>
         <g
            transform="translate(-282.49484,79.015363)"
-           id="g877"
-           style="">
+           id="g877">
           <rect
              style="opacity:0.5;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.6108709;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
              id="rect857-8"
@@ -2390,7 +2389,7 @@
                id="tspan845"
                x="-22.300596"
                y="59.782139"
-               style="stroke-width:0.26458332px;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:17.63888889px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">X-ray tube</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">X-ray tube</tspan></text>
         </g>
         <rect
            y="207.09752"

@@ -32,7 +32,7 @@
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.52\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.5\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
 \begin{textblock}{0.6}(0.02,0.03)
@@ -114,136 +114,69 @@
 
 
 
+
+
+
+
 \frame{
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=12.cm,yshift=-10.cm]current page.east|-{pic cs:end});
+\end{tikzpicture}
+\begin{textblock}{0.9}(0.05,0.05)
+	\centering
+	\textcolor{white}{\huge Introduction to \\[0.1cm]
+	Differential Dynamic Microscopy (DDM)}
+\end{textblock}
 	
-	\begin{textblock}{0.9}(0.05,0.03)
-		\centering
-		\visible<2->{
-			\Large{\textcolor{red}{
-					Extending\\}}}
-		\textcolor{blue1}{
-			\Large{Differential Dynamic Microscopy (DDM)\\}}
-		\visible<2->{
-			\Large{\textcolor{red}{
-					to X-ray imaging}}}
-	\end{textblock}
+\begin{textblock}{0.4}(0.05,0.25)
+	\centering
+		\textcolor{white}{Synthetic radiograms}\\[0.2cm]
+	\movie[height = 0.6\textheight, poster, loop]
+	{\includegraphics[height = 0.6\textheight]{Sources/X-DFA/10_particles_fake_img.png}}
+	{Sources/X-DFA/10_part_1900-2100.avi}
+\end{textblock}
+
+
+\begin{textblock}{0.45}(0.55,0.25)
+\centering
+	\textcolor{white}{Particle trajectory}\\[0.2cm]
+\includegraphics[height = 0.6\textheight]{Sources/X-DFA/trajectory_plot_nPart10.png}
+\end{textblock}
+}
+
+
+
+
+
+
+
+
+\frame{
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.52\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
 	
-	
-	
+\begin{textblock}{0.6}(0.02,0.03)
+	\textcolor{white}{
+		\Large The image structure function $D(\mathbf{q}, \tau)$}
+\end{textblock}
+
+\begin{textblock}{0.7}(0.15,0.11)
 	\only<1>{
-		\begin{textblock}{0.9}(0.05,0.3)
-			\centering
-			\begin{tabular}{c|c|c}
-				\toprule
-				& \textbf{up to now} & \textbf{this work}\\
-				\hline
-				\textbf{system} & dispersion, gels & fluidized bed\\
-				\textbf{particles} & colloids & granulate\\
-				\textbf{part.\ diameter} & $<1~\upmu\si{m}$ & $\approx 200~\upmu\si{m}$\\
-				\textbf{volume fraction } & $\Phi \leq 0.33$ &  $0.45 < \Phi < 0.56$\\
-				\textbf{imaging} & light microscope & x-ray radiography\\
-				\textbf{dynamics} & 
-				\multicolumn{2}{c}{Brownian motion, caging, glassy, collective motion}\\
-				\bottomrule
-			\end{tabular}
-		\end{textblock}
-	}	
-	
-	
+	\includegraphics[width=\textwidth]{Sources/X-DFA/image_structure_function_ab.pdf}}
 	\only<2>{
-		\begin{textblock}{0.9}(0.05,0.3)
-			\centering
-			\begin{tabular}{c|c|c}
-				\toprule
-				& \textbf{up to now} & \textbf{this work}\\
-				\hline
-				\textbf{system} & dispersion, gels & fluidized bed\\
-				\textbf{particles} & colloids & \textcolor{red}{granulate}\\
-				\textbf{part.\ diameter} & $<1~\upmu\si{m}$ & $\approx 200~\upmu\si{m}$\\
-				\textbf{volume fraction } & $\Phi \leq 0.33$ &  $0.45 < \Phi < 0.56$\\
-				\textbf{imaging} & light microscope & \textcolor{red}{x-ray radiography}\\
-				\textbf{dynamics} & 
-				\multicolumn{2}{c}{Brownian motion, caging, glassy, collective motion}\\
-				\bottomrule
-			\end{tabular}
-		\end{textblock}
-	}	
-	
-	
-	\begin{textblock}{0.9}(0.05,0.8)
-		\centering
-		\visible<2->{
-			\Large{\textcolor{red}{
-					Digital Fourier Analysis of X-Ray Radiograms (X-DFA)}}}
-	\end{textblock}
-	
-	\begin{textblock}{0.7}(0.05,0.95)
-		\footnotesize{Giavazzi \textit{et al}, PRE \textbf{80}, 031403 (2009)}
-	\end{textblock}
-	
-}
-
-
-
-\frame{
-\frametitle{Synthetic radiograms}
-	
-\begin{textblock}{0.4}(0.05,0.2)
-	\centering
-	\fbox{
-	\movie[width =0.8\textwidth, poster, loop]
-	{\includegraphics[width=0.8\textwidth]{Sources/X-DFA/fake_img_nPart10.png}}
-	{Sources/X-DFA/10_particles.avi}}
+	\includegraphics[width=\textwidth]{Sources/X-DFA/image_structure_function_abc.pdf}}
+	\only<3>{
+	\includegraphics[width=\textwidth]{Sources/X-DFA/image_structure_function_abcd.pdf}}
+	\only<4>{
+	\includegraphics[width=\textwidth]{Sources/X-DFA/image_structure_function.pdf}}
 \end{textblock}
 
-
-\begin{textblock}{0.45}(0.55,0.2)
-\includegraphics[width=0.8\textwidth]{Sources/X-DFA/trajectory_plot_nPart10.png}
+\begin{textblock}{0.7}(0.02,0.95)
+	\scriptsize{Giavazzi \textit{et al}, PRE \textbf{80}, 031403 (2009)}
 \end{textblock}
-}
-
-
-\frame{
-	\frametitle{Synthetic radiograms}
-	
-	\begin{textblock}{0.9}(0.03,0.05)
-		\centering
-		\includegraphics[width=0.6\textwidth]{Sources/X-DFA/particle_mask_construction.pdf}
-	\end{textblock}
-
-	\begin{textblock}{0.9}(0.05,0.8)
-	\centering
-	Beer-Lambert\\
-	$I(z_l) = I_0 \exp(-\mu z)$
-	\end{textblock}
-
-	\begin{textblock}{0.2}(0.03,0.6)
-		\visible<2->{
-		\includegraphics[width=\textwidth]{Sources/X-DFA/thicknessMap_nPart10.png}}
-	\end{textblock}
-
-	\begin{textblock}{0.2}(0.77,0.6)
-	\visible<2->{
-	\frame{
-	\includegraphics[width=\textwidth]{Sources/X-DFA/fake_img_nPart10.png}
-	}}
-	\end{textblock}
-}
-
-
-
-
-
-\frame{
-	\frametitle{The image structure function $D(\mathbf{q}, \tau)$}
-	\begin{textblock}{0.9}(0.05,0.1)
-		\centering
-		\includegraphics[width=0.8\textwidth]{Sources/X-DFA/image_structure_function.pdf}
-	\end{textblock}
-
-	\begin{textblock}{0.7}(0.02,0.95)
-		\scriptsize{Giavazzi \textit{et al}, PRE \textbf{80}, 031403 (2009)}
-	\end{textblock}
 }
 
 
@@ -251,7 +184,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% Build the image structure function for every time step
 \frame{
-	\frametitle{The image structure function $D(q,\tau)$}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.52\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.6}(0.02,0.03)
+	\textcolor{white}{
+		\Large The image structure function $D(q, \tau)$}
+\end{textblock}
 
 	\begin{textblock}{0.3}(0.05,0.1)
 	\only<1>{
@@ -343,9 +284,6 @@
 	\fbox{\includegraphics[width=\textwidth]
 	{Sources/X-DFA/1Particle_crop_adjust.png}}
 	\end{textblock}
-%	\begin{textblock}{0.7}(0.05,0.95)
-%	\footnotesize{Giavazzi \textit{et al}, PRE \textbf{80}, 031403 (2009)}
-%	\end{textblock}
 }
 
 
@@ -355,8 +293,17 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%% d(q,tau) vs tau
-\frame{
-	\frametitle{The image structure function $D(q,\tau)$}
+\begin{frame}
+	\begin{tikzpicture}[remember picture,overlay]
+	\fill[blue1]
+	(current page.north west) rectangle ([xshift=0.52\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+	\end{tikzpicture}
+	
+	\begin{textblock}{0.6}(0.02,0.03)
+		\textcolor{white}{
+			\Large The image structure function $D(q, \tau)$}
+	\end{textblock}
+
 	\begin{textblock}{0.44}(0.02,0.1)
 	\includegraphics[width=\textwidth]
 	{Sources/X-DFA/img_struc_func_vs_q_multiple_tau_simulations_nPart10Marker.eps}
@@ -381,22 +328,18 @@
 	\end{textblock}
 
 
-	\begin{textblock}{0.9}(0.05,0.63)
-	\centering
-	\only<4>{
-		\begin{align}
-		D(q,\tau)
-		&= \Big\langle |I(q, t+\tau) - I(q,t)|^2  \Big\rangle_t \nonumber \\
-		&= A(q) 
-		\left[1-\frac{\big\langle I^*(q,t) I(q,t+\tau) \big\rangle_t}
-		{\big\langle |I(q,t)|^2 \big\rangle_t}\right] 
-		+ B(q)\nonumber
-		\end{align}
+	\begin{textblock}{0.5}(0.02,0.63)
+	\only<4>{\small
+	\begin{align}
+	D(q,\tau)
+	&= \Big\langle |I(q, t+\tau) - I(q,t)|^2  \Big\rangle_t \nonumber \\
+	&= A(q) 
+	\left[1-\frac{\big\langle I^*(q,t) I(q,t+\tau) \big\rangle_t}
+	{\big\langle |I(q,t)|^2 \big\rangle_t}\right] 
+	+ B(q)\nonumber
+	\end{align}
 	}
-	\end{textblock}
-
-	\begin{textblock}{0.9}(0.05,0.63)
-	\visible<5->{
+	\visible<5->{\small
 	\begin{align}
 	D(q,\tau)
 	&= \Big\langle |I(q, t+\tau) - I(q,t)|^2  \Big\rangle_t \nonumber \\
@@ -412,66 +355,35 @@
 	}
 	\end{textblock}
 
-	\begin{textblock}{0.3}(0.45,0.92)
+	\begin{textblock}{0.3}(0.2,0.92)
 	\visible<5->{
 		\textcolor{red}{Image correlation function}
 	}
 	\end{textblock}
-}
+
+%	\begin{textblock}{0.5}(0.52,0.68)
+%	\visible<6>{
+%	\centering
+%	\colorbox{lightblue}{
+%	Linear space invariant imaging}
+%	\small
+%	\begin{align}
+%	f(q,\tau) = \frac
+%	{\langle \rho^*(q,t) \rho(q,t+\tau) \rangle_t}
+%	{\langle |\rho(\mathbf{q},t)|^2 \rangle_t}
+%	\nonumber
+%	\end{align}
+%
+%	\normalsize
+%	Intermediate scattering function
+%	}
+%	\end{textblock}
+\end{frame}
 
 
-\frame{
-\frametitle{Linear space invariant imaging}
-	\begin{textblock}{0.5}(0.0,0.15)
-	\visible<1->{
-	\centering
-	Image correlation function
-	\[
-		g(\mathbf{q}, \tau) = \frac
-		{\langle I^*(\mathbf{q},t) I(\mathbf{q},t+\tau) \rangle_t}
-		{\langle |I(\mathbf{q},t)|^2 \rangle_t}
-	\]
-	}
-	\end{textblock}
 
 
-
-	\begin{textblock}{0.5}(0.5,0.15)
-	\visible<2->{
-	\centering
-	Intermediate scattering function
-	\[
-		f(\mathbf{q},\tau) = \frac
-		{\langle \rho^*(\mathbf{q},t) \rho(\mathbf{q},t+\tau) \rangle_t}
-		{\langle |\rho(\mathbf{q},t)|^2 \rangle_t}
-	\]}
-	\end{textblock}
-
-	\begin{textblock}{0.9}(0.05,0.42)
-		\visible<2->{	
-		Linear space-invariant imaging:
-		\begin{align}
-		I(\mathbf{r},t) = I_0 + \int \mathsf{d}\mathbf{r}' \ \mathsf{d}z'
-		T(\mathbf{r}-\mathbf{r}',-z') c(\mathbf{r}',z',t)
-		\nonumber
-		\end{align}
-		}
-	\end{textblock}
-
-
-	\begin{textblock}{0.9}(0.05,0.6)
-	\visible<2->{
-		\centering
-		\includegraphics[width=0.7\textwidth]
-		{Sources/X-DFA/image_transfer_function1.pdf}
-	}
-	\end{textblock}
-	
-}
-
-\frame{
-%\frametitle{Intermediate Scattering Function}
-
+\begin{frame}[noframenumbering]
 \begin{textblock}{0.38}(0.02,0.02)
 	\only<1>{
 	\includegraphics[width=\textwidth]
@@ -535,17 +447,39 @@
 	}
 \end{textblock}
 
+\begin{textblock}{0.5}(0.52,0.55)
+	\only<1,2>{
+	\centering
+	\colorbox{lightblue}{
+		Linear space invariant imaging}
+	\begin{align}
+	f(q,\tau) = \frac
+	{\langle \rho^*(q,t) \rho(q,t+\tau) \rangle_t}
+	{\langle |\rho(\mathbf{q},t)|^2 \rangle_t}
+	\nonumber
+	\end{align}
+	
+	Intermediate scattering function}
+\end{textblock}
+
 
 \begin{textblock}{0.38}(0.55,0.5)
 	\visible<3->{
 		\includegraphics[width=\textwidth]
-		{Sources/X-DFA/ISF_vs_tau.pdf}}
+		{Sources/X-DFA/ISF_vs_tau.eps}}
 \end{textblock}
-
-}
+\end{frame}
 
 \frame{
-\frametitle{Intermediate scattering function $f(q,\tau)$}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.55\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.62}(0.02,0.03)
+	\textcolor{white}{
+		\Large Intermediate scattering function $f(q,\tau)$}
+\end{textblock}
 
 \begin{textblock}{0.35}(0.02,0.1)
 	\visible<1->{
@@ -575,10 +509,163 @@
 		\includegraphics[width=\textwidth]
 		{Sources/X-DFA/FitParameters.pdf}}
 \end{textblock}
+
+}
+
+\frame{
+	
+	\begin{textblock}{0.9}(0.05,0.03)
+		\centering
+		\visible<2->{
+			\Large{\textcolor{red}{
+					Extending\\}}}
+		\textcolor{blue1}{
+			\Large{Differential Dynamic Microscopy (DDM)\\}}
+		\visible<2->{
+			\Large{\textcolor{red}{
+					to X-ray imaging}}}
+	\end{textblock}
+	
+	
+	
+	\only<1>{
+		\begin{textblock}{0.9}(0.05,0.3)
+			\centering
+			\begin{tabular}{c|c|c}
+				\toprule
+				& \textbf{up to now} & \textbf{this work}\\
+				\hline
+				\textbf{system} & dispersion, gels & fluidized bed\\
+				\textbf{particles} & colloids & granulate\\
+				\textbf{part.\ diameter} & $<1~\upmu\si{m}$ & $\approx 200~\upmu\si{m}$\\
+				\textbf{volume fraction } & $\Phi \leq 0.33$ &  $0.45 < \Phi < 0.56$\\
+				\textbf{imaging} & light microscope & x-ray radiography\\
+				\textbf{dynamics} & 
+				\multicolumn{2}{c}{Brownian motion, caging, glassy, collective motion}\\
+				\bottomrule
+			\end{tabular}
+		\end{textblock}
+	}	
+	
+	
+	\only<2>{
+		\begin{textblock}{0.9}(0.05,0.3)
+			\centering
+			\begin{tabular}{c|c|c}
+				\toprule
+				& \textbf{up to now} & \textbf{this work}\\
+				\hline
+				\textbf{system} & dispersion, gels & fluidized bed\\
+				\textbf{particles} & colloids & \textcolor{red}{granulate}\\
+				\textbf{part.\ diameter} & $<1~\upmu\si{m}$ & $\approx 200~\upmu\si{m}$\\
+				\textbf{volume fraction } & $\Phi \leq 0.33$ &  $0.45 < \Phi < 0.56$\\
+				\textbf{imaging} & light microscope & \textcolor{red}{x-ray radiography}\\
+				\textbf{dynamics} & 
+				\multicolumn{2}{c}{Brownian motion, caging, glassy, collective motion}\\
+				\bottomrule
+			\end{tabular}
+		\end{textblock}
+	}	
+	
+	
+	\begin{textblock}{0.9}(0.05,0.8)
+		\centering
+		\visible<2->{
+			\Large{\textcolor{red}{
+					Digital Fourier Analysis of X-Ray Radiograms (X-DFA)}}}
+	\end{textblock}
+	
+	\begin{textblock}{0.7}(0.05,0.95)
+		\footnotesize{Giavazzi \textit{et al}, PRE \textbf{80}, 031403 (2009)}
+	\end{textblock}
+	
 }
 
 \frame{
 \textcolor{red}{extra slide with videos of 10, 1000, 100000 particles + accuracy,
 next slide is \textit{Extending DDM to X-DFA}}
+
+state that tracking and PIV not possible, but X-DFA gives reasonable results.
+}
+
+
+\frame{
+backup slides from here on
+}
+
+\frame{
+	\frametitle{Synthetic radiograms}
+	
+	\begin{textblock}{0.9}(0.03,0.05)
+		\centering
+		\includegraphics[width=0.6\textwidth]{Sources/X-DFA/particle_mask_construction.pdf}
+	\end{textblock}
+	
+	\begin{textblock}{0.9}(0.05,0.8)
+		\centering
+		Beer-Lambert\\
+		$I(z_l) = I_0 \exp(-\mu z)$
+	\end{textblock}
+	
+	\begin{textblock}{0.2}(0.03,0.6)
+		\visible<2->{
+			\includegraphics[width=\textwidth]{Sources/X-DFA/thicknessMap_nPart10.png}}
+	\end{textblock}
+	
+	\begin{textblock}{0.2}(0.77,0.6)
+		\visible<2->{
+			\frame{
+				\includegraphics[width=\textwidth]{Sources/X-DFA/fake_img_nPart10.png}
+		}}
+	\end{textblock}
+}
+
+\frame{
+	\frametitle{Linear space invariant imaging}
+	\begin{textblock}{0.5}(0.0,0.15)
+		\visible<1->{
+			\centering
+			Image correlation function
+			\[
+			g(\mathbf{q}, \tau) = \frac
+			{\langle I^*(\mathbf{q},t) I(\mathbf{q},t+\tau) \rangle_t}
+			{\langle |I(\mathbf{q},t)|^2 \rangle_t}
+			\]
+		}
+	\end{textblock}
+	
+	
+	
+	\begin{textblock}{0.5}(0.5,0.15)
+		\visible<2->{
+			\centering
+			Intermediate scattering function
+			\[
+			f(\mathbf{q},\tau) = \frac
+			{\langle \rho^*(\mathbf{q},t) \rho(\mathbf{q},t+\tau) \rangle_t}
+			{\langle |\rho(\mathbf{q},t)|^2 \rangle_t}
+			\]}
+	\end{textblock}
+	
+	\begin{textblock}{0.9}(0.05,0.42)
+		\visible<2->{	
+			Linear space-invariant imaging:
+			\begin{align}
+			I(\mathbf{r},t) = I_0 + \int \mathsf{d}\mathbf{r}' \ \mathsf{d}z'
+			T(\mathbf{r}-\mathbf{r}',-z') c(\mathbf{r}',z',t)
+			\nonumber
+			\end{align}
+		}
+	\end{textblock}
+	
+	
+	\begin{textblock}{0.9}(0.05,0.6)
+		\visible<2->{
+			\centering
+			\includegraphics[width=0.7\textwidth]
+			{Sources/X-DFA/image_transfer_function1.pdf}
+		}
+	\end{textblock}
+	
 }
 

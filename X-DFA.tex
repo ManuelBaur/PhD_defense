@@ -5,12 +5,12 @@
 	\end{tikzpicture}
 	\begin{textblock}{0.9}(0.05,0.15)
 		\centering
+			{\huge
+			\textcolor{white}{
+			Measuring granular dynamics with}}\\[0.2cm]
 		{\Huge
 			\textcolor{white}{
-		X-ray Digital Fourier Analysis (X-DFA)}}\\[0.2cm]
-		{\huge
-			\textcolor{white}{
-			A technique to measure granular dynamics}}
+			X-ray Digital Fourier Analysis (X-DFA)}}
 	\end{textblock}
 
 	\begin{textblock}{0.9}(0.05,0.45)
@@ -19,66 +19,99 @@
 		{\includegraphics[width=0.25\textwidth]{Sources/X-DFA/cropped_80kV_340uA_38ms_0000.png}}
 		{Sources/X-DFA/3500mul_per_min_cropped_roi_512x512.avi}
 	\end{textblock}
+	
+	\begin{textblock}{0.9}(0.05,0.93)
+		\centering
+		{
+		\textcolor{white}{
+		In collaboration with M.\ Escobedo \& S.\ Egelhaaf, University of Düsseldorf}}
+	\end{textblock}
 }
 
 
 \frame{
-\frametitle{Experiments}
-\begin{textblock}{0.6}(0.03,0.1)
-	\centering
-	\includegraphics[width=\textwidth]{Sources/X-DFA/setup-photo_and_fluidized_bed_sketch.pdf}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.52\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.6}(0.02,0.03)
+	\textcolor{white}{
+		\Large The system: A liquid fluidized bed}
 \end{textblock}
 
-\begin{textblock}{0.6}(0.03,0.7)
-	\begin{itemize}
-		\item volume fraction: $ 0.45 < \Phi < 0.56 $
-		\item control dynamics and $\Phi$ via pump rate
-	\end{itemize}
+\begin{textblock}{0.6}(0.03,0.12)
+	\visible<1->{
+	\includegraphics[width=\textwidth]{Sources/X-DFA/experiment-fluidized_bed_1.pdf}}
 \end{textblock}
 
-\begin{textblock}{0.3}(0.67,0.1)
+\begin{textblock}{0.6}(0.4,0.9)
+	$0.45 < \Phi < 0.56$
+\end{textblock}
+
+
+\begin{textblock}{0.3}(0.65,0.1)
 	\centering
 	\only<1>{
+		Radiogram\\
 		\includegraphics[width=\textwidth]{Sources/X-DFA/radiogram.png}}
 \end{textblock}		
 
-\begin{textblock}{0.3}(0.67,0.1)
-	\centering	
+\begin{textblock}{0.3}(0.65,0.05)
 	\visible<2->{
-	\movie[width =\textwidth, loop]
-	{\includegraphics[width=\textwidth]{Sources/X-DFA/centroid_bronze_tracer_frame_nr_0000.png}}
-	{Sources/X-DFA/centroid_bronze_tracer_4.mp4}
+	\centering
+	Particle tracking}
+\end{textblock}
+
+\begin{textblock}{0.3}(0.65,0.1)
+	\visible<2->{
+	\movie[width = \textwidth]
+	{\includegraphics[width = \textwidth]{Sources/X-DFA/centroid_bronze_tracer_frame_nr_0000.png}}
+	{Sources/X-DFA/centroid_bronze_tracer_4.mp4}}
+\end{textblock}
+
+\begin{textblock}{0.3}(0.65,0.1)
+	\centering
+	\visible<3->{\includegraphics[width=\textwidth]{Sources/X-DFA/cross.pdf}}
+\end{textblock}
+}
+
+\begin{frame}[noframenumbering]
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.51\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.6}(0.02,0.03)
+	\textcolor{white}{
+		\Large Experiments: A liquid fluidized bed}
+\end{textblock}
+
+\begin{textblock}{0.6}(0.03,0.12)
+		\includegraphics[width=\textwidth]{Sources/X-DFA/experiment-fluidized_bed_1.pdf}
+\end{textblock}
+
+\begin{textblock}{0.6}(0.42,0.9)
+	$0.45 < \Phi < 0.56$
+\end{textblock}
+
+
+\begin{textblock}{0.3}(0.65,0.03)
+	\centering
+	Radiogram\\
+		\includegraphics[width=\textwidth]{Sources/X-DFA/radiogram_ROI_marked.png}
+\end{textblock}		
+
+\begin{textblock}{0.3}(0.65,0.6)
+	\centering
+	\fbox{
+	\movie[height=0.65\textwidth, poster]
+	{\includegraphics[width=0.65\textwidth]{Sources/X-DFA/cropped_80kV_340uA_38ms_0000.png}}
+	{Sources/X-DFA/3500mul_per_min_cropped_roi_512x512.avi}
 	}
 \end{textblock}
-}
+\end{frame}
 
-\frame{
-\frametitle{Experiments}
-
-\begin{textblock}{0.6}(0.03,0.1)
-	\centering
-	\includegraphics[width=\textwidth]{Sources/X-DFA/setup-photo_and_fluidized_bed_sketch.pdf}
-\end{textblock}
-
-\begin{textblock}{0.6}(0.03,0.7)
-	\begin{itemize}
-		\item volume fraction: $ 0.45 < \Phi < 0.56 $
-		\item control dynamics and $\Phi$ via pump rate
-	\end{itemize}
-\end{textblock}
-
-\begin{textblock}{0.3}(0.67,0.05)
-	\centering
-		\includegraphics[width=\textwidth]{Sources/X-DFA/radiogram_ROI_marked.png}
-\end{textblock}	
-
-\begin{textblock}{0.3}(0.67,0.6)
-	\centering
-	\movie[height=0.7\textwidth, width =0.7\textwidth, poster]
-	{\includegraphics[width=0.7\textwidth]{Sources/X-DFA/cropped_80kV_340uA_38ms_0000.png}}
-	{Sources/X-DFA/3500mul_per_min_cropped_roi_512x512.avi}
-\end{textblock}
-}
 
 
 \frame{
@@ -157,23 +190,12 @@
 	
 \begin{textblock}{0.4}(0.05,0.2)
 	\centering
-	\fbox{\includegraphics[width=0.8\textwidth]{Sources/X-DFA/fake_img_nPart10.png}}\\
-	\vspace{0.5cm}
-	\href{run:Sources/X-DFA/10_particles.avi}{\textcolor{red}{Video 10 Particles}}
-%	\includemedia[
-%	label=some_dice,
-%	width=0.8\textwidth,height=0.8\textwidth, % 16:9
-%	addresource=Sources/X-DFA/10_particles.avi, 
-%	transparent,
-%	activate=pageopen,
-%	passcontext,
-%	flashvars={
-%		source=Sources/X-DFA/10_particles.avi
-%		&autoPlay=false % start playing on activation
-%		&loop=true
-%	}
-%	]{}{VPlayer.swf}
+	\fbox{
+	\movie[width =0.8\textwidth, poster, loop]
+	{\includegraphics[width=0.8\textwidth]{Sources/X-DFA/fake_img_nPart10.png}}
+	{Sources/X-DFA/10_particles.avi}}
 \end{textblock}
+
 
 \begin{textblock}{0.45}(0.55,0.2)
 \includegraphics[width=0.8\textwidth]{Sources/X-DFA/trajectory_plot_nPart10.png}
@@ -392,7 +414,7 @@
 
 	\begin{textblock}{0.3}(0.45,0.92)
 	\visible<5->{
-		\textcolor{red}{image correlation function}
+		\textcolor{red}{Image correlation function}
 	}
 	\end{textblock}
 }
@@ -403,7 +425,7 @@
 	\begin{textblock}{0.5}(0.0,0.15)
 	\visible<1->{
 	\centering
-	image correlation function
+	Image correlation function
 	\[
 		g(\mathbf{q}, \tau) = \frac
 		{\langle I^*(\mathbf{q},t) I(\mathbf{q},t+\tau) \rangle_t}
@@ -417,7 +439,7 @@
 	\begin{textblock}{0.5}(0.5,0.15)
 	\visible<2->{
 	\centering
-	intermediate scattering function
+	Intermediate scattering function
 	\[
 		f(\mathbf{q},\tau) = \frac
 		{\langle \rho^*(\mathbf{q},t) \rho(\mathbf{q},t+\tau) \rangle_t}
@@ -429,7 +451,7 @@
 		\visible<2->{	
 		Linear space-invariant imaging:
 		\begin{align}
-		I(\mathbf{r},t) = I_0 + \int \mathrm{d}\mathbf{r}' \ \mathrm{d}z'
+		I(\mathbf{r},t) = I_0 + \int \mathsf{d}\mathbf{r}' \ \mathsf{d}z'
 		T(\mathbf{r}-\mathbf{r}',-z') c(\mathbf{r}',z',t)
 		\nonumber
 		\end{align}
@@ -487,7 +509,7 @@
 
 \begin{textblock}{0.3}(0.2,0.8)
 	\only<1>{
-		\textcolor{red}{image correlation function}
+		\textcolor{red}{Image correlation function}
 	}
 \end{textblock}
 
@@ -507,8 +529,8 @@
 		\end{align}
 		
 	\begin{itemize}
-		\item $d(q, \tau \rightarrow 0) = \textcolor{darkgreen}{B(q)} = 0$
-		\item $d(q, \tau \rightarrow 0) = A(q) + B(q)$
+		\item $D(q, \tau \rightarrow 0) = \textcolor{darkgreen}{B(q)} = 0$
+		\item $D(q, \tau \rightarrow \infty) = A(q) + B(q)$
 	\end{itemize}
 	}
 \end{textblock}
@@ -553,5 +575,10 @@
 		\includegraphics[width=\textwidth]
 		{Sources/X-DFA/FitParameters.pdf}}
 \end{textblock}
+}
+
+\frame{
+\textcolor{red}{extra slide with videos of 10, 1000, 100000 particles + accuracy,
+next slide is \textit{Extending DDM to X-DFA}}
 }
 

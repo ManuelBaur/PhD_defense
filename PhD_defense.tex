@@ -76,7 +76,23 @@
 % get rid of navigation symbols
 \setbeamertemplate{navigation symbols}{}
 \setbeamercolor{frametitle}{fg=blue1} % set color of title
+\setbeamercolor{footline}{fg=blue1}
+\setbeamerfont{footline}{series=\bfseries}
+%\setbeamerfont{footline}{\large}
 
+\includeonly{%
+%Title,
+%Motivation,
+%BeamHardening,
+X-DFA,
+%SedimentingBed
+}
+
+
+\begin{document}
+\include{Title}
+
+%%% start from here on with frame numbers
 \addtobeamertemplate{navigation symbols}{}{%
 	\usebeamerfont{footline}%
 	\usebeamercolor[fg]{footline}%
@@ -85,29 +101,13 @@
 	\insertframenumber %/\inserttotalframenumber
 }
 
-\setbeamercolor{footline}{fg=blue1}
-\setbeamerfont{footline}{series=\bfseries}
-%\setbeamerfont{footline}{\large}
-
-\includeonly{%
-Title,
-Motivation,
-BeamHardening,
-X-DFA,
-SedimentingBed
-}
-
-
-\begin{document}
-%\include{Title}
-
-%\include{Motivation}
+\include{Motivation}
 
 \include{BeamHardening}
-%
-%\include{X-DFA}
-%%
-%\include{SedimentingBed}
+
+\include{X-DFA}
+
+\include{SedimentingBed}
 \end{document}
 
 

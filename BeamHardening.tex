@@ -3,18 +3,18 @@
 \fill[blue1]
 (current page.north west) rectangle ([xshift=12.cm,yshift=-10.cm]current page.east|-{pic cs:end});
 \end{tikzpicture}
-\begin{textblock}{0.9}(0.05,0.1)
+\begin{textblock}{0.9}(0.05,0.08)
 \centering
 \Huge{
 \textcolor{white}{Measuring the volume fraction of \textbf{dynamic} granular systems}}\\
 \end{textblock}
 
-\begin{textblock}{0.9}(0.05,0.38)
+\begin{textblock}{0.9}(0.05,0.34)
 	\centering
 	\includegraphics[width=0.8\textwidth]{Sources/beam_hardening/2beams_attenuation_marked.pdf}
 \end{textblock}
 
-\begin{textblock}{0.9}(0.05,0.7)
+\begin{textblock}{0.9}(0.05,0.65)
 \visible<1->{
 \centering
 \Huge{
@@ -22,11 +22,13 @@
 		in X-ray radiograms}}}
 \end{textblock}
 
-\begin{textblock}{0.9}(0.05,0.95)
+\begin{textblock}{0.9}(0.05,0.9)
 	\visible<1->{
 	\centering
 	{
-	\textcolor{white}{In collaboration with Norman Uhlmann, Fraunhofer EZRT}}}
+	\textcolor{white}{
+		Baur \textit{et al}, \textit{Rev.\ Sci.\ Instrum.}\ (2019)\\
+		In collaboration with Norman Uhlmann, Fraunhofer EZRT}}}
 \end{textblock}
 }
 
@@ -233,13 +235,38 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 		$S(E) = S~\Theta(E - E_\text{min})$}}
 \end{textblock}
 
-
-\begin{textblock}{0.5}(0.05,0.7)
-	\visible<1->{
-		$I(x) \propto \int \textcolor{blue}{N(E)} \exp\{-
+\begin{textblock}{0.5}(0.02,0.6)
+	\only<1>{
+		\begin{align}
+		I(x) &\propto \int \textcolor{blue}{N(E)} \exp\{-
 		\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
-		\textcolor{red}{S(E)}~\mathrm{d}E $}
+		\textcolor{red}{S(E)}~\mathsf{d}E \nonumber\\
+		&\textcolor{white}{\propto S \int_{E_\text{min}}^{E_\text{max}}
+		(-a E + b) 
+		\exp[-(\mu_\text{C} + c E^{-3}) x] 
+		\mathsf{d}E}
+		\nonumber
+		\end{align}
+	}
+	\visible<2->{
+		\begin{align}
+		I(x) &\propto \int \textcolor{blue}{N(E)} \exp\{-
+		\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
+		\textcolor{red}{S(E)}~\mathsf{d}E \nonumber \\
+		&\propto \textcolor{red}{S} \int_{E_\text{min}}^{E_\text{max}}
+		(\textcolor{blue}{-a E + b}) 
+		\exp\{-(\textcolor{darkgreen}{\mu_\text{C} + c E^{-3}}) x\} 
+		\mathsf{d}E 
+		\nonumber
+		\end{align}
+	}
+	%	\visible<2->{
+	%		\[ \textcolor{darkgreen}{\mu_\text{eff} (x)} = - 
+	%		\frac{1}{x} 
+	%		\frac{\textcolor{red}{I(x)}}{\textcolor{blue}{I_0}}\]}
 \end{textblock}
+
+
 
 \begin{textblock}{0.32}(0.55,0.58)
 	\visible<2->{
@@ -328,15 +355,15 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 \end{textblock}
 
 
-\begin{textblock}{0.5}(0.05,0.7)
+\begin{textblock}{0.5}(0.02,0.6)
 	\visible<1->{
-		$I(x) \propto \int \textcolor{blue}{N(E)} \exp\{-
+	\begin{align}
+		I(x) \propto &\int \textcolor{blue}{N(E)} \exp\{-
 		\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
-		\textcolor{red}{S(E)}~\mathrm{d}E $}
-%	\visible<2->{
-%		\[ \textcolor{darkgreen}{\mu_\text{eff} (x)} = - 
-%		\frac{1}{x} 
-%		\frac{\textcolor{red}{I(x)}}{\textcolor{blue}{I_0}}\]}
+		\textcolor{red}{S(E)}~\mathsf{d}E  \nonumber\\
+		&\int \rightarrow \sum \nonumber
+	\end{align}
+}
 \end{textblock}
 
 \begin{textblock}{0.32}(0.55,0.58)
@@ -367,7 +394,7 @@ $(2)$ XCOM supplied by NIST}
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.5\textwidth,yshift=0.34\textheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.49\textwidth,yshift=0.335\textheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
 \begin{textblock}{0.5}(0.02,0.03)
@@ -375,17 +402,62 @@ $(2)$ XCOM supplied by NIST}
 		\Large Heuristic model functions for $\mu_\text{eff}$}
 \end{textblock}
 
-\begin{textblock}{0.4}(0.03,0.08)
+\begin{textblock}{0.39}(0.03,0.1)
 	\only<1>{
 	\includegraphics[width=\textwidth]
-	{Sources/beam_hardening/borosilicate_glass_140kV_model_comparison_upper_plot.eps}}
+	{Sources/beam_hardening/borosilicate_glass_60kV_model_comparison_upper_plot0.eps}}
 	\visible<2->{
 	\includegraphics[width=\textwidth]
-	{Sources/beam_hardening/borosilicate_glass_140kV_model_comparison_multiplot.eps}}
+	{Sources/beam_hardening/borosilicate_glass_60kV_model_comparison_multiplot.eps}}
 \end{textblock}
 
 
 \begin{textblock}{0.5}(0.4, 0.12)
+\only<1>{
+	\begin{tabular}{ll}
+		{\small
+			\textcolor{BS}{$\mu_\text{eff} (x)= \mu_0 - \lambda x$}} &
+		{\small Bjärngard \& Shackford} \\
+		& {\small (1994)}\\[0.7cm]
+		
+		{\small	
+			\textcolor{Yu1}{$\mu_\text{eff}(x) = \frac{\mu_0}{1+\lambda x}$}} &
+		\multirow{2}{\linewidth}{\small Yu \textit{et al.} (1997)}\\
+		
+		{\small
+			\textcolor{white}{$\mu_\text{eff}(x) = \frac{\mu_0}{(1+\lambda x)^\beta}$}} \\[0.7cm]
+		
+		{\small
+			\textcolor{KS}{
+				$\mu_\text{eff}(x) = \mu(E_\text{max}) +
+				\frac{2 \mu_1}{x \sqrt{-\lambda_1^2 + 4 \lambda_2}} \times$}} & Kleinschmidt (1999)
+		\\
+		\multicolumn{2}{l}{\small
+			\textcolor{KS}{
+				$\quad\left[
+				\arctan\left(
+				\frac{\lambda_1 + 2 \lambda_2 x}{\sqrt{-\lambda_1^2 + 4 \lambda_2}}
+				\right)
+				-\arctan\left(
+				\frac{\lambda_1}{\sqrt{-\lambda_1^2 + 4 \lambda_2}}
+				\right)
+				\right]
+				$ }} \\[0.7cm]
+		
+		{\small
+			\textcolor{white}{$\mu_\text{eff}(x) = -\frac{1}{x} \ln \left[A+B \exp(-x/C)\right]$}} & 
+		{\small
+			\textcolor{white}{
+			Mudde \textit{et al.} (2008) }}\\[0.7cm]
+		
+		{\small
+			\textcolor{BA}{$\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$}} &
+		{\small \textbf{Baur \textit{et al.} (2019)}}\\
+		& {\small (this work)}
+	\end{tabular}
+}
+	
+\visible<2->{
 \begin{tabular}{ll}
 {\small
 	\textcolor{BS}{$\mu_\text{eff} (x)= \mu_0 - \lambda x$}} &
@@ -426,9 +498,9 @@ $(2)$ XCOM supplied by NIST}
 {\small \textbf{Baur \textit{et al.} (2019)}}\\
 & {\small (this work)}
 \end{tabular}
-
+}
 \end{textblock}
-f}
+}
 
 %% ------------- RESULTS -----------------------------
 \frame{

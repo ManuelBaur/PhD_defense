@@ -152,10 +152,10 @@ set multiplot layout 2,1 # spacing...0.
 set bmargin 0.4
 set lmargin 7
 
-set origin 0.,0.5
-set size 1.,0.5
+set origin 0.,0.6
+set size 1.,0.4
 
-set ylabel 'Attenuation, {/Symbol m}_{eff}({/Helvetica-Italic E,x}) (1/cm)'
+set ylabel 'Attenuation, {/Symbol m}_{eff}({/Helvetica-Italic x}) (1/cm)'
 set xtics 0.4,0.4,4
 set xtics format ''
 set xrange [0:4.2]
@@ -166,15 +166,17 @@ set ytics format '%.1f'
 set label 1 at 0.05,0.7 font ',30'  'a)'
 
 ########### write legend #############
-set key at 4.,3.1 maxrows 7 samplen 6.0
+set key at 4.,3.5 maxrows 7 samplen 6.0
 
 
 ####### attenuation plot 60 kV ###########
 ## d in cm, mu in 1/cm  , \344 = ä
-plot	data_60kV u ($1*100):($2/100) ls 1 pt 64 ps 1.5 t '60 kV data',\
+plot    data_60kV u ($1*100):($2/100) ls 1 pt 64 ps 1.5 t '60 kV data',\
 	[0.1:] mueff_60kV_a(x) lt 3 lc '#007e00' lw 5 t 'BS',\
-	[0.1:] mueff_60kV_e(x) lt 7 lc '#ff8000' lw 5 t 'MU',\
+	[0.1:] mueff_60kV_b(x) lt 2 lc '#cc00cc' lw 5 t 'Yu 1',\
+	[0.1:] mueff_60kV_e(x) lt 4 lc '#66cc00' lw 5 t 'KS',\
 	[0.1:] f1(x) lt 1 lc '#0066cc' lw 5 t 'BA'
+	# [0.1:] mueff_60kV_e(x) lt 7 lc '#ff8000' lw 5 t 'MU',\
 
 
 ###### deviation plot 60 kV #############
@@ -182,7 +184,7 @@ unset label
 set bmargin 3.5
 set tmargin 0
 
-set size 1.,0.5
+set size 1.,0.6
 
 set xlabel 'Thickness, {/Helvetica-Italic x} (cm)'
 set label 2 at 0.05,0.22 font ',30' 'b)'
@@ -192,7 +194,7 @@ set yrange [-0.2:0.25]
 set ylabel '{/Symbol D}{/Symbol m}_{eff} (1/cm)' offset 0.8 
 set ytics -0.2,0.1,0.2
 
-set key at 3.2,-0.105 maxrows 3 noinvert samplen 6.0
+set key at 3.6,-0.105 maxrows 3 noinvert samplen 4.0
 set arrow from 0.,0. to 4.2,0. nohead lt 3 lw 5 lc '#000000' back # zero line
 
 plot	data_60kV u ($1*100):(mueff_60kV_a($1*100) - $2/100)\

@@ -84,7 +84,7 @@
 
 \begin{textblock}{0.6}(0.02,0.03)
 	\textcolor{white}{
-		\Large Experiments: A liquid fluidized bed}
+		\Large The system: A liquid fluidized bed}
 \end{textblock}
 
 \begin{textblock}{0.6}(0.03,0.12)
@@ -442,7 +442,7 @@
 		
 	\begin{itemize}
 		\item $D(q, \tau \rightarrow 0) = \textcolor{darkgreen}{B(q)} = 0$
-		\item $D(q, \tau \rightarrow \infty) = A(q) + B(q)$
+		\item $D(q, \tau \rightarrow \infty) = \textcolor{orange}{A(q) + B(q)}$
 	\end{itemize}
 	}
 \end{textblock}
@@ -576,9 +576,68 @@
 	\end{textblock}
 	
 	\begin{textblock}{0.7}(0.05,0.95)
-		\footnotesize{Giavazzi \textit{et al}, PRE \textbf{80}, 031403 (2009)}
+		{\footnotesize Giavazzi \textit{et al}, PRE \textbf{80}, 031403 (2009)}
 	\end{textblock}
 	
+}
+
+
+\frame{
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.75\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.9}(0.02,0.03)
+	\textcolor{white}{
+		\Large Accuracy of X-DFA: Varying the number of particles}
+\end{textblock}
+
+\begin{textblock}{0.28}(0.03,0.12)
+\centering
+10 particles\\[0.1cm]
+
+\movie[width = \textwidth]
+{\includegraphics[width=\textwidth]{Sources/X-DFA/10_particles_fake_img.png}}
+{Sources/X-DFA/10_part_1900-2100.avi}
+\\
+\vspace{1cm}
+\colorbox{lightblue}{
+6\%}
+\end{textblock}
+
+\begin{textblock}{0.28}(0.345,0.12)
+\centering
+1000 particles\\[0.1cm]
+
+\movie[width = \textwidth]
+{\includegraphics[width=\textwidth]{Sources/X-DFA/1000_particles_fake_img.png}}
+{Sources/X-DFA/1000_particles.avi}
+\\
+\vspace{1cm}
+\colorbox{lightblue}{
+2\%}
+\end{textblock}
+
+\begin{textblock}{0.28}(0.66,0.12)
+\centering
+$100\,000$ particles\\[0.1cm]
+
+\movie[width = \textwidth]
+{\includegraphics[width=\textwidth]{Sources/X-DFA/100000_particles_fake_img.png}}
+{Sources/X-DFA/100000_particles.avi}
+\\
+\vspace{1cm}
+\colorbox{lightblue}{
+2\%}\\[0.1cm]
+
+\colorbox{red}{PIV 300\%}
+\end{textblock}
+
+\begin{textblock}{0.9}(0.05,0.72)
+	\centering
+	Deviation from the simulation input:
+\end{textblock}
 }
 
 \frame{

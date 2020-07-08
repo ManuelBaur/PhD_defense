@@ -104,12 +104,12 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.45\textwidth,yshift=0.33\textheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.48\textwidth,yshift=0.33\textheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
 \begin{textblock}{0.5}(0.02,0.03)
 	\textcolor{white}{
-		\Large The effective attenuation, $\mu_\text{eff}$}
+		\Large The effective attenuation, $\mu_\text{eff}(x)$}
 \end{textblock}
 
 
@@ -176,13 +176,12 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.23\textwidth,yshift=0.33\textheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.29\textwidth,yshift=0.33\textheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
-\begin{textblock}{0.22}(0.0,0.03)
-	\centering
+\begin{textblock}{0.3}(0.02,0.03)
 	\textcolor{white}{
-		\Large Modeling of $\mu_\text{eff}$}
+		\Large Modeling of $\mu_\text{eff}(x)$}
 \end{textblock}
 
 
@@ -260,10 +259,6 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 		\nonumber
 		\end{align}
 	}
-	%	\visible<2->{
-	%		\[ \textcolor{darkgreen}{\mu_\text{eff} (x)} = - 
-	%		\frac{1}{x} 
-	%		\frac{\textcolor{red}{I(x)}}{\textcolor{blue}{I_0}}\]}
 \end{textblock}
 
 
@@ -294,14 +289,14 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.23\textwidth,yshift=0.27\textheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.28\textwidth,yshift=0.27\textheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
-\begin{textblock}{0.22}(0.0,0.03)
+\begin{textblock}{0.23}(0.02,0.03)
 	\centering
 	\textcolor{white}{
 	\Large Numerical approx.\ of 
-	$\mu_\text{eff}$}
+	$\mu_\text{eff}(x)$}
 \end{textblock}
 
 
@@ -394,12 +389,12 @@ $(2)$ XCOM supplied by NIST}
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.49\textwidth,yshift=0.335\textheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.52\textwidth,yshift=0.335\textheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
 \begin{textblock}{0.5}(0.02,0.03)
 	\textcolor{white}{
-		\Large Heuristic model functions for $\mu_\text{eff}$}
+		\Large Heuristic model functions for $\mu_\text{eff}(x)$}
 \end{textblock}
 
 \begin{textblock}{0.39}(0.03,0.1)
@@ -494,8 +489,8 @@ $(2)$ XCOM supplied by NIST}
 	Mudde \textit{et al.} (2008) }\\[0.7cm]
 
 {\small
-\colorbox{BA}{\textcolor{white}{$\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$}} &
-{\small \textbf{Baur \textit{et al.} (2019)}}}\\
+\colorbox{BA}{\textcolor{white}{$\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$}}} &
+{\small \textbf{Baur \textit{et al.} (2019)}}\\
 & {\small (this work)}
 \end{tabular}
 }

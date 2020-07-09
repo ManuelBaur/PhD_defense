@@ -28,7 +28,7 @@
 	\end{textblock}
 }
 
-
+%% The system: A liquid fluidized bed
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
@@ -60,11 +60,13 @@
 \begin{textblock}{0.3}(0.65,0.05)
 	\visible<2->{
 	\centering
-	Particle tracking}
+	\textbf{Particle tracking}\\
+	Contrast: $\rho_\text{tracer} > \rho_\text{bed}$}
 \end{textblock}
 
 \begin{textblock}{0.3}(0.65,0.1)
 	\visible<2->{
+	\vspace{0.5cm}
 	\movie[width = \textwidth]
 	{\includegraphics[width = \textwidth]{Sources/X-DFA/centroid_bronze_tracer_frame_nr_0000.png}}
 	{Sources/X-DFA/centroid_bronze_tracer_4.mp4}}
@@ -72,14 +74,18 @@
 
 \begin{textblock}{0.3}(0.65,0.1)
 	\centering
-	\visible<3->{\includegraphics[width=\textwidth]{Sources/X-DFA/cross.pdf}}
+	\visible<3->{
+	\vspace{0.5cm}
+	\includegraphics[width=\textwidth]{Sources/X-DFA/cross.pdf}}
 \end{textblock}
 }
 
+
+%% The system: A liquid fluidized bed (2)
 \begin{frame}[noframenumbering]
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.51\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.5\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
 \begin{textblock}{0.6}(0.02,0.03)
@@ -88,10 +94,10 @@
 \end{textblock}
 
 \begin{textblock}{0.6}(0.03,0.12)
-		\includegraphics[width=\textwidth]{Sources/X-DFA/experiment-fluidized_bed_1.pdf}
+	\includegraphics[width=\textwidth]{Sources/X-DFA/experiment-fluidized_bed_1.pdf}
 \end{textblock}
 
-\begin{textblock}{0.6}(0.42,0.9)
+\begin{textblock}{0.6}(0.4,0.9)
 	$0.45 < \Phi < 0.56$
 \end{textblock}
 
@@ -99,7 +105,7 @@
 \begin{textblock}{0.3}(0.65,0.03)
 	\centering
 	Radiogram\\
-		\includegraphics[width=\textwidth]{Sources/X-DFA/radiogram_ROI_marked.png}
+	\includegraphics[width=\textwidth]{Sources/X-DFA/radiogram_ROI_marked.png}
 \end{textblock}		
 
 \begin{textblock}{0.3}(0.65,0.6)

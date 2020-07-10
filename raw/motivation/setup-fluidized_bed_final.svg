@@ -16,7 +16,7 @@
    viewBox="0 0 508.8709 302.87131"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="setup-fluidized_bed_final.svg">
   <defs
      id="defs2">
@@ -296,15 +296,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="100.03588"
+     inkscape:cx="903.05397"
      inkscape:cy="699.52408"
      inkscape:document-units="mm"
-     inkscape:current-layer="g3196"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1049"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -798,7 +798,7 @@
              y="222.5433"
              x="-146.20792"
              id="tspan3736"
-             sodipodi:role="line">particle</tspan><tspan
+             sodipodi:role="line">Particle</tspan><tspan
              id="tspan3740"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
              y="244.59192"
@@ -814,7 +814,7 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
              y="150.7334"
              x="-145.57919"
-             sodipodi:role="line">cuvette</tspan></text>
+             sodipodi:role="line">Cuvette</tspan></text>
         <path
            inkscape:connector-curvature="0"
            id="path3750"
@@ -847,7 +847,7 @@
              id="tspan2537-5"
              x="-93.94854"
              y="381.20227"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">syringe pump</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">Syringe pump</tspan><tspan
              sodipodi:role="line"
              x="-93.94854"
              y="403.25089"
@@ -1044,7 +1044,7 @@
            y="372.59305"
            x="310.93698"
            id="tspan2537-5-1"
-           sodipodi:role="line">time <tspan
+           sodipodi:role="line">Time <tspan
    id="tspan2562"
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">t</tspan></tspan><tspan
            id="tspan2541-9-7"
@@ -1063,7 +1063,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
            y="83.401428"
            x="-231.17584"
-           sodipodi:role="line">bed height <tspan
+           sodipodi:role="line">Bed height <tspan
    id="tspan2555"
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">h</tspan></tspan><tspan
            id="tspan2541-9-4"
@@ -1151,7 +1151,7 @@
              id="tspan3495-3"
              x="117.80365"
              y="253.13307"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">expansion</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">Expansion</tspan></text>
       </g>
       <g
          transform="translate(128.3229,-157.29635)"
@@ -1173,7 +1173,7 @@
              id="tspan3495-3-1"
              x="117.80365"
              y="253.13307"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">fluidization</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">Fluidization</tspan></text>
       </g>
       <g
          transform="translate(58.608939,-94.314838)"
@@ -1197,7 +1197,7 @@
                y="253.13307"
                x="117.80365"
                id="tspan3495-3-6"
-               sodipodi:role="line">pump rate <tspan
+               sodipodi:role="line">Pump rate <tspan
    id="tspan1354"
    style="font-style:italic">Q</tspan></tspan></text>
         </g>

@@ -57,22 +57,23 @@
 		\includegraphics[width=\textwidth]{Sources/X-DFA/radiogram.png}}
 \end{textblock}		
 
-\begin{textblock}{0.3}(0.65,0.05)
+\begin{textblock}{0.3}(0.65,0.03)
 	\visible<2->{
 	\centering
 	\textbf{Particle tracking}\\
 	Contrast: $\rho_\text{tracer} > \rho_\text{bed}$}
 \end{textblock}
 
-\begin{textblock}{0.3}(0.65,0.1)
+\begin{textblock}{0.3}(0.65,0.08)
 	\visible<2->{
 	\vspace{0.5cm}
+	\fbox{\parbox{\textwidth}{
 	\movie[width = \textwidth]
 	{\includegraphics[width = \textwidth]{Sources/X-DFA/centroid_bronze_tracer_frame_nr_0000.png}}
-	{Sources/X-DFA/centroid_bronze_tracer_4.mp4}}
+	{Sources/X-DFA/centroid_bronze_tracer_4.mp4}}}}
 \end{textblock}
 
-\begin{textblock}{0.3}(0.65,0.1)
+\begin{textblock}{0.3}(0.66,0.1)
 	\centering
 	\visible<3->{
 	\vspace{0.5cm}
@@ -110,10 +111,10 @@
 
 \begin{textblock}{0.3}(0.65,0.6)
 	\centering
-	\fbox{
+	\fbox{\parbox{0.64\textwidth}{
 	\movie[height=0.65\textwidth, poster]
 	{\includegraphics[width=0.65\textwidth]{Sources/X-DFA/cropped_80kV_340uA_38ms_0000.png}}
-	{Sources/X-DFA/3500mul_per_min_cropped_roi_512x512.avi}
+	{Sources/X-DFA/3500mul_per_min_cropped_roi_512x512.avi}}
 	}
 \end{textblock}
 \end{frame}
@@ -134,62 +135,41 @@
 	
 	
 	
-	\only<1>{
-		\begin{textblock}{0.9}(0.05,0.3)
-			\centering
-			\begin{tabular}{c|c|c}
-				\toprule
-				& \textbf{up to now} & \textbf{this work}\\
-				\hline
-				\textbf{system} & dispersion, gels & fluidized bed\\
-				\textbf{particles} & colloids & granulate\\
-				\textbf{part.\ diameter} & $<1~\upmu\si{m}$ & $\approx 200~\upmu\si{m}$\\
-				\textbf{volume fraction } & $\Phi \leq 0.33$ &  $0.45 < \Phi < 0.56$\\
-				\textbf{imaging} & light microscope & x-ray radiography\\
-				\textbf{dynamics} & 
-				\multicolumn{2}{c}{Brownian motion, caging, glassy, collective motion}\\
-				\bottomrule
-			\end{tabular}
-		\end{textblock}
-	}	
+	\begin{textblock}{0.9}(0.05,0.3)
+		\centering
+		\begin{tabular}{c|c|c}
+			\toprule
+			& \textbf{Up to now} & \textbf{This work}\\
+			\hline
+			\textbf{System} & Dispersion, gels & Fluidized bed\\
+			\textbf{Particles} & Colloids $<1~\upmu\si{m}$ & 
+			\only<1>{Granulates $(150-180)~\upmu\si{m}$}
+			\only<2>{\textcolor{red}{Granulates $(150-180)~\upmu\si{m}$}}\\
+			\textbf{Volume fraction } & $\Phi \leq 0.33$ &  $0.45 < \Phi < 0.56$\\
+			\textbf{imaging} & Light microscopy & 
+			\only<1>{X-ray radiography}
+			\only<2>{\textcolor{red}{X-ray radiography}}\\
+			\textbf{Dynamics} & 
+			\multicolumn{2}{c}{Brownian motion, caging, glassy, collective motion}\\
+			\bottomrule
+		\end{tabular}
+	\end{textblock}
 	
-	
-	\only<2>{
-		\begin{textblock}{0.9}(0.05,0.3)
-			\centering
-			\begin{tabular}{c|c|c}
-				\toprule
-				& \textbf{up to now} & \textbf{this work}\\
-				\hline
-				\textbf{system} & dispersion, gels & fluidized bed\\
-				\textbf{particles} & colloids & \textcolor{red}{granulate}\\
-				\textbf{part.\ diameter} & $<1~\upmu\si{m}$ & $\approx 200~\upmu\si{m}$\\
-				\textbf{volume fraction } & $\Phi \leq 0.33$ &  $0.45 < \Phi < 0.56$\\
-				\textbf{imaging} & light microscope & \textcolor{red}{x-ray radiography}\\
-				\textbf{dynamics} & 
-				\multicolumn{2}{c}{Brownian motion, caging, glassy, collective motion}\\
-				\bottomrule
-			\end{tabular}
-		\end{textblock}
-	}	
-	
-	
-	\begin{textblock}{0.9}(0.05,0.8)
+	\begin{textblock}{0.9}(0.05,0.75)
 		\centering
 		\visible<2->{
 			\Large{\textcolor{red}{
 					Digital Fourier Analysis of X-Ray Radiograms (X-DFA)}}}
 	\end{textblock}
 	
-	\begin{textblock}{0.7}(0.05,0.95)
+	\begin{textblock}{0.7}(0.02,0.95)
 		{\footnotesize Giavazzi \textit{et al}, PRE \textbf{80}, 031403 (2009)}
 	\end{textblock}
-	
 }
 
 
 
-
+%%%%%%%%%% Introduction to DDM
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
@@ -600,9 +580,10 @@
 \centering
 10 particles\\[0.1cm]
 
+\fbox{\parbox{\textwidth}{
 \movie[width = \textwidth]
 {\includegraphics[width=\textwidth]{Sources/X-DFA/10_particles_fake_img.png}}
-{Sources/X-DFA/10_part_1900-2100.avi}
+{Sources/X-DFA/10_part_1900-2100.avi}}}
 \\
 \vspace{1cm}
 \colorbox{lightblue}{
@@ -613,9 +594,10 @@
 \centering
 1000 particles\\[0.1cm]
 
+\fbox{\parbox{\textwidth}{
 \movie[width = \textwidth]
 {\includegraphics[width=\textwidth]{Sources/X-DFA/1000_particles_fake_img.png}}
-{Sources/X-DFA/1000_particles.avi}
+{Sources/X-DFA/1000_particles.avi}}}
 \\
 \vspace{1cm}
 \colorbox{lightblue}{
@@ -626,9 +608,10 @@
 \centering
 $100\,000$ particles\\[0.1cm]
 
+\fbox{\parbox{\textwidth}{
 \movie[width = \textwidth]
 {\includegraphics[width=\textwidth]{Sources/X-DFA/100000_particles_fake_img.png}}
-{Sources/X-DFA/100000_particles.avi}
+{Sources/X-DFA/100000_particles.avi}}}
 \\
 \vspace{1cm}
 \colorbox{lightblue}{
@@ -637,7 +620,7 @@ $100\,000$ particles\\[0.1cm]
 \colorbox{red}{PIV off by $\approx 650\%$}
 \end{textblock}
 
-\begin{textblock}{0.9}(0.05,0.72)
+\begin{textblock}{0.9}(0.05,0.74)
 	\centering
 	Deviation from the simulation input:
 \end{textblock}

@@ -57,8 +57,8 @@ Thickness: $x = - \frac{1}{\mu} \ln\frac{I(x)}{I_0}$}
 \centering
 Beer-Lambert's law\\[0.2cm]
 \visible<2->{
-$\textcolor{red}{I(x)} = \textcolor{blue}{I_0} \exp(- \textcolor{darkgreen}{\mu(E,Z,\rho)}\, x)$\\
 $\mu \neq \text{const}$\\
+$\textcolor{red}{I(x)} = \textcolor{blue}{I_0} \exp(- \textcolor{darkgreen}{\mu(E,Z,\rho)}\, x)$\\
 Thickness: \colorbox{red}{$x =\, ?$}}
 \end{textblock}
 
@@ -92,15 +92,12 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 	\colorbox{red}{Beam hardening}}
 \end{textblock}
 
-\note{Attenuation of X-rays}
-
-
 }
 
 
 
 
-%%%-------------- ENERGY AVERAGED ATTENUATION ----------------
+%%%-------------- The effective attenuation ----------------
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
@@ -142,13 +139,24 @@ Thickness: \colorbox{red}{$x =\, ?$}}
 \end{textblock}
 
 \begin{textblock}{0.28}(0.7,0.05)
-	\visible<1->{
-		\textcolor{darkgreen}{\textit{effective}} attenuation: \\
-		$\textcolor{red}{I(x)} = \textcolor{blue}{I_0} \exp(- \textcolor{darkgreen}{\mu_\text{eff}(x)}\, x)$}
+	\only<1,2,3>{
+	\textcolor{darkgreen}{\textit{effective}} attenuation:
+	\begin{align}
+	\textcolor{red}{I(x)} &= 
+	\textcolor{blue}{I_0} \exp(- \textcolor{darkgreen}{\mu_\text{eff}(x)}\, x) \nonumber
+	\end{align}
+	}
 	\visible<4->{
-		\[ \textcolor{darkgreen}{\mu_\text{eff} (x)} = - 
-		\frac{1}{x} 
-		\frac{\textcolor{red}{I(x)}}{\textcolor{blue}{I_0}}\]}
+	\textcolor{darkgreen}{\textit{effective}} attenuation:
+	\begin{align}
+	\textcolor{red}{I(x)} &= 
+	\textcolor{blue}{I_0} 
+	\exp(- \textcolor{darkgreen}{\mu_\text{eff}(x)}\, x) \nonumber\\
+	\textcolor{darkgreen}{\mu_\text{eff} (x)} &= - 
+	\frac{1}{x} 
+	\frac{\textcolor{red}{I(x)}}{\textcolor{blue}{I_0}} \nonumber
+	\end{align}
+	}
 \end{textblock}
 
 

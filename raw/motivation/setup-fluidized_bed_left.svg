@@ -16,7 +16,7 @@
    viewBox="0 0 225.00003 332.87101"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="setup-fluidized_bed_left.svg">
   <defs
      id="defs2">
@@ -243,16 +243,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="893.82863"
-     inkscape:cy="259.01342"
+     inkscape:zoom="0.49497474"
+     inkscape:cx="633.92839"
+     inkscape:cy="743.36767"
      inkscape:document-units="mm"
-     inkscape:current-layer="g3196"
+     inkscape:current-layer="g5156"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1049"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -755,7 +755,7 @@
                id="tspan3736"
                x="-146.20792"
                y="190.26457"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">particle</tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">Particle</tspan><tspan
                sodipodi:role="line"
                x="-146.20792"
                y="212.31319"
@@ -771,7 +771,7 @@
                x="-145.57919"
                y="150.7334"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
-               id="tspan3746">cuvette</tspan></text>
+               id="tspan3746">Cuvette</tspan></text>
           <path
              style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
              d="m -78.313284,192.81845 h 34.040109"
@@ -804,7 +804,7 @@
                y="381.20227"
                x="-93.94854"
                id="tspan2537-5"
-               sodipodi:role="line">syringe pump</tspan><tspan
+               sodipodi:role="line">Syringe pump</tspan><tspan
                id="tspan2541-9"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888931px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
                y="403.25089"

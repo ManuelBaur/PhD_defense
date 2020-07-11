@@ -1,5 +1,10 @@
 \frame{
-backup slides from here on
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=12.cm,yshift=-10.cm]current page.east|-{pic cs:end});
+\end{tikzpicture}
+\textcolor{white}{\Huge
+Backup slides}
 }
 
 \frame{
@@ -74,6 +79,63 @@ backup slides from here on
 			\includegraphics[width=0.7\textwidth]
 			{Sources/X-DFA/image_transfer_function1.pdf}
 		}
+	\end{textblock}	
+}
+
+%%%%%%%%%%%%5 Tracking of particle front
+\frame{
+	\frametitle{Tracking of particle front}
+	
+	\begin{textblock}{0.9}(0.05,0.1)	
+		\centering
+		\only<1>{
+			\includegraphics[width=0.8\textwidth]
+			{Sources/sedimenting_bed/steepest_gradient_gv_profile.pdf}}
+	\end{textblock}
+}
+
+\frame{
+	\frametitle{Tracking of particle front}
+	\begin{textblock}{0.7}(0.15,0.1)	
+		\centering
+		\only<1>{
+			\includegraphics[width=\textwidth]
+			{Sources/sedimenting_bed/setup-sketch-distortion.pdf}}
 	\end{textblock}
 	
+	
+	\begin{textblock}{0.9}(0.05,0.5)
+		\only<1>{
+			\vspace{-0.5cm}
+			\centering
+			\includegraphics[width=0.8\textwidth]
+			{Sources/sedimenting_bed/image_transfer_function3_track_front_midplane.pdf}}
+	\end{textblock}
 }
+
+\frame{
+	\frametitle{Tracking of particle front}
+	\begin{textblock}{0.9}(0.05,0.1)	
+		\centering
+		\only<1>{
+			\includegraphics[width=0.5\textwidth]
+			{Sources/sedimenting_bed/steepest_gradient_gv_profile.pdf}}
+	\end{textblock}
+	
+	\begin{textblock}{0.35}(0.02,0.5)	
+		\centering
+		\visible<1->{
+			\includegraphics[width=\textwidth]
+			{Sources/sedimenting_bed/plot_extract_edge_pos_mid_plane.png}}
+	\end{textblock}
+	
+	
+	\begin{textblock}{0.35}(0.52,0.5)	
+		\centering
+		\visible<1->{
+			\includegraphics[width=\textwidth]
+			{Sources/sedimenting_bed/lin_fit_y-pos_vs_time.png}}
+	\end{textblock}
+}
+
+

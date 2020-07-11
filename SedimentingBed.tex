@@ -11,7 +11,7 @@
 	A suspension of sedimenting particles}
 \end{textblock}
 
-\begin{textblock}{0.6}(0.02,0.2)
+\begin{textblock}{0.57}(0.02,0.18)
 \centering
 \only<1>{
 \includegraphics[width=\textwidth]{Sources/sedimenting_bed/Photo_fluidized_bed.pdf}
@@ -20,21 +20,21 @@
 \includegraphics[width=\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed_fluidized.pdf}}
 \end{textblock}	
 
-\begin{textblock}{0.28}(0.67,0.05)	
+\begin{textblock}{0.28}(0.66,0.02)	
 	\visible<2->{
-		\centering
-		X-ray radiography\\[0.1cm]
-		\movie[width =\textwidth, poster, loop]
-		{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/Radiogram_plane.png}}
-		{Sources/sedimenting_bed/full_fluidization1.avi}}
+	\centering
+	X-ray radiography\\[0.1cm]
+	\movie[width =\textwidth, poster, loop]
+	{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/Radiogram_plane.png}}
+	{Sources/sedimenting_bed/full_fluidization1.avi}}
 \end{textblock}
 
-\begin{textblock}{0.35}(0.62,0.5)	
+\begin{textblock}{0.38}(0.59,0.5)	
 \visible<2->{
 \includegraphics[width=\textwidth]{Sources/sedimenting_bed/Phi_vs_pump_rate.pdf}}
 \end{textblock}
 
-\begin{textblock}{0.35}(0.69,0.82)	
+\begin{textblock}{0.35}(0.67,0.82)	
 	\visible<2->{
 		\colorbox{lightblue}{
 			$0.45 <  \Phi < 0.56$}}
@@ -46,7 +46,7 @@
 	}
 \end{textblock}
 
-\begin{textblock}{0.15}(0.35,0.69)
+\begin{textblock}{0.17}(0.34,0.64)
 	\only<3>{
 	\fbox{\parbox{\textwidth}{
 			\movie[width =\textwidth, poster, loop]
@@ -59,50 +59,53 @@
 
 
 \begin{frame}[noframenumbering]
-	\begin{tikzpicture}[remember picture,overlay]
-	\fill[blue1]
-	(current page.north west) rectangle ([xshift=0.51\textwidth,yshift=0.28\textheight]current page.west|-{pic cs:end});
-	\end{tikzpicture}
-	
-	\begin{textblock}{0.5}(0.02,0.03)
-		\textcolor{white}{
-			\Large Experimental validation of X-DFA: Sedimenting particle suspension}
-	\end{textblock}
-	
-	\begin{textblock}{0.6}(0.02,0.2)
-		\centering
-		\visible<1->{
-		\includegraphics[width=\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed.pdf}}
-	\end{textblock}	
-	
-	
-	\begin{textblock}{0.3}(0.66,0.05)
-		\centering
-		X-ray radiography\\[0.1cm]
-		\only<1>{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/ROI_marked_img_nr1.png}}
-		\visible<2->{
-		\fbox{\parbox{0.65\textwidth}{
-		\movie[width = 0.65\textwidth, poster]
-		{\includegraphics[width=.65\textwidth]{Sources/sedimenting_bed/tracked_edge0.png}}
-		{Sources/sedimenting_bed/tracked_edge.avi}}}}
-	\end{textblock}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.57\textwidth,yshift=0.28\textheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
 
-	\begin{textblock}{0.15}(0.3,0.69)
-		\visible<2->{
-			\fbox{\parbox{\textwidth}{
-			\movie[width =\textwidth, poster, loop]
-			{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/sedimentationROI.png}}
-			{Sources/sedimenting_bed/02_750ul_per_min_original.avi}}}
-		}
-	\end{textblock}
+\begin{textblock}{0.53}(0.02,0.03)
+	\textcolor{white}{
+		\Large Experimental validation of X-DFA: \\
+		A suspension of sedimenting particles}
+\end{textblock}
 
-	\begin{textblock}{0.25}(0.45,0.75)
-	\visible<2->{
+	
+\begin{textblock}{0.57}(0.02,0.18)
 	\centering
-	\textcolor{blue1}{
-	Comparison of \newline$\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
+	\visible<1->{
+	\includegraphics[width=\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed.pdf}}
+\end{textblock}	
+
+
+\begin{textblock}{0.3}(0.66,0.05)
+	\centering
+	X-ray radiography\\[0.1cm]
+	\only<1>{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/ROI_marked_img_nr1.png}}
+	\visible<2->{
+	\fbox{\parbox{0.65\textwidth}{
+	\movie[width = 0.65\textwidth, poster]
+	{\includegraphics[width=.65\textwidth]{Sources/sedimenting_bed/tracked_edge0.png}}
+	{Sources/sedimenting_bed/tracked_edge.avi}}}}
+\end{textblock}
+
+\begin{textblock}{0.17}(0.28,0.64)
+	\visible<2->{
+		\fbox{\parbox{\textwidth}{
+		\movie[width =\textwidth, poster, loop]
+		{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/sedimentationROI.png}}
+		{Sources/sedimenting_bed/02_750ul_per_min_original.avi}}}
 	}
-	\end{textblock}
+\end{textblock}
+
+\begin{textblock}{0.25}(0.45,0.75)
+\visible<2->{
+\centering
+\textcolor{blue1}{
+Comparison of \\
+$\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
+}
+\end{textblock}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%% Sedimenting suspension: Richardson Zaki

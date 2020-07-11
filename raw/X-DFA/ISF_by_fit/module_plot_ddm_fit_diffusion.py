@@ -76,7 +76,7 @@ def plot_fit_parameters\
 	
 	###########################################################################
 	## tau_d(q) diffusion time
-	ax0 = fig.add_subplot(211)	
+	ax0 = fig.add_subplot(111)	
 	ax0.plot(q_vec, tau_d_vec, marker='.',color = col_tau_d)
 	## fit of diffusion coeff
 	ax0.plot(q_vecRg, 1./(diff_coeff*q_vecRg**2.), color = 'k') # col_diff_coeff)
@@ -91,6 +91,7 @@ def plot_fit_parameters\
 	ax0.xaxis.set_ticks_position('both')
 	ax0.yaxis.set_ticks_position('both')
 
+	ax0.set_xlabel('wave number, $q$ (px$^{-1}$)')
 	ax0.set_ylabel('$\\tau_\mathrm{D}(q)$')
 
 	ax0.set_xscale('log')
@@ -119,24 +120,24 @@ def plot_fit_parameters\
 
 
 	
-	############################################################################
-	## parameters A(q), B(q)	
-	ax = fig.add_subplot(212, sharex=ax0)	
-	ax.plot(q_vec, A_vec, marker='.', color = col_A)
-	ax.plot(q_vec, B_vec, marker='.', color = col_B)
-	# plt.setp(ax.get_xticklabels(), sharex=ax0)
+	# ############################################################################
+	# ## parameters A(q), B(q)	
+	# ax = fig.add_subplot(212, sharex=ax0)	
+	# ax.plot(q_vec, A_vec, marker='.', color = col_A)
+	# ax.plot(q_vec, B_vec, marker='.', color = col_B)
+	# # plt.setp(ax.get_xticklabels(), sharex=ax0)
 
-	ax.tick_params(which='both',direction = 'in')
-	ax.xaxis.set_ticks_position('both')
-	ax.yaxis.set_ticks_position('both')
+	# ax.tick_params(which='both',direction = 'in')
+	# ax.xaxis.set_ticks_position('both')
+	# ax.yaxis.set_ticks_position('both')
 	
-	ax.set_xlabel('wave number, $q$ (px$^{-1}$)')
-	ax.set_ylabel('$A(q)$')
+	# ax.set_xlabel('wave number, $q$ (px$^{-1}$)')
+	# ax.set_ylabel('$A(q)$')
 	
-	ax.set_xscale('log')
-	ax.set_yscale('log')
+	# ax.set_xscale('log')
+	# ax.set_yscale('log')
 
-	plt.xlim([10**(-2),np.pi])
+	# plt.xlim([10**(-2),np.pi])
 	# plt.ylim([10**(-5),10**6])
 	# plt.show()
 		

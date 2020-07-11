@@ -11,19 +11,19 @@ mpl.use('Agg') ## needed to create plots when running via ssh
 import matplotlib.pyplot as plt 
 
 ### plot settings - latex look
-# font = {'family' : 'serif',
-# 	'weight' : 'normal',
-# 	'size' : 18}
-# plt.rc('text', usetex=True)
-# plt.rc('font', **font) # family='serif')
-# plt.rc
-
-### plot settings - latex look
-font = {'weight' : 'normal',
+font = {'family' : 'sans serif',
+	'weight' : 'normal',
 	'size' : 18}
-# plt.rc('text', usetex=True)
+plt.rc('text', usetex=True)
 plt.rc('font', **font) # family='serif')
 plt.rc
+
+# ### plot settings - latex look
+# font = {'weight' : 'normal',
+# 	'size' : 18}
+# # plt.rc('text', usetex=True)
+# plt.rc('font', **font) # family='serif')
+# plt.rc
 
 ###########################################################################
 #### create figure 

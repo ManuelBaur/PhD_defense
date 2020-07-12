@@ -184,6 +184,7 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 }
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Image structure function %%%%%%%%%%%%%%%%%%%
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
@@ -245,39 +246,36 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 \end{textblock}
 }
 
+
+
+%%%%%%%%%%% linear space invariant imaging %%%%%%%%%%%%%%
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.6\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.58\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
 \begin{textblock}{0.8}(0.02,0.03)
 	\textcolor{white}{
-		\Large X-ray radiography: Linear space invariant?}
+		\Large X-ray imaging -- Linear space invariant?}
 \end{textblock}
 
-\begin{textblock}{0.6}(0.0,0.08)	
-\begin{align}
-I(\mathbf{r},t) = I_0 + \int \mathsf{d}\mathbf{r}' \ \mathsf{d}z'
-T(\mathbf{r}-\mathbf{r}',-z') c(\mathbf{r}',z',t)
-\nonumber
-\end{align}
+\begin{textblock}{0.4}(0.59,0.05)	
+\centering
+\includegraphics[width=0.8\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed_right.pdf}
 \end{textblock}
 
-
-
-\begin{textblock}{0.5}(0.5,0.45)
+\begin{textblock}{0.38}(0.59,0.45)
 	\centering
-	\includegraphics[width=0.8\textwidth]
+	\includegraphics[width=\textwidth]
 	{Sources/sedimenting_bed/I_over_I0_vs_Phi.pdf}
 \end{textblock}
 
-\begin{textblock}{0.9}(0.05,0.15)	
-	\centering
-	\includegraphics[width=0.7\textwidth]
-	{Sources/sedimenting_bed/image_transfer_function1.pdf}
+\begin{textblock}{0.35}(0.67,0.82)	
+	\visible<2->{
+		\colorbox{lightblue}{
+		$0.45 <  \Phi < 0.56$}}
 \end{textblock}
-
 }
 
 

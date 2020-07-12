@@ -203,21 +203,21 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 \begin{textblock}{0.5}(0.48,0.52)
 \visible<2->{
 	\begin{align}
-	D(q,\tau)
-	&= \Big\langle |I(q, t+\tau) - I(q,t)|^2  \Big\rangle_t \nonumber \\
-	&= A(q)
+	D(\mathbf{q},\tau)
+	&= \Big\langle |I(\mathbf{q}, t+\tau) - I(\mathbf{q},t)|^2  \Big\rangle_t \nonumber \\
+	&= A(\mathbf{q})
 	\bigg[1-
 	\textcolor{red}{
-		\frac{\big\langle I^*(q,t) I(q,t+\tau) \big\rangle_t}
-		{\big\langle |I(q,t)|^2 \big\rangle_t}
+		\frac{\big\langle I^*(\mathbf{q},t) I(\mathbf{q},t+\tau) \big\rangle_t}
+		{\big\langle |I(\mathbf{q},t)|^2 \big\rangle_t}
 	}
 	\bigg] 
-	+ B(q)\nonumber
+	+ B(\mathbf{q})\nonumber
 	\end{align}
 	
 	\begin{itemize}
-		\item $D(q, \tau \rightarrow 0) = B(q)$
-		\item $D(q, \tau \rightarrow \infty) = A(q) + B(q)$
+		\item $D(\mathbf{q}, \tau \rightarrow 0) = B(\mathbf{q})$
+		\item $D(\mathbf{q}, \tau \rightarrow \infty) = A(\mathbf{q}) + B(\mathbf{q})$
 	\end{itemize}
 	}
 \end{textblock}
@@ -229,9 +229,9 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 		Linear space invariant imaging}
 	\begin{align}
 	\textcolor{red}{
-	f(q,\tau) = \frac
-	{\langle \rho^*(q,t) \rho(q,t+\tau) \rangle_t}
-	{\langle |\rho(\mathbf{q},t)|^2 \rangle_t}}
+	f(\mathbf{q},\tau) = \frac
+	{\langle \rho^*(\mathbf{q},t) \rho(\mathbf{q},t+\tau) \rangle_t}
+	{\langle |\rho(\mathbf{\mathbf{q}},t)|^2 \rangle_t}}
 	\nonumber
 	\end{align}
 	\textcolor{red}{

@@ -175,10 +175,9 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 
 \begin{textblock}{0.45}(0.55,0.35)
 \centering
-\fbox{\parbox{0.6\textwidth}{
-	\movie[width =0.6\textwidth, poster, loop]
-	{\includegraphics[width=0.6\textwidth]{Sources/sedimenting_bed/sedimentationROI.png}}
-	{Sources/sedimenting_bed/02_750ul_per_min_original.avi}}}
+\movie[width =0.6\textwidth, poster, loop]
+{\includegraphics[width=0.6\textwidth]{Sources/sedimenting_bed/sedimentationROI.png}}
+{Sources/sedimenting_bed/02_750ul_per_min_original.avi}
 \end{textblock}
 
 }
@@ -260,21 +259,44 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 		\Large X-ray imaging -- Linear space invariant?}
 \end{textblock}
 
+\begin{textblock}{0.4}(0.05,0.12)	
+	\centering
+	\includegraphics[width=\textwidth]{Sources/sedimenting_bed/I_over_I0_vs_z.pdf}
+\end{textblock}
+
+\begin{textblock}{0.35}(0.2,0.4)	
+	\centering
+	\includegraphics[width=\textwidth]{Sources/sedimenting_bed/cuvettes_beam_hardening.pdf}
+\end{textblock}
+
+\begin{textblock}{0.4}(0.05,0.12)	
+\centering
+\visible<2->{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/cross.pdf}}
+\end{textblock}
+
 \begin{textblock}{0.4}(0.59,0.05)	
 \centering
-\includegraphics[width=0.8\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed_right.pdf}
+\visible<3->{
+\includegraphics[width=0.8\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed_right.pdf}}
 \end{textblock}
 
 \begin{textblock}{0.38}(0.59,0.45)
+	\visible<3->{
 	\centering
 	\includegraphics[width=\textwidth]
-	{Sources/sedimenting_bed/I_over_I0_vs_Phi.pdf}
+	{Sources/sedimenting_bed/I_over_I0_vs_Phi.pdf}}
 \end{textblock}
 
-\begin{textblock}{0.35}(0.67,0.82)	
-	\visible<2->{
+\begin{textblock}{0.35}(0.67,0.8)	
+	\visible<3->{
 		\colorbox{lightblue}{
 		$0.45 <  \Phi < 0.56$}}
+\end{textblock}
+
+\begin{textblock}{0.35}(0.85,0.6)	
+	\visible<3->{
+		\fbox{
+		\textcolor{darkgreen}{\Huge $\checkmark$}}}
 \end{textblock}
 }
 

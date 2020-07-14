@@ -13,21 +13,58 @@
 	}
 \end{textblock}
 
-\begin{textblock}{0.25}(0.1,0.35)
-\only<1>{
-\includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_sedimented.pdf}}
-\only<2>{
-\includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_expanded.pdf}}
+\begin{textblock}{0.15}(0.05,0.2)
+\includegraphics[width=\textwidth]{Sources/motivation/sand.png}
+\\[0.2cm]
+\includegraphics[width=\textwidth]{Sources/motivation/coal.png}
+\\[0.2cm]
+\includegraphics[width=\textwidth]{Sources/motivation/coffee.png}
+{\Huge$\vdots$}
 \end{textblock}
 
+\begin{textblock}{0.3}(0.3,0.4)
+\centering
+\visible<4->{
+Dissipative interactions\\[0.1cm]
+\includegraphics[width=\textwidth]{Sources/motivation/Driscoll_et_al_2016.png}\\
+{\scriptsize Driscoll \textit{et al} (2016)}}
+\end{textblock}
+
+\begin{textblock}{0.25}(0.7,0.1)
+\centering
+\visible<2->{
+\textbf{Volume fraction}\\ 
+\[\Phi = \frac{V_\text{Particles}}{V_\text{Container}}\]}
+\only<2>{
+\includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_sedimented.pdf}}
+\only<3,4>{
+\includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_expanded.pdf}}
+\end{textblock}
+}
+
+
+
+%%%%% Motivation fluidized bed
+\frame{
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.55\paperwidth,yshift=0.27\paperheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+\begin{textblock}{0.55}(0.02,0.03)
+	\textcolor{white}{							
+		\Large{X-ray radiography of granular systems \\
+			-- particle densities and dynamics}
+	}
+\end{textblock}
+	
 \begin{textblock}{0.55}(0.02,0.2)
-\visible<3->{
+\visible<1->{
 	Fluidized bed\\[0.5cm]
 \includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_final.pdf}}
 \end{textblock}
 
 \begin{textblock}{0.4}(0.6,0.02)
-\visible<4->{
+\visible<2->{
 \begin{center}
 \includegraphics[width=0.7\textwidth]{Sources/motivation/linked_together.pdf}
 \end{center}
@@ -35,7 +72,7 @@
 \end{textblock}
 
 \begin{textblock}{0.38}(0.6,0.5)
-\visible<5->{
+\visible<3->{
 	\begin{minipage}[c]{0.2\textwidth}
 	\includegraphics[width=\textwidth]{Sources/motivation/wikipedia_hd.png}
 	\end{minipage}
@@ -57,7 +94,6 @@ athermal
 frictional
 dissipative -- permanent \textit{heating} necessary
 jamming transition
-
 }
 }
 

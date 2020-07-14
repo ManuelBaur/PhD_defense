@@ -16,7 +16,7 @@
    viewBox="0 0 92.612385 120"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="setup-fluidized_bed_expanded.svg">
   <defs
      id="defs2">
@@ -253,15 +253,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="-181.89457"
+     inkscape:cx="-305.87583"
      inkscape:cy="198.49017"
      inkscape:document-units="mm"
      inkscape:current-layer="g3196"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -277,7 +277,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -674,7 +674,9 @@
              id="tspan981"
              x="-14.138911"
              y="191"
-             style="stroke-width:0.26458332px">Φ = RLP</tspan></text>
+             style="stroke-width:0.26458332px">Φ = Φ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan971">RLP</tspan></tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -685,7 +687,9 @@
              id="tspan981-3"
              x="-14.138911"
              y="176"
-             style="stroke-width:0.26458332px">Φ &lt; RLP</tspan></text>
+             style="stroke-width:0.26458332px">Φ &lt; Φ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan973">RLP</tspan></tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

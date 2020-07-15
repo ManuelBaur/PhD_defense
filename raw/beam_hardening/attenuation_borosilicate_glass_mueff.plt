@@ -15,7 +15,7 @@ set term postscript eps enhanced color solid dashed font ',30' size '5','3.5'
 # set termoption dash
 #set title ''
 set samples 1000
-set format xy "%.1f"
+set format xy "%.0f"
 
 
 
@@ -62,7 +62,7 @@ data_mu_bar_1mmCu_140kV='borosilicate_glass_plates/mu_bar_140kV_1mmCu_200uA_300m
 set output 'borosilicate_glass_voltages_mu_eff.eps'
 
 set xlabel 'Thickness, {/Helvetica-Italic x} (cm)'
-set ylabel 'Attenuation, {/Symbol m}_{eff}({/Helvetica-Italic E,x}) (1/cm)'
+set ylabel 'Attenuation, {/Symbol m}_{eff}({/Helvetica-Italic x}) (1/cm)'
 
 
 
@@ -96,8 +96,9 @@ fit f3(x) data_140kV using ($1*100):($2/100) via a3,b3,alpha3
 
 
 set xrange [0:4.2]
-set yrange [0.0:4.]
-set xtics 0.4,0.4,4
+set yrange [0:4]
+set ytics 1,1,4
+set xtics 0,1,4
 
 set label 1 at 0.9,2.6 textcolor "#ff0000" '60 kV'
 set label 2 at 1.03,1.65 textcolor "#007e00" '100 kV'

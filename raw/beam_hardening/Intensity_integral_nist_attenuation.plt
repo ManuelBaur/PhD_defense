@@ -55,27 +55,27 @@ den=2.23 # density to borosilicate glass
 atot(x) = mu0 + c/x**3
 fit atot(x) data_mu using ($1*1000):($5*den) via mu0,c
 
-set label 21 at 10,0.025 textcolor '#ff66ff' 'Coherent scattering'
-set label 22 at 65,0.22 textcolor '#0080ff' 'Incoherent scattering'
-set label 23 at 82,0.1 textcolor '#ff8000' 'Photoelectric'
-set label 231 at 100,0.06 textcolor '#ff8000' 'absorption'
-set label 24 at 60,0.8 textcolor '#009000' 'Total attenuation'
+
 
 unset key
 
 set logscale y
 set xrange[0:150]
-set yrange [0.01:19.630]
-set ytics format "10^{%T}" 
+set yrange [0.2:19.630]
+set ytics format "10^{%T}"
+unset mytics
 set xlabel 'Photon energy, {/Helvetica-Italic E} (keV)'
-set ylabel 'Attenuation, {/Symbol m}({/Helvetica-Italic E,Z},{/Symbol r}) (1/cm)'
+set ylabel 'Attenuation, {/Symbol m}({/Helvetica-Italic E}) (1/cm)'
 
-plot data_mu u ($1*1000):($2*den) ls 21 pt 66 ps 1.5,\
-data_mu u ($1*1000):($3*den) ls 22 pt 66 ps 1.5,\
-data_mu u ($1*1000):($4*den) ls 23 pt 66 ps 1.5,\
-data_mu u ($1*1000):($5*den) ls 24 pt 66 ps 1.5,\
-mu0 ls 222,\
-c/x**3 ls 233,\
+# plot data_mu u ($1*1000):($2*den) ls 21 pt 66 ps 1.5,\
+# data_mu u ($1*1000):($3*den) ls 22 pt 66 ps 1.5,\
+# data_mu u ($1*1000):($4*den) ls 23 pt 66 ps 1.5,\
+# data_mu u ($1*1000):($5*den) ls 24 pt 66 ps 1.5,\
+# mu0 ls 222,\
+# c/x**3 ls 233,\
+# atot(x) ls 244
+
+plot data_mu u ($1*1000):($5*den) ls 24 pt 66 ps 1.5,\
 atot(x) ls 244
 
 

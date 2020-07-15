@@ -16,7 +16,7 @@ set term postscript eps enhanced color solid dashed font ',30' size '5','3.5'
 # set termoption dash
 #set title ''
 set samples 1000
-set format xy "%.1f"
+set format xy "%.0f"
 
 
 
@@ -93,7 +93,8 @@ fit f3(x) data_Al_140kV_Rex using ($1*100):($2/100) via a3,b3,alpha3 ## units di
 ###################### plot data and fits ##############################
 set xrange [0:4.2]
 set yrange [0.5:3.0]
-set xtics 0.4,0.4,4
+set xtics 0,1,4
+set ytics 1,1,3
 
 set label 1 at 0.6,0.7 textcolor "#0000cc" 'Al, 140 kV, setup 2' # rotate by -13
 # set label 2 at 1.6,0.7 textcolor "#0066cc" 'Sodium Silicate, 140 kV, setup 2' rotate by -4

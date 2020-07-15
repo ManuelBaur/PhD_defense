@@ -11,11 +11,11 @@ reset
 
 
 # create eps output
-set term postscript eps enhanced color solid dashed font ',30' size '5','6.5'
+set term postscript eps enhanced color solid dashed font ',30' size '5','5.5'
 # set termoption dash
 #set title ''
 set samples 1000
-set format xy "%.1f"
+set format xy "%.0f"
 
 
 
@@ -111,21 +111,21 @@ fit f33(x) data_140kV_1 using ($1*100):($2/100) via a33,b33,alpha33
 
 set output 'borosilicate_glass_mueff_3datapoints_multiplot.eps'
 
-set multiplot layout 3,1
+set multiplot layout 2,1
 
 set bmargin 0.4
 set lmargin 7.
 
-set origin 0.,0.6
-set size 1.,0.4
+set origin 0.,0.49
+set size 1.,0.52
 
-set ylabel '{/Symbol m}_{eff}({/Helvetica-Italic E,x}) (1/cm)'
+set ylabel '{/Symbol m}_{eff}({/Helvetica-Italic x}) (1/cm)'
 
 set xrange [0:4.2]
 set yrange [0.0:4.]
-set xtics 0.4,0.4,4
+set xtics 1,1,4
 set xtics format ''
-set ytics 0.5,0.5,4.0
+set ytics 1,1,4
 
 set label 11 at 0.05,0.4 font ',30' 'a)' front
 
@@ -157,41 +157,9 @@ plot [][-1:-0.5] 2 with linespoints ls 1 pt 64 ps 1.5 t '20 data fit, 60 kV',\
 
 unset key; set tics; set border
 	
-############## deviation plot - 3 vs 20 data points ###############
-
-
-
-unset label
-set bmargin 0.4
-set tmargin 0.
-
-set size 1.,0.28
-set origin 0.,0.32
-
-set xtics format ''
-set yrange [-0.05:0.05]
-set ytics -0.04,0.02,0.04
-set ytics format '%.2f'
-
-set ylabel '{/Symbol D}{/Symbol m}_{eff} (1/cm)' offset 1.8
-
-set label 22 at 0.05,0.04 font ',30' 'b)' front
-
 
 
 set arrow from 0.,0. to 4.2,0. nohead lt 3 lw 3 lc '#000000' back
-
-plot 	data_60kV u ($1*100):(f1($1*100) - $2/100) with linespoints ls 1 pt 64 ps 1.5,\
-	data_60kV u ($1*100):(f11($1*100) - $2/100) with linespoints ls 11 pt 64 ps 1.5,\
-	data_60kV_1 u ($1*100):(f11($1*100) - $2/100) ls 11 pt 5 ps 1.5,\
-	data_140kV u ($1*100):(f3($1*100) - $2/100) with linespoints ls 3 pt 65 ps 1.5,\
-	data_140kV u ($1*100):(f33($1*100) - $2/100) with linespoints ls 33 pt 65 ps 1.5,\
- 	data_140kV_1 u ($1*100):(f33($1*100) - $2/100) ls 33 pt 7 ps 1.5
-
-
-
-unset label
-
 
 
 ############### deviation plot - thickness from 3 datapoints #########
@@ -199,18 +167,18 @@ unset label
 set bmargin 3.5
 set tmargin 0.
 
-set size 1.,0.32
+set size 1.,0.48
 set origin 0.,0.
 
 set xlabel 'Thickness, {/Helvetica-Italic x} (cm)'
 set ylabel 'Error, {/Symbol D}x (%)' offset 1.8 
 
-set label 33 at 0.05,-12 font ',30' 'c)' front
+set label 33 at 0.05,-12 font ',30' 'b)' front
 
-set xtics format '%.1f'
+set xtics format '%.f'
 set yrange [-15:5]
-set ytics -15.,5.,5.
-set ytics format '%.1f'
+set ytics -15,5,5
+set ytics format '%.f'
 
 set key off
 

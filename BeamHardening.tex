@@ -150,6 +150,7 @@ $\textcolor{red}{I(x)} =
 
 %%%%%%%%%%%%%%%%%%%% Modeling mu_eff %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \frame{
+\setlength{\fboxsep}{0pt}
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
 (current page.north west) rectangle ([xshift=0.29\textwidth,yshift=0.33\textheight]current page.west|-{pic cs:end});
@@ -175,11 +176,11 @@ $\textcolor{red}{I(x)} =
 	{Sources/beam_hardening/linear_spectrum.eps}
 \end{textblock}
 
-\begin{textblock}{0.32}(0.03,0.17)
+\begin{textblock}{0.32}(0.07,0.26)
 	\centering
-	\hspace{0.5cm}
-	\pgfsetfillopacity{1}\colorbox{blue1}{\pgfsetfillopacity{1}\textcolor{white}{
-			$N (E) = -a E + b$}}
+%	\hspace{0.5cm}
+	\textcolor{blue}{
+	\small$N (E) = -a E + b$}
 \end{textblock}
 
 %% attenuation data
@@ -189,11 +190,10 @@ $\textcolor{red}{I(x)} =
 	{Sources/beam_hardening/XCOM_attenuation.eps}
 \end{textblock}
 
-\begin{textblock}{0.32}(0.345,0.17)
+\begin{textblock}{0.32}(0.38,0.26)
 	\centering
-	\hspace{0.5cm}
-	\pgfsetfillopacity{1}\colorbox{darkgreen}{\pgfsetfillopacity{1}\textcolor{white}{
-			$\mu (E) = \mu_\text{C} + c E^{-3}~\,^{(*)}$}}
+	\textcolor{darkgreen}{
+		\small$\mu (E) = \mu_\text{C} + c E^{-3}\,^{(*)}$}
 \end{textblock}
 
 %% detector curve
@@ -203,22 +203,22 @@ $\textcolor{red}{I(x)} =
 	{Sources/beam_hardening/detector_const.eps}
 \end{textblock}
 
-\begin{textblock}{0.32}(0.67,0.17)
+\begin{textblock}{0.32}(0.68,0.26)
 	\centering
 	\hspace{0.5cm}
-	\pgfsetfillopacity{1}\colorbox{red}{\pgfsetfillopacity{1}\textcolor{white}{
-		$S(E) = S~\Theta(E - E_\text{min})$}}
+	\colorbox{white}{\textcolor{red}{
+		\small$S(E) = S~\Theta(E - E_\text{min})$}}
 \end{textblock}
 
 \begin{textblock}{0.5}(0.02,0.6)
 	\only<1>{
 		\begin{align}
 		I(x) &\propto \int \textcolor{blue}{N(E)} \exp\{-
-		\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
+		\textcolor{darkgreen}{\mu(E)} x\} 
 		\textcolor{red}{S(E)}~\mathsf{d}E \nonumber\\
 		&\textcolor{white}{\propto S \int_{E_\text{min}}^{E_\text{max}}
 		(-a E + b) 
-		\exp[-(\mu_\text{C} + c E^{-3}) x] 
+		\exp[-(\mu_\text{C} + c E^{-3}) x]~
 		\mathsf{d}E}
 		\nonumber
 		\end{align}
@@ -226,11 +226,11 @@ $\textcolor{red}{I(x)} =
 	\visible<2->{
 		\begin{align}
 		I(x) &\propto \int \textcolor{blue}{N(E)} \exp\{-
-		\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
+		\textcolor{darkgreen}{\mu(E)} x\} 
 		\textcolor{red}{S(E)}~\mathsf{d}E \nonumber \\
 		&\propto \textcolor{red}{S} \int_{E_\text{min}}^{E_\text{max}}
 		(\textcolor{blue}{-a E + b}) 
-		\exp\{-(\textcolor{darkgreen}{\mu_\text{C} + c E^{-3}}) x\} 
+		\exp\{-(\textcolor{darkgreen}{\mu_\text{C} + c E^{-3}}) x\}~
 		\mathsf{d}E 
 		\nonumber
 		\end{align}
@@ -330,7 +330,7 @@ $\textcolor{red}{I(x)} =
 	\visible<1->{
 	\begin{align}
 		I(x) \propto &\int \textcolor{blue}{N(E)} \exp\{-
-		\textcolor{darkgreen}{\mu(E,Z,\rho)} x\} 
+		\textcolor{darkgreen}{\mu(E)} x\} 
 		\textcolor{red}{S(E)}~\mathsf{d}E  \nonumber\\
 		&\int \rightarrow \sum \nonumber
 	\end{align}
@@ -482,7 +482,7 @@ $(2)$ XCOM supplied by NIST}
 
 \begin{textblock}{0.2}(0.01,0.15)
 	\textcolor{white}{\Large
-	{Universality of }{\large$\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$}}
+	{Applicability of }{\large$\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$}}
 \end{textblock}
 
 \begin{textblock}{0.2}(0.005,0.35)
@@ -510,7 +510,7 @@ $(2)$ XCOM supplied by NIST}
 	\vspace{0.5cm}	
 	\visible<1->{
 		\hspace{3.cm} \colorbox{blue1}{\textcolor{white}{
-		 varying voltages}}}
+		 different voltages}}}
 \end{textblock}
 
 
@@ -549,11 +549,11 @@ $(2)$ XCOM supplied by NIST}
 		{Sources/beam_hardening/comp_both_setups.eps}}
 \end{textblock}
 
-\begin{textblock}{0.6}(0.62,0.5)
+\begin{textblock}{0.6}(0.56,0.5)
 	\vspace{0.5cm}	
 	\visible<4->{
 		\hspace{3.cm} \colorbox{blue1}{\textcolor{white}{
-				2 X-ray setups}}}
+				different X-ray setups}}}
 \end{textblock}
 }
 
@@ -585,20 +585,20 @@ Solve
 e.g.\ Newton's method or look-up table}
 \end{textblock}
 
-\begin{textblock}{0.4}(0.55,0.05)
+\begin{textblock}{0.48}(0.48,0.05)
 \only<1>{
 	\includegraphics[width=\textwidth]
-	{Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_1.eps}
+	{Sources/beam_hardening/3datapoints_top.eps}
 }
 
 \only<2>{
 	\includegraphics[width=\textwidth]
-	{Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot_2.eps}
+	{Sources/beam_hardening/3datapoints_top_bottom.eps}
 }
 
 \visible<3->{
 	\includegraphics[width=\textwidth]
-	{Sources/beam_hardening/borosilicate_glass_mueff_3datapoints_multiplot.eps}
+	{Sources/beam_hardening/3datapoints_final.eps}
 }
 \end{textblock}
 }

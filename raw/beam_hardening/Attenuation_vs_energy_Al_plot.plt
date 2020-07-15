@@ -24,6 +24,7 @@ set output 'Attenuation_vs_energy.eps'
 
  
 unset key 
+unset mytics
 set logscale y
 set yrange [0.1:20000.]
 set ytics format "10^{%T}" 

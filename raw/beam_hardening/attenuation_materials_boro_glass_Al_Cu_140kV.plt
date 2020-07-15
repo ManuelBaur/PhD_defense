@@ -16,7 +16,7 @@ set term postscript eps enhanced color solid dashed font ',30' size '5','3.5'
 # set termoption dash
 #set title ''
 set samples 1000
-set format xy "%.1f"
+set format xy "%.0f"
 
 
 
@@ -76,7 +76,8 @@ fit f3(x) data_140kV_Cu using ($1*100):($2/100) via a3,b3,alpha3
 
 set xrange [0:4.2]
 set yrange [0.0:13.]
-set xtics 0.4,0.4,4
+set xtics 0,1,4
+set ytics 0,4,12
 
 set label 1 at 0.1,.7 textcolor "#00cccc" 'boro. glass'
 set label 2 at 0.8,2.2 textcolor "#808080" 'Al'

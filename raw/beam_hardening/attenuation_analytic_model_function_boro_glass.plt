@@ -89,13 +89,14 @@ set output 'attenuation_borosilicate_glass_voltages_first_principle_fit.eps'
 
 unset key
 
-set format xy "%.1f"
+set format y "%.1f"
 
 set xrange [0:4.2]
 set xlabel 'Thickness, {/Helvetica-Italic x} (cm)'
 set ylabel 'Attenuation, {/Symbol m}_{eff}({/Helvetica-Italic E,x}) (1/cm)'
 set yrange [0.:2.6]
-set xtics 0.4,0.4,4
+set xtics 0,1,4
+set xtics format "%.f"
 
 set label 1 at 0.9,1.7 textcolor "#0066cc" 'Exp. data'
 set label 3 at 1.5,0.5 textcolor "#ff8000" 'Analytic model'

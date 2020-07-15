@@ -17,9 +17,9 @@ set style line 21 lt 1 lc rgb '#ff66ff' lw 6
 set style line 22 lt 1 lc rgb '#0080ff' lw 6 
 set style line 23 lt 1 lc rgb '#ff8000' lw 6 
 set style line 24 lt 1 lc rgb '#009000' lw 6 
-set style line 222 lt 2 lc rgb '#0080ff' lw 4
-set style line 233 lt 2 lc rgb '#ff8000' lw 4 
-set style line 244 lt 2 lc rgb '#009000' lw 4
+set style line 222 lt 2 lc rgb '#0080ff' lw 6
+set style line 233 lt 2 lc rgb '#ff8000' lw 6 
+set style line 244 lt 2 lc rgb '#009000' lw 6
 #### detector response
 set style line 3 lc rgb "#ff0000" lw 6 ### detector response
 

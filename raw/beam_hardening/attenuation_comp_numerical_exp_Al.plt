@@ -42,7 +42,7 @@ data_num_140kV_Al='numerical_data/Numerical_muEff_new.dat'
 set output 'mu_eff_140kV_exp_vs_numeric_data_norman.eps'
 
 set xlabel 'Thickness, {/Helvetica-Italic x} (cm)'
-set ylabel 'Attenuation, {/Symbol m}_{eff}({/Helvetica-Italic x}) (1/cm)'
+set ylabel 'Attenuation, {/Symbol m}_{eff}({/Helvetica-Italic E,x}) (1/cm)'
 
 
 
@@ -61,7 +61,9 @@ fit f2(x) data_exp_140kV_Al_Norman using 1:2 via a2,b2,alpha2
 
 set xrange [0:4.2]
 set yrange [0.6:1.5]
-set xtics 0.4,0.4,4
+set xtics format '%.f'
+set xtics 0,1,4
+set ytics 0.6,0.2,1.4
 
 set label 2 at 0.4,0.85 textcolor "#0066cc" 'Exp. data' front
 set label 3 at 2.4,0.95 textcolor "#ff8000" 'Num. data '

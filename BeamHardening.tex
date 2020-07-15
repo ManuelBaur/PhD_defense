@@ -362,7 +362,7 @@ $(2)$ XCOM supplied by NIST}
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.52\textwidth,yshift=0.335\textheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.53\textwidth,yshift=0.335\textheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
 \begin{textblock}{0.5}(0.02,0.03)
@@ -373,100 +373,74 @@ $(2)$ XCOM supplied by NIST}
 \begin{textblock}{0.39}(0.03,0.1)
 	\only<1>{
 	\includegraphics[width=\textwidth]
-	{Sources/beam_hardening/borosilicate_glass_60kV_model_comparison_upper_plot0.eps}}
-	\visible<2->{
+	{Sources/beam_hardening/borosilicate_glass_60kV_model_comparison_multiplot_1.eps}}
+	\only<2>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/borosilicate_glass_60kV_model_comparison_multiplot_2.eps}}
+	\only<3>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/borosilicate_glass_60kV_model_comparison_multiplot_3.eps}}
+	\only<4>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/borosilicate_glass_60kV_model_comparison_multiplot_4.eps}}
+	\only<5>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/borosilicate_glass_60kV_model_comparison_multiplot_5.eps}}
+	\only<6>{
+	\includegraphics[width=\textwidth]
+	{Sources/beam_hardening/borosilicate_glass_60kV_model_comparison_multiplot_6.eps}}
+	\visible<7->{
 	\includegraphics[width=\textwidth]
 	{Sources/beam_hardening/borosilicate_glass_60kV_model_comparison_multiplot.eps}}
 \end{textblock}
 
 
 \begin{textblock}{0.5}(0.4, 0.12)
-\only<1>{
-	\begin{tabular}{ll}
-		{\small
-			\textcolor{BS}{$\mu_\text{eff} (x)= \mu_0 - \lambda x$}} &
-		{\small Bjärngard \& Shackford} \\
-		& {\small (1994)}\\[0.7cm]
-		
-		{\small	
-			\textcolor{Yu1}{$\mu_\text{eff}(x) = \frac{\mu_0}{1+\lambda x}$}} &
-		\multirow{2}{\linewidth}{\small Yu \textit{et al.} (1997)}\\
-		
-		{\small
-			\textcolor{white}{$\mu_\text{eff}(x) = \frac{\mu_0}{(1+\lambda x)^\beta}$}} \\[0.7cm]
-		
-		{\small
-			\textcolor{KS}{
-				$\mu_\text{eff}(x) = \mu(E_\text{max}) +
-				\frac{2 \mu_1}{x \sqrt{-\lambda_1^2 + 4 \lambda_2}} \times$}} & Kleinschmidt (1999)
-		\\
-		\multicolumn{2}{l}{\small
-			\textcolor{KS}{
-				$\quad\left[
-				\arctan\left(
-				\frac{\lambda_1 + 2 \lambda_2 x}{\sqrt{-\lambda_1^2 + 4 \lambda_2}}
-				\right)
-				-\arctan\left(
-				\frac{\lambda_1}{\sqrt{-\lambda_1^2 + 4 \lambda_2}}
-				\right)
-				\right]
-				$ }} \\[0.7cm]
-		
-		{\small
-			\textcolor{white}{$\mu_\text{eff}(x) = -\frac{1}{x} \ln \left[A+B \exp(-x/C)\right]$}} & 
-		{\small
-			\textcolor{white}{
-			Mudde \textit{et al.} (2008) }}\\[0.7cm]
-		
-		{\small
-			\textcolor{BA}{$\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$}} &
-		{\small \textbf{Baur \textit{et al.} (2019)}}\\
-		& {\small (this work)}
-	\end{tabular}
-}
-	
-\visible<2->{
 \begin{tabular}{ll}
-{\small
-	\textcolor{BS}{$\mu_\text{eff} (x)= \mu_0 - \lambda x$}} &
+	\visible<2->{{\small
+		\textcolor{BS}{$\mu_\text{eff} (x)= \mu_0 - \lambda x$}} &
 	{\small Bjärngard \& Shackford} \\
-		& {\small (1994)}\\[0.7cm]
+	& {\small (1994)}\\[0.7cm]}
 	
-{\small	
-\textcolor{Yu1}{$\mu_\text{eff}(x) = \frac{\mu_0}{1+\lambda x}$}} &
-\multirow{2}{\linewidth}{\small Yu \textit{et al.} (1997)}\\
-
-{\small
-\textcolor{Yu2}{$\mu_\text{eff}(x) = \frac{\mu_0}{(1+\lambda x)^\beta}$}} \\[0.7cm]
-
-{\small
-\textcolor{KS}{
-	$\mu_\text{eff}(x) = \mu(E_\text{max}) +
-	\frac{2 \mu_1}{x \sqrt{-\lambda_1^2 + 4 \lambda_2}} \times$}} & Kleinschmidt (1999)
-\\
-\multicolumn{2}{l}{\small
-\textcolor{KS}{
-	$\quad\left[
-	\arctan\left(
-	\frac{\lambda_1 + 2 \lambda_2 x}{\sqrt{-\lambda_1^2 + 4 \lambda_2}}
-	\right)
-	-\arctan\left(
-	\frac{\lambda_1}{\sqrt{-\lambda_1^2 + 4 \lambda_2}}
-	\right)
-	\right]
-	$ }} \\[0.7cm]
-
-{\small
-\textcolor{MU}{$\mu_\text{eff}(x) = -\frac{1}{x} \ln \left[A+B \exp(-x/C)\right]$}} & 
-{\small
-	Mudde \textit{et al.} (2008) }\\[0.7cm]
-
-{\small
-\colorbox{BA}{\textcolor{white}{$\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$}}} &
-{\small \textbf{Baur \textit{et al.} (2019)}}\\
-& {\small (this work)}
+	\visible<3->{
+	{\small	
+		\textcolor{Yu1}{$\mu_\text{eff}(x) = \frac{\mu_0}{1+\lambda x}$}} &
+	\multirow{2}{\linewidth}{\small Yu \textit{et al.} (1997)}\\}
+	
+	\visible<4->{
+	{\small
+		\textcolor{Yu2}{$\mu_\text{eff}(x) = \frac{\mu_0}{(1+\lambda x)^\beta}$}} \\[0.7cm]}
+	
+	\visible<5->{
+	{\small
+		\textcolor{KS}{
+			$\mu_\text{eff}(x) = \mu(E_\text{max}) +
+			\frac{2 \mu_1}{x \sqrt{-\lambda_1^2 + 4 \lambda_2}} \times$}} & Kleinschmidt (1999)
+	\\
+	\multicolumn{2}{l}{\small
+		\textcolor{KS}{
+			$\quad\left[
+			\arctan\left(
+			\frac{\lambda_1 + 2 \lambda_2 x}{\sqrt{-\lambda_1^2 + 4 \lambda_2}}
+			\right)
+			-\arctan\left(
+			\frac{\lambda_1}{\sqrt{-\lambda_1^2 + 4 \lambda_2}}
+			\right)
+			\right]
+			$ }} \\[0.7cm]}
+	
+	\visible<6->{	
+	{\small
+		\textcolor{MU}{$\mu_\text{eff}(x) = -\frac{1}{x} \ln \left[A+B \exp(-x/C)\right]$}} & 
+	{\small
+		Mudde \textit{et al.} (2008) }\\[0.7cm]}
+	
+	\visible<7->{
+	{\small
+		\colorbox{BA}{\textcolor{white}{{$\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$}}}} &
+	{\small \textbf{Baur \textit{et al.} (2019)}}\\
+	& {\small (this work)}}
 \end{tabular}
-}
 \end{textblock}
 }
 

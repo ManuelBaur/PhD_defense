@@ -147,13 +147,14 @@ plot data_60kV_1 u ($1*100):($2/100) ls 11 pt 5 ps 2,\
 # data_60kV u ($1*100):($2/100) ls 1 pt 64 ps 1.5,\
 # data_140kV u ($1*100):($2/100) ls 3 pt 65 ps 1.5,\
 # ghost plot for keys
-set key top right; unset tics; unset border; unset xlabel; unset ylabel
-set origin 0.,0.6
-set size 1.,0.4
-plot [][-1:-0.5] 2 with linespoints ls 1 pt 64 ps 1.5 t '20 data fit, 60 kV',\
-	2 with linespoints ls 3 pt 65 ps 1.5 t '20 data fit, 140 kV',\
-	2 with linespoints ls 11 pt 5 ps 1.5 t '3 data fit, 60 kV',\
-	2 with linespoints ls 33 pt 7 ps 1.5 t '3 data fit, 140 kV'
+# set key top right; unset tics; unset border; unset xlabel; unset ylabel
+# 
+# set origin 0.,0.6
+# set size 1.,0.4
+# plot [][-1:-0.5] 2 with linespoints ls 1 pt 64 ps 1.5 t '20 data fit, 60 kV',\
+# 	2 with linespoints ls 3 pt 65 ps 1.5 t '20 data fit, 140 kV',\
+# 	2 with linespoints ls 11 pt 5 ps 1.5 t '3 data fit, 60 kV',\
+# 	2 with linespoints ls 33 pt 7 ps 1.5 t '3 data fit, 140 kV'
 
 unset key; set tics; set border
 	
@@ -171,7 +172,7 @@ set size 1.,0.48
 set origin 0.,0.
 
 set xlabel 'Thickness, {/Helvetica-Italic x} (cm)'
-set ylabel 'Error, {/Symbol D}x (%)' offset 1.8 
+set ylabel 'Error, {/Symbol D}x (%)' offset 1.5
 
 set label 33 at 0.05,-13.5 font ',30' 'b)' front
 

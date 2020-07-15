@@ -143,12 +143,12 @@ plot	data_60kV u ($1*100):($2/100) ls 1 pt 64 ps 1.5,\
 	data_140kV u ($1*100):($2/100) ls 3 pt 65 ps 1.5,\
 	[0.1:] f3(x) ls 3
 
-# ghost plot for keys
-set key top right; unset tics; unset border; unset xlabel; unset ylabel
-set origin 0.,0.6
-set size 1.,0.4
-plot [][-1:-0.5] 2 with linespoints ls 1 pt 64 ps 1.5 t '20 data fit, 60 kV',\
-	2 with linespoints ls 3 pt 65 ps 1.5 t '20 data fit, 140 kV'
+# # ghost plot for keys
+# set key top right; unset tics; unset border; unset xlabel; unset ylabel
+# set origin 0.,0.6
+# set size 1.,0.4
+# plot [][-1:-0.5] 2 with linespoints ls 1 pt 64 ps 1.5 t '20 data fit, 60 kV',\
+# 	2 with linespoints ls 3 pt 65 ps 1.5 t '20 data fit, 140 kV'
 
 unset key; set tics; set border
 	

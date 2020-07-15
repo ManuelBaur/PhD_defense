@@ -24,9 +24,9 @@ set for [i=1:5] linetype i dt i
 set for [i=1:5] style line i dt i
 
 ##### linetypes for different measurement series, for fit with heuristic expression ###########
-set style line 1 lt 1 lc rgb "#00cccc" lw 3
-set style line 2 lt 1 lc rgb "#808080" lw 3
-set style line 3 lt 1 lc rgb "#994c00" lw 3
+set style line 1 lt 1 lc rgb "#00cccc" lw 6 
+set style line 2 lt 1 lc rgb "#808080" lw 6 
+set style line 3 lt 1 lc rgb "#994c00" lw 6 
 
 
 

@@ -23,20 +23,20 @@ set for [i=1:5] linetype i dt i
 set for [i=1:5] style line i dt i
 
 ##### linetypes for different measurement series, for fit with heuristic expression ###########
-set style line 1 lt 1 lc rgb "#ff0000" lw 3
-set style line 2 lt 1 lc rgb "#007e00" lw 3
-set style line 3 lt 1 lc rgb "#ff8000" lw 3
-set style line 4 lt 1 lc rgb "#cc00cc" lw 3
-set style line 5 lt 1 lc rgb "#6600cc" lw 3
-set style line 6 lt 1 lc rgb "#0066cc" lw 3
+set style line 1 lt 1 lc rgb "#ff0000" lw 6 
+set style line 2 lt 1 lc rgb "#007e00" lw 6 
+set style line 3 lt 1 lc rgb "#ff8000" lw 6 
+set style line 4 lt 1 lc rgb "#cc00cc" lw 6 
+set style line 5 lt 1 lc rgb "#6600cc" lw 6 
+set style line 6 lt 1 lc rgb "#0066cc" lw 6 
 
 ##### linetypes for different measurement series, for fit with function solving intensity integral ###########
-set style line 11 lt 2 lc rgb "#ff0000" lw 3
-set style line 22 lt 2 lc rgb "#007e00" lw 3
-set style line 33 lt 2 lc rgb "#ff8000" lw 3
-set style line 44 lt 2 lc rgb "#cc00cc" lw 3
-set style line 55 lt 2 lc rgb "#6600cc" lw 3
-set style line 66 lt 2 lc rgb "#0066cc" lw 3
+set style line 11 lt 2 lc rgb "#ff0000" lw 6
+set style line 22 lt 2 lc rgb "#007e00" lw 6
+set style line 33 lt 2 lc rgb "#ff8000" lw 6
+set style line 44 lt 2 lc rgb "#cc00cc" lw 6
+set style line 55 lt 2 lc rgb "#6600cc" lw 6
+set style line 66 lt 2 lc rgb "#0066cc" lw 6
 
 
 # data for mu_eff plots

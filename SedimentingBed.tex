@@ -159,7 +159,8 @@ $D(\mathbf{q},\tau) =
 \end{textblock}
 
 
-\begin{textblock}{0.4}(0.55,0.29)
+\begin{textblock}{0.4}(0.55,0.25)
+\visible<3->{
 \begin{align}
 \textcolor{orange}{
 	\langle v_\text{s} \rangle = q\ \tau_\nu} &&
@@ -167,6 +168,7 @@ $D(\mathbf{q},\tau) =
 	\delta v = q\ \tau_{\delta \nu}}
 \nonumber
 \end{align}
+}
 \end{textblock}
 
 
@@ -211,47 +213,39 @@ $D(\mathbf{q},\tau) =
 \includegraphics[width=\textwidth]
 {Sources/sedimenting_bed/Sedimentation_velocites_v_front_vs_v_X-DFA.pdf}
 }
-\vspace{-0.3cm}
-$\langle v\rangle_\text{xdfa} > \langle v \rangle_\text{front}$ by 9.4\%
 \end{textblock}
 
-\begin{textblock}{0.5}(0.5,0.15)
+\begin{textblock}{0.5}(0.5,0.05)
 \centering
-\visible<2->{
+\only<1>{
+\includegraphics[width=0.8\textwidth]
+{Sources/sedimenting_bed/setup-fluidized_bed_animation_1.pdf}}
+\only<2>{
+\includegraphics[width=0.8\textwidth]
+{Sources/sedimenting_bed/setup-fluidized_bed_animation_2.pdf}}
+\visible<3->{
+\includegraphics[width=0.8\textwidth]
+{Sources/sedimenting_bed/setup-fluidized_bed_animation.pdf}}
+\end{textblock}
+
+\begin{textblock}{0.5}(0.5,0.4)
+\centering
+\visible<4->{
 \movie[width =0.8\textwidth, poster, loop]	
 {\includegraphics[width=0.8\textwidth]
 {Sources/sedimenting_bed/creeping_boundary_flow.pdf}}
 {videos/boundary_layer.avi}}
 \end{textblock}
+
+\begin{textblock}{0.45}(0.02,0.9)
+\centering
+\visible<4->{
+$\langle v\rangle_\text{xdfa} > \langle v \rangle_\text{front}$ by 9.4\%}
+\end{textblock}
 }
 
 
-%%%%%%%%% Boundary layer
-\frame{
-\frametitle{Estimate width of boundary layer}
-\begin{textblock}{0.45}(0.02,0.1)	
-	\centering
-	\visible<1->{
-		\includegraphics[width=\textwidth]
-		{Sources/sedimenting_bed/creeping_boundary_flow.pdf}
-	}
-	$\langle v\rangle_\text{xdfa} > \langle v \rangle_\text{front}$ by 9.4\%
-\end{textblock}
 
-\begin{textblock}{0.5}(0.5,0.1)
-	$\langle v\rangle_\text{xdfa}$ takes \textcolor{red}{two} layers into account\\
-	$\langle v \rangle_\text{front}$ takes \textcolor{royalblue}{four} layers into account\\[0.3cm]
-	
-	\includegraphics[width=0.9\textwidth]
-	{Sources/sedimenting_bed/sketch_boundary_flow.pdf}\\[0.3cm]
-%	\vspace{0.6cm}
-	\textbf{Estimation:}\\
-	Boundary velocity = 0\\
-	Else = const.\\
-	$\rightarrow b \approx 3$ particle diameters
-\end{textblock}
-
-}
 
 
 %%%%%%%%% Thanks

@@ -102,20 +102,21 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 
 
 
-
+%% ISF X-DFA experiment
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.69\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.4\paperwidth,yshift=0.28\textheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
 \begin{textblock}{0.8}(0.02,0.03)
 	\textcolor{white}{
-		\Large X-DFA for a suspension of sedimenting particles}
+		\Large X-DFA for a suspension of \\
+		sedimenting particles}
 \end{textblock}	
 
 
-\begin{textblock}{0.9}(0.05,0.05)
+\begin{textblock}{0.5}(0.05,0.15)
 	\begin{align}
 	f(q,\tau) = 
 	\cos(q \langle v_\text{s} \rangle \tau)
@@ -127,15 +128,15 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 	\langle \delta v \rangle = \langle \delta r \rangle / \tau_{\delta \nu}$
 \end{textblock}
 
-\begin{textblock}{0.45}(0.025,0.35)	
+\begin{textblock}{0.45}(0.5,0.05)	
 	\centering
-	\includegraphics[height=0.6\textheight]
+	\includegraphics[height=0.45\textheight]
 	{Sources/sedimenting_bed/fqt_tq.pdf}
 \end{textblock}
 
-\begin{textblock}{0.45}(0.5,0.35)	
+\begin{textblock}{0.45}(0.5,0.5)	
 	\centering
-	\includegraphics[height=0.6\textheight]
+	\includegraphics[height=0.45\textheight]
 	{Sources/sedimenting_bed/tau_vs_q.pdf}
 \end{textblock}
 

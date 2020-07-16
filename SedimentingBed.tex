@@ -115,29 +115,63 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 		sedimenting particles}
 \end{textblock}	
 
+\begin{textblock}{0.5}(0.02,0.2)
+\begin{minipage}[c]{0.25\textwidth}
+\includegraphics[width=\textwidth]
+{Sources/sedimenting_bed/structure_func_angle.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.7\textwidth}
+Image structure function:\\
+$D(\mathbf{q},\tau) = 
+\langle | \mathcal{F} [\Delta I (\mathbf{r}, t, \tau)] |^2\rangle_t$
+\end{minipage}
+\end{textblock}
 
-\begin{textblock}{0.5}(0.05,0.15)
+\begin{textblock}{0.45}(0.02,0.45)	
+	\centering
+	\visible<2->{
+		\includegraphics[height=0.5\textheight]
+		{Sources/sedimenting_bed/fqt_tq.pdf}}
+\end{textblock}
+
+\begin{textblock}{0.4}(0.52,0.1)
+	Intermediate scattering function:
+	\only<2>{
 	\begin{align}
 	f(q,\tau) = 
 	\cos(q \langle v_\text{s} \rangle \tau)
 	\exp\left(- \frac{1}{2} q^2 \delta v^2 \tau^2 \right)
 	\nonumber
 	\end{align}
-	\centering
-	$\langle v_\text{s} \rangle = \langle \Delta r \rangle / \tau_\nu, 
-	\langle \delta v \rangle = \langle \delta r \rangle / \tau_{\delta \nu}$
+	\vspace{-0.5cm}
+	\begin{align}
+	\langle v_\text{s} \rangle = \frac{\langle \Delta r \rangle} {\tau_\nu} &&
+	\langle \delta v \rangle = \frac{\langle \delta r \rangle} {\tau_{\delta \nu}}
+	\nonumber
+	\end{align}
+	}
+	\only<3>{
+	\begin{align}
+	f(q,\tau) = 
+	\cos(q \textcolor{orange}{\langle v_\text{s} \rangle} \tau)
+	\exp\left(- \frac{1}{2} q^2 \textcolor{darkgreen}{\delta v^2} \tau^2 \right)
+	\nonumber
+	\end{align}
+	\vspace{-0.5cm}
+	\begin{align}
+	\langle v_\text{s} \rangle = \frac{\langle \Delta r \rangle} {\tau_\nu} &&
+	\langle \delta v \rangle = \frac{\langle \delta r \rangle} {\tau_{\delta \nu}}
+	\nonumber
+	\end{align}
+	}
 \end{textblock}
 
-\begin{textblock}{0.45}(0.5,0.05)	
+\begin{textblock}{0.45}(0.5,0.45)	
 	\centering
-	\includegraphics[height=0.45\textheight]
-	{Sources/sedimenting_bed/fqt_tq.pdf}
-\end{textblock}
-
-\begin{textblock}{0.45}(0.5,0.5)	
-	\centering
-	\includegraphics[height=0.45\textheight]
-	{Sources/sedimenting_bed/tau_vs_q.pdf}
+	\visible<3->{
+	\includegraphics[height=0.5\textheight]
+	{Sources/sedimenting_bed/tau_vs_q.pdf}}
 \end{textblock}
 
 \begin{textblock}{0.9}(0.02,0.95)

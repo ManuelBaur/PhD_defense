@@ -1,0 +1,13 @@
+ 
+Pixel pitch (valid for all measurements captured on 2018-07-02)
+Measures captured on 2019-10-16, Labbook p. 170
+Tape metal washers inside both walls of cuvette.
+Place sample and axes in detector as done for measurements.
+Capture radiograms.
+Measure diameter of washers in Px.
+
+Washer front: 	780 Px = 7.00 mm --> ratio front = 0.008974 mm/Px
+Washer back:	666 Px = 7.00 mm --> ratio back = 0.010511 mm/Px
+
+mid plane : 	(ratio front + ratio back) / 2. = 0.0097424 mm/Px
+X-DFa:		ratio front + (ratio back - ratio front) * 0.1825 = 0.0092545 mm/Px

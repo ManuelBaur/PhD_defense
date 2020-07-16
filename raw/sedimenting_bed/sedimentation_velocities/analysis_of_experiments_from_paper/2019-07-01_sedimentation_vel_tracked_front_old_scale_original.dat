@@ -1,0 +1,9 @@
+# n_meas, sed velocity (mm/s), std(sed vel), pumprate
+1 0.0927272585 0.0000052762 600
+2 0.1020343004 0.0000184776 650
+3 0.1105643272 0.0000273083 700
+4 0.1195832144 0.0000328920 750
+5 0.0263067415 0.0001191548 250
+6 0.0445160312 0.0000277054 300
+### dir:
+## /Dokumente/Code/image_analysis/radiograms/sedimentation_runs_analysis_all_meas_days/sed_velocity_vs_pumprate/data_in

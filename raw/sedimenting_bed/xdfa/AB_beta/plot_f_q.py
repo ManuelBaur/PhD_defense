@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 ########## produce LaTex like fonts
 font = {'family' : 'serif',
 	'weight' : 'normal',
-	'size' : 18}
+	'size' : 25}
 plt.rc('text', usetex=True)
 plt.rc('font', **font) # family='serif')
 plt.rc

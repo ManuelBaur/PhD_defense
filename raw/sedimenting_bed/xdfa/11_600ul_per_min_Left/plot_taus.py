@@ -19,7 +19,7 @@ tau_delta = data_taus[:,2]
 ########## produce LaTex like fonts
 font = {'family' : 'serif',
 	'weight' : 'normal',
-	'size' : 18}
+	'size' : 25}
 plt.rc('text', usetex=True)
 plt.rc('font', **font) # family='serif')
 plt.rc
@@ -33,7 +33,7 @@ slopeY = [0.8,0.08]
 #### plot slope = 1 
 ax.plot(slopeX,slopeY,\
 color=(0.4,0.4,0.4),linewidth='3.', zorder=0) # linestyle= '--', 
-ax.annotate('slope = -1', xy=(0.25,0.15),xycoords='axes fraction', color=(0.2,0.2,0.22))
+ax.annotate('slope = -1', xy=(0.25,0.1),xycoords='axes fraction', color=(0.2,0.2,0.22))
 
 
 

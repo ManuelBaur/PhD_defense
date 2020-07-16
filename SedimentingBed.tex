@@ -209,10 +209,18 @@ $D(\mathbf{q},\tau) =
 
 \begin{textblock}{0.45}(0.02,0.1)	
 \centering
-\visible<1->{
+\only<1>{
 \includegraphics[width=\textwidth]
-{Sources/sedimenting_bed/Sedimentation_velocites_v_front_vs_v_X-DFA.pdf}
-}
+{Sources/sedimenting_bed/velocity_comp_1.pdf}}
+\only<2>{
+\includegraphics[width=\textwidth]
+{Sources/sedimenting_bed/velocity_comp_2.pdf}}
+\only<3>{
+\includegraphics[width=\textwidth]
+{Sources/sedimenting_bed/velocity_comp_3.pdf}}
+\visible<4->{
+\includegraphics[width=\textwidth]
+{Sources/sedimenting_bed/velocity_comp_final.pdf}}
 \end{textblock}
 
 \begin{textblock}{0.5}(0.5,0.05)
@@ -230,7 +238,7 @@ $D(\mathbf{q},\tau) =
 
 \begin{textblock}{0.5}(0.5,0.4)
 \centering
-\visible<4->{
+\visible<5->{
 \movie[width =0.8\textwidth, poster, loop]	
 {\includegraphics[width=0.8\textwidth]
 {Sources/sedimenting_bed/creeping_boundary_flow.pdf}}
@@ -245,6 +253,19 @@ $\langle v\rangle_\text{xdfa} > \langle v \rangle_\text{front}$ by 9.4\%}
 }
 
 
+%%%%%%%%%% Conclusion
+\frame{
+\begin{tikzpicture}[remember picture,overlay]
+\fill[blue1]
+(current page.north west) rectangle ([xshift=0.25\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+\end{tikzpicture}
+
+\begin{textblock}{0.8}(0.02,0.03)
+	\textcolor{white}{
+		\Large Conclusion}
+\end{textblock}
+
+}
 
 
 

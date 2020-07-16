@@ -48,7 +48,7 @@
 
 
 %%%%%%%%% sedimentation
-\begin{frame}[noframenumbering]
+\begin{frame}
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
 (current page.north west) rectangle ([xshift=0.57\textwidth,yshift=0.28\textheight]current page.west|-{pic cs:end});
@@ -112,10 +112,11 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 \begin{textblock}{0.8}(0.02,0.03)
 	\textcolor{white}{
 		\Large X-DFA for a suspension of \\
-		sedimenting particles}
+		sedimenting particles$^{(1)}$}
 \end{textblock}	
 
-\begin{textblock}{0.5}(0.02,0.2)
+\begin{textblock}{0.45}(0.5,0.05)
+\fbox{\parbox{\textwidth}{
 \begin{minipage}[c]{0.25\textwidth}
 \includegraphics[width=\textwidth]
 {Sources/sedimenting_bed/structure_func_angle.pdf}
@@ -126,57 +127,65 @@ Image structure function:\\
 $D(\mathbf{q},\tau) = 
 \langle | \mathcal{F} [\Delta I (\mathbf{r}, t, \tau)] |^2\rangle_t$
 \end{minipage}
+}}
 \end{textblock}
 
-\begin{textblock}{0.45}(0.02,0.45)	
+\begin{textblock}{0.45}(0.02,0.38)	
 	\centering
 	\visible<2->{
-		\includegraphics[height=0.5\textheight]
+		\includegraphics[height=0.57\textheight]
 		{Sources/sedimenting_bed/fqt_tq.pdf}}
 \end{textblock}
 
-\begin{textblock}{0.4}(0.52,0.1)
-	Intermediate scattering function:
+\begin{textblock}{0.4}(0.02,0.18)
 	\only<2>{
+	Intermediate scattering function$^{(2)}$:
 	\begin{align}
 	f(q,\tau) = 
 	\cos(q \langle v_\text{s} \rangle \tau)
 	\exp\left(- \frac{1}{2} q^2 \delta v^2 \tau^2 \right)
 	\nonumber
 	\end{align}
-	\vspace{-0.5cm}
-	\begin{align}
-	\langle v_\text{s} \rangle = \frac{\langle \Delta r \rangle} {\tau_\nu} &&
-	\langle \delta v \rangle = \frac{\langle \delta r \rangle} {\tau_{\delta \nu}}
-	\nonumber
-	\end{align}
 	}
-	\only<3>{
+	\visible<3->{
+	Intermediate scattering function$^{(2)}$:
 	\begin{align}
 	f(q,\tau) = 
 	\cos(q \textcolor{orange}{\langle v_\text{s} \rangle} \tau)
 	\exp\left(- \frac{1}{2} q^2 \textcolor{darkgreen}{\delta v^2} \tau^2 \right)
 	\nonumber
 	\end{align}
-	\vspace{-0.5cm}
-	\begin{align}
-	\langle v_\text{s} \rangle = \frac{\langle \Delta r \rangle} {\tau_\nu} &&
-	\langle \delta v \rangle = \frac{\langle \delta r \rangle} {\tau_{\delta \nu}}
-	\nonumber
-	\end{align}
 	}
 \end{textblock}
 
-\begin{textblock}{0.45}(0.5,0.45)	
+
+\begin{textblock}{0.4}(0.55,0.29)
+\begin{align}
+\textcolor{orange}{
+	\langle v_\text{s} \rangle = q\ \tau_\nu} &&
+\textcolor{darkgreen}{
+	\delta v = q\ \tau_{\delta \nu}}
+\nonumber
+\end{align}
+\end{textblock}
+
+
+\begin{textblock}{0.45}(0.5,0.4)	
 	\centering
-	\visible<3->{
-	\includegraphics[height=0.5\textheight]
+	\visible<4->{
+	\includegraphics[height=0.55\textheight]
 	{Sources/sedimenting_bed/tau_vs_q.pdf}}
 \end{textblock}
 
 \begin{textblock}{0.9}(0.02,0.95)
 	{\scriptsize
-		In collaboration with Manuel Escobedo, University of Düsseldorf}
+	${(1)}$ In collaboration with Manuel Escobedo, University of Düsseldorf}
+\end{textblock}
+
+\begin{textblock}{0.9}(0.6,0.95)
+	\visible<2->{
+	{\scriptsize
+	${(2)}$ Kohyama \textit{et al.} (2008)}}
 \end{textblock}
 }
 
@@ -216,6 +225,8 @@ $\langle v\rangle_\text{xdfa} > \langle v \rangle_\text{front}$ by 9.4\%
 \end{textblock}
 }
 
+
+%%%%%%%%% Boundary layer
 \frame{
 \frametitle{Estimate width of boundary layer}
 \begin{textblock}{0.45}(0.02,0.1)	
@@ -242,6 +253,8 @@ $\langle v\rangle_\text{xdfa} > \langle v \rangle_\text{front}$ by 9.4\%
 
 }
 
+
+%%%%%%%%% Thanks
 \frame{
 \begin{textblock}{1.}(0.0,0.0)
 	\includegraphics[width=\textwidth]

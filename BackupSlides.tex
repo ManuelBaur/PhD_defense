@@ -86,9 +86,6 @@ Backup slides}
 %%%%%%%% A(q) and B(q) numerical
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-
 \begin{frame}
 	\begin{textblock}{0.38}(0.02,0.02)
 		\only<1>{
@@ -177,6 +174,95 @@ Backup slides}
 \end{frame}
 
 
+%%%%%%%%%%%%% Experiment - volume fractions
+%% Experimental validation 
+\frame{
+	\begin{tikzpicture}[remember picture,overlay]
+	\fill[blue1]
+	(current page.north west) rectangle ([xshift=0.57\textwidth,yshift=0.28\textheight]current page.west|-{pic cs:end});
+	\end{tikzpicture}
+	
+	\begin{textblock}{0.53}(0.02,0.03)
+		\textcolor{white}{
+			\Large Experimental validation of X-DFA: \\
+			A suspension of sedimenting particles}
+	\end{textblock}
+	
+	\begin{textblock}{0.57}(0.02,0.18)
+		\centering
+		\only<1>{
+			\includegraphics[width=\textwidth]{Sources/sedimenting_bed/Photo_fluidized_bed.pdf}
+		}
+		\visible<2->{
+			\includegraphics[width=\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed_fluidized.pdf}}
+	\end{textblock}	
+	
+	\begin{textblock}{0.28}(0.66,0.02)	
+		\visible<2->{
+			\centering
+			X-ray radiography\\[0.1cm]
+			\movie[width =\textwidth, poster, loop]
+			{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/Radiogram_plane.png}}
+			{videos/full_fluidization1.avi}}
+	\end{textblock}
+	
+	\begin{textblock}{0.38}(0.59,0.5)	
+		\visible<2->{
+			\includegraphics[width=\textwidth]{Sources/sedimenting_bed/Phi_vs_pump_rate.pdf}}
+	\end{textblock}
+	
+	\begin{textblock}{0.35}(0.67,0.82)	
+		\visible<2->{
+			\colorbox{lightblue}{
+				$0.45 <  \Phi < 0.56$}}
+	\end{textblock}
+}
+
+
+%%%%%%%%%%%%%%%%%% Sedimenting suspension: Richardson Zaki
+\frame{	
+	\begin{tikzpicture}[remember picture,overlay]
+	\fill[blue1]
+	(current page.north west) rectangle ([xshift=0.6\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+	\end{tikzpicture}
+	
+	\begin{textblock}{0.8}(0.02,0.03)
+		\textcolor{white}{
+			\Large Liquid fluidized bed: Richardson-Zaki law}
+	\end{textblock}	
+	
+	\begin{textblock}{0.6}(0.02,0.2)
+		\centering
+		\only<1>{
+			\includegraphics[width=\textwidth]
+			{Sources/sedimenting_bed/setup-fluidized_bed_fluidized.pdf}}
+		\visible<2->{
+			\includegraphics[width=\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed.pdf}}
+	\end{textblock}	
+	
+	\begin{textblock}{0.45}(0.6,0.05)
+		\centering
+		Gravitation \quad Buoyancy \quad Drag
+		$F_\text{G} = F_\text{B} + F_\text{D}$	\\
+		\includegraphics[width=0.3\textwidth]{Sources/sedimenting_bed/Drag_one.pdf}
+	\end{textblock}
+	
+	\begin{textblock}{0.35}(0.62,0.5)
+		\visible<2->{
+			\centering
+			\includegraphics[width=\textwidth]
+			{Sources/sedimenting_bed/Sed_vel_vs_Phi_fit_Richardson_Zaki.pdf}}
+	\end{textblock}
+	
+	\begin{textblock}{0.2}(0.4,0.75)
+		\only<1>{
+			\[\frac{\langle v \rangle_\text{fluid}}{v_\text{Stokes}} = (1-\Phi)^n \]}
+		\visible<2->{
+			\[\frac{\langle v \rangle_\text{front}}{v_\text{Stokes}} = (1-\Phi)^n \]}
+	\end{textblock}
+}
+
+
 %%%%%%%%%%%%5 Tracking of particle front
 \frame{
 	\frametitle{Tracking of particle front}
@@ -234,3 +320,119 @@ Backup slides}
 }
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Image structure function %%%%%%%%%%%%%%%%%%%
+\frame{
+	\begin{tikzpicture}[remember picture,overlay]
+	\fill[blue1]
+	(current page.north west) rectangle ([xshift=0.55\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+	\end{tikzpicture}
+	
+	\begin{textblock}{0.8}(0.02,0.03)
+		\textcolor{white}{
+			\Large The image structure function $D(\mathbf{q},\tau)$}
+	\end{textblock}
+	
+	\begin{textblock}{0.6}(0.02,0.1)
+		\centering
+		\includegraphics[width=\textwidth]{Sources/sedimenting_bed/image_structure_function.pdf}
+	\end{textblock}
+	
+	\begin{textblock}{0.5}(0.48,0.52)
+		\visible<2->{
+			\begin{align}
+			D(\mathbf{q},\tau)
+			&= \Big\langle |I(\mathbf{q}, t+\tau) - I(\mathbf{q},t)|^2  \Big\rangle_t \nonumber \\
+			&= A(\mathbf{q})
+			\bigg[1-
+			\textcolor{red}{
+				\frac{\big\langle I^*(\mathbf{q},t) I(\mathbf{q},t+\tau) \big\rangle_t}
+				{\big\langle |I(\mathbf{q},t)|^2 \big\rangle_t}
+			}
+			\bigg] 
+			+ B(\mathbf{q})\nonumber
+			\end{align}
+			
+			\begin{itemize}
+				\item $D(\mathbf{q}, \tau \rightarrow 0) = B(\mathbf{q})$
+				\item $D(\mathbf{q}, \tau \rightarrow \infty) = A(\mathbf{q}) + B(\mathbf{q})$
+			\end{itemize}
+		}
+	\end{textblock}
+	
+	\begin{textblock}{0.5}(0.55,0.1)
+		\only<3>{
+			\centering
+			\colorbox{lightblue}{
+				Linear space invariant imaging}
+			\begin{align}
+			\textcolor{red}{
+				f(\mathbf{q},\tau) = \frac
+				{\langle \rho^*(\mathbf{q},t) \rho(\mathbf{q},t+\tau) \rangle_t}
+				{\langle |\rho(\mathbf{\mathbf{q}},t)|^2 \rangle_t}}
+			\nonumber
+			\end{align}
+			\textcolor{red}{
+				Intermediate scattering function}}
+	\end{textblock}
+	
+	
+	\begin{textblock}{0.9}(0.02,0.95)
+		{\scriptsize
+			In collaboration with Manuel Escobedo, University of Düsseldorf}
+	\end{textblock}
+}
+
+
+
+%%%%%%%%%%% linear space invariant imaging %%%%%%%%%%%%%%
+\frame{
+	\begin{tikzpicture}[remember picture,overlay]
+	\fill[blue1]
+	(current page.north west) rectangle ([xshift=0.58\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+	\end{tikzpicture}
+	
+	\begin{textblock}{0.8}(0.02,0.03)
+		\textcolor{white}{
+			\Large X-ray imaging -- Linear space invariant?}
+	\end{textblock}
+	
+	\begin{textblock}{0.4}(0.05,0.12)	
+		\centering
+		\includegraphics[width=\textwidth]{Sources/sedimenting_bed/I_over_I0_vs_z.pdf}
+	\end{textblock}
+	
+	\begin{textblock}{0.35}(0.2,0.4)	
+		\centering
+		\includegraphics[width=\textwidth]{Sources/sedimenting_bed/cuvettes_beam_hardening.pdf}
+	\end{textblock}
+	
+	\begin{textblock}{0.4}(0.05,0.12)	
+		\centering
+		\visible<2->{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/cross.pdf}}
+	\end{textblock}
+	
+	\begin{textblock}{0.4}(0.59,0.05)	
+		\centering
+		\visible<3->{
+			\includegraphics[width=0.8\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed_right.pdf}}
+	\end{textblock}
+	
+	\begin{textblock}{0.38}(0.59,0.45)
+		\visible<3->{
+			\centering
+			\includegraphics[width=\textwidth]
+			{Sources/sedimenting_bed/I_over_I0_vs_Phi.pdf}}
+	\end{textblock}
+	
+	\begin{textblock}{0.35}(0.67,0.8)	
+		\visible<3->{
+			\colorbox{lightblue}{
+				$0.45 <  \Phi < 0.56$}}
+	\end{textblock}
+	
+	\begin{textblock}{0.35}(0.85,0.6)	
+		\visible<3->{
+			\fbox{
+				\textcolor{darkgreen}{\Huge $\checkmark$}}}
+	\end{textblock}
+}

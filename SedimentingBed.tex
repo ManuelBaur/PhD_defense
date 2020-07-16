@@ -1,4 +1,4 @@
-%% Experimental validation 
+%% Experimental validation -- fluidization
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
@@ -20,24 +20,14 @@
 \includegraphics[width=\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed_fluidized.pdf}}
 \end{textblock}	
 
-\begin{textblock}{0.28}(0.66,0.02)	
+\begin{textblock}{0.32}(0.64,0.18)	
 	\visible<2->{
 	\centering
 	X-ray radiography\\[0.1cm]
+	\fbox{\parbox{\textwidth}{
 	\movie[width =\textwidth, poster, loop]
-	{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/Radiogram_plane.png}}
-	{videos/full_fluidization1.avi}}
-\end{textblock}
-
-\begin{textblock}{0.38}(0.59,0.5)	
-\visible<2->{
-\includegraphics[width=\textwidth]{Sources/sedimenting_bed/Phi_vs_pump_rate.pdf}}
-\end{textblock}
-
-\begin{textblock}{0.35}(0.67,0.82)	
-	\visible<2->{
-		\colorbox{lightblue}{
-			$0.45 <  \Phi < 0.56$}}
+	{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/Radiogram_plane0.png}}
+	{videos/full_fluidization.avi}}}}
 \end{textblock}
 
 \begin{textblock}{0.15}(0.22,0.75)
@@ -57,7 +47,7 @@
 }
 
 
-
+%%%%%%%%% sedimentation
 \begin{frame}[noframenumbering]
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
@@ -77,15 +67,14 @@
 	\includegraphics[width=\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed.pdf}}
 \end{textblock}	
 
-
-\begin{textblock}{0.3}(0.66,0.05)
+\begin{textblock}{0.32}(0.64,0.05)
 	\centering
 	X-ray radiography\\[0.1cm]
 	\only<1>{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/ROI_marked_img_nr1.png}}
 	\visible<2->{
-	\fbox{\parbox{0.65\textwidth}{
-	\movie[width = 0.65\textwidth, poster]
-	{\includegraphics[width=.65\textwidth]{Sources/sedimenting_bed/tracked_edge0.png}}
+	\fbox{\parbox{0.62\textwidth}{
+	\movie[width = 0.62\textwidth, poster]
+	{\includegraphics[width=.62\textwidth]{Sources/sedimenting_bed/tracked_edge0.png}}
 	{videos/tracked_edge.avi}}}}
 \end{textblock}
 
@@ -108,200 +97,10 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 \end{textblock}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%% Sedimenting suspension: Richardson Zaki
-\frame{	
-	\begin{tikzpicture}[remember picture,overlay]
-	\fill[blue1]
-	(current page.north west) rectangle ([xshift=0.6\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
-	\end{tikzpicture}
-	
-	\begin{textblock}{0.8}(0.02,0.03)
-		\textcolor{white}{
-			\Large Liquid fluidized bed: Richardson-Zaki law}
-	\end{textblock}	
-	
-	\begin{textblock}{0.6}(0.02,0.2)
-		\centering
-		\only<1>{
-		\includegraphics[width=\textwidth]
-		{Sources/sedimenting_bed/setup-fluidized_bed_fluidized.pdf}}
-		\visible<2->{
-		\includegraphics[width=\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed.pdf}}
-	\end{textblock}	
-	
-	\begin{textblock}{0.45}(0.6,0.05)
-		\centering
-		Gravitation \quad Buoyancy \quad Drag
-		$F_\text{G} = F_\text{B} + F_\text{D}$	\\
-		\includegraphics[width=0.3\textwidth]{Sources/sedimenting_bed/Drag_one.pdf}
-	\end{textblock}
-	
-	\begin{textblock}{0.35}(0.62,0.5)
-		\visible<2->{
-		\centering
-		\includegraphics[width=\textwidth]
-		{Sources/sedimenting_bed/Sed_vel_vs_Phi_fit_Richardson_Zaki.pdf}}
-	\end{textblock}
-
-	\begin{textblock}{0.2}(0.4,0.75)
-	\only<1>{
-		\[\frac{\langle v \rangle_\text{fluid}}{v_\text{Stokes}} = (1-\Phi)^n \]}
-	\visible<2->{
-		\[\frac{\langle v \rangle_\text{front}}{v_\text{Stokes}} = (1-\Phi)^n \]}
-	\end{textblock}
-}
 
 
 
 
-
-%%%%%%% X-DFA sedimentation %%%%%%%%%%%%%%%%%%%%%%%%%
-\frame{
-\begin{tikzpicture}[remember picture,overlay]
-\fill[blue1]
-(current page.north west) rectangle ([xshift=12.cm,yshift=-10.cm]current page.east|-{pic cs:end});
-\end{tikzpicture}
-
-\begin{textblock}{0.96}(0.02,0.1)
-	\centering
-	\textcolor{white}{
-	\Huge X-ray Digital Fourier Analysis\\
-	of a suspension of sedimenting particles}
-\end{textblock}	
-
-\begin{textblock}{0.45}(0.05,0.33)
-	\centering
-	\includegraphics[width=0.9\textwidth]
-	{Sources/sedimenting_bed/radiogram_rois.pdf}
-\end{textblock}	
-
-
-\begin{textblock}{0.45}(0.55,0.35)
-\centering
-\movie[width =0.6\textwidth, poster, loop]
-{\includegraphics[width=0.6\textwidth]{Sources/sedimenting_bed/sedimentationROI.png}}
-{videos/02_750ul_per_min_original.avi}
-\end{textblock}
-
-}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%% Image structure function %%%%%%%%%%%%%%%%%%%
-\frame{
-\begin{tikzpicture}[remember picture,overlay]
-\fill[blue1]
-(current page.north west) rectangle ([xshift=0.55\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
-\end{tikzpicture}
-
-\begin{textblock}{0.8}(0.02,0.03)
-	\textcolor{white}{
-		\Large The image structure function $D(\mathbf{q},\tau)$}
-\end{textblock}
-
-\begin{textblock}{0.6}(0.02,0.1)
-\centering
-\includegraphics[width=\textwidth]{Sources/sedimenting_bed/image_structure_function.pdf}
-\end{textblock}
-
-\begin{textblock}{0.5}(0.48,0.52)
-\visible<2->{
-	\begin{align}
-	D(\mathbf{q},\tau)
-	&= \Big\langle |I(\mathbf{q}, t+\tau) - I(\mathbf{q},t)|^2  \Big\rangle_t \nonumber \\
-	&= A(\mathbf{q})
-	\bigg[1-
-	\textcolor{red}{
-		\frac{\big\langle I^*(\mathbf{q},t) I(\mathbf{q},t+\tau) \big\rangle_t}
-		{\big\langle |I(\mathbf{q},t)|^2 \big\rangle_t}
-	}
-	\bigg] 
-	+ B(\mathbf{q})\nonumber
-	\end{align}
-	
-	\begin{itemize}
-		\item $D(\mathbf{q}, \tau \rightarrow 0) = B(\mathbf{q})$
-		\item $D(\mathbf{q}, \tau \rightarrow \infty) = A(\mathbf{q}) + B(\mathbf{q})$
-	\end{itemize}
-	}
-\end{textblock}
-
-\begin{textblock}{0.5}(0.55,0.1)
-\only<3>{
-	\centering
-	\colorbox{lightblue}{
-		Linear space invariant imaging}
-	\begin{align}
-	\textcolor{red}{
-	f(\mathbf{q},\tau) = \frac
-	{\langle \rho^*(\mathbf{q},t) \rho(\mathbf{q},t+\tau) \rangle_t}
-	{\langle |\rho(\mathbf{\mathbf{q}},t)|^2 \rangle_t}}
-	\nonumber
-	\end{align}
-	\textcolor{red}{
-	Intermediate scattering function}}
-\end{textblock}
-
-
-\begin{textblock}{0.9}(0.02,0.95)
-	{\scriptsize
-	In collaboration with Manuel Escobedo, University of Düsseldorf}
-\end{textblock}
-}
-
-
-
-%%%%%%%%%%% linear space invariant imaging %%%%%%%%%%%%%%
-\frame{
-\begin{tikzpicture}[remember picture,overlay]
-\fill[blue1]
-(current page.north west) rectangle ([xshift=0.58\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
-\end{tikzpicture}
-
-\begin{textblock}{0.8}(0.02,0.03)
-	\textcolor{white}{
-		\Large X-ray imaging -- Linear space invariant?}
-\end{textblock}
-
-\begin{textblock}{0.4}(0.05,0.12)	
-	\centering
-	\includegraphics[width=\textwidth]{Sources/sedimenting_bed/I_over_I0_vs_z.pdf}
-\end{textblock}
-
-\begin{textblock}{0.35}(0.2,0.4)	
-	\centering
-	\includegraphics[width=\textwidth]{Sources/sedimenting_bed/cuvettes_beam_hardening.pdf}
-\end{textblock}
-
-\begin{textblock}{0.4}(0.05,0.12)	
-\centering
-\visible<2->{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/cross.pdf}}
-\end{textblock}
-
-\begin{textblock}{0.4}(0.59,0.05)	
-\centering
-\visible<3->{
-\includegraphics[width=0.8\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed_right.pdf}}
-\end{textblock}
-
-\begin{textblock}{0.38}(0.59,0.45)
-	\visible<3->{
-	\centering
-	\includegraphics[width=\textwidth]
-	{Sources/sedimenting_bed/I_over_I0_vs_Phi.pdf}}
-\end{textblock}
-
-\begin{textblock}{0.35}(0.67,0.8)	
-	\visible<3->{
-		\colorbox{lightblue}{
-		$0.45 <  \Phi < 0.56$}}
-\end{textblock}
-
-\begin{textblock}{0.35}(0.85,0.6)	
-	\visible<3->{
-		\fbox{
-		\textcolor{darkgreen}{\Huge $\checkmark$}}}
-\end{textblock}
-}
 
 
 \frame{
@@ -328,16 +127,21 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 	\langle \delta v \rangle = \langle \delta r \rangle / \tau_{\delta \nu}$
 \end{textblock}
 
-\begin{textblock}{0.45}(0.025,0.4)	
+\begin{textblock}{0.45}(0.025,0.35)	
 	\centering
-	\includegraphics[width=\textwidth]
+	\includegraphics[height=0.6\textheight]
 	{Sources/sedimenting_bed/fqt_tq.pdf}
 \end{textblock}
 
-\begin{textblock}{0.45}(0.5,0.4)	
+\begin{textblock}{0.45}(0.5,0.35)	
 	\centering
-	\includegraphics[width=\textwidth]
+	\includegraphics[height=0.6\textheight]
 	{Sources/sedimenting_bed/tau_vs_q.pdf}
+\end{textblock}
+
+\begin{textblock}{0.9}(0.02,0.95)
+	{\scriptsize
+		In collaboration with Manuel Escobedo, University of Düsseldorf}
 \end{textblock}
 }
 

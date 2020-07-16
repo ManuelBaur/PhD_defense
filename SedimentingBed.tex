@@ -122,8 +122,11 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 	
 	\begin{textblock}{0.6}(0.02,0.2)
 		\centering
-		\visible<1->{
-			\includegraphics[width=\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed.pdf}}
+		\only<1>{
+		\includegraphics[width=\textwidth]
+		{Sources/sedimenting_bed/setup-fluidized_bed_fluidized.pdf}}
+		\visible<2->{
+		\includegraphics[width=\textwidth]{Sources/sedimenting_bed/setup-fluidized_bed.pdf}}
 	\end{textblock}	
 	
 	\begin{textblock}{0.45}(0.6,0.05)
@@ -142,9 +145,9 @@ $\langle v \rangle_\text{xdfa}$ and $\langle v \rangle_\text{front}$}
 
 	\begin{textblock}{0.2}(0.4,0.75)
 	\only<1>{
-		$\frac{\langle v \rangle_\text{fluid}}{v_\text{Stokes}} = (1-\Phi)^n $}
+		\[\frac{\langle v \rangle_\text{fluid}}{v_\text{Stokes}} = (1-\Phi)^n \]}
 	\visible<2->{
-		$\frac{\langle v \rangle_\text{front}}{v_\text{Stokes}} = (1-\Phi)^n $}
+		\[\frac{\langle v \rangle_\text{front}}{v_\text{Stokes}} = (1-\Phi)^n \]}
 	\end{textblock}
 }
 

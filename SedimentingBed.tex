@@ -223,8 +223,7 @@ $D(\mathbf{q},\tau) =
 {Sources/sedimenting_bed/velocity_comp_final.pdf}}
 \end{textblock}
 
-\begin{textblock}{0.5}(0.5,0.05)
-\centering
+\begin{textblock}{0.5}(0.55,0.05)
 \only<1>{
 \includegraphics[width=0.8\textwidth]
 {Sources/sedimenting_bed/setup-fluidized_bed_animation_1.pdf}}
@@ -257,12 +256,67 @@ $\langle v\rangle_\text{xdfa} > \langle v \rangle_\text{front}$ by 9.4\%}
 \frame{
 \begin{tikzpicture}[remember picture,overlay]
 \fill[blue1]
-(current page.north west) rectangle ([xshift=0.25\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
+(current page.north west) rectangle ([xshift=0.2\paperwidth,yshift=0.33\paperheight]current page.west|-{pic cs:end});
 \end{tikzpicture}
 
 \begin{textblock}{0.8}(0.02,0.03)
 	\textcolor{white}{
 		\Large Conclusion}
+\end{textblock}
+
+\begin{textblock}{0.46}(0.02,0.15)
+\visible<1->{
+\centering
+\textbf{Correction of X-ray beam hardening}
+\vspace{-0.3cm}
+\includegraphics[width=0.9\textwidth]
+{Sources/beam_hardening/2beams_attenuation_marked.pdf}
+
+\includegraphics[width=\textwidth]
+{Sources/beam_hardening/3datapoints_conclusion.eps}
+}
+\end{textblock}
+
+\begin{textblock}{0.1}(0.2,0.45)
+\visible<1->{
+\colorbox{blue1}{\textcolor{white}{
+$\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$
+}}}
+\end{textblock}
+
+\begin{textblock}{0.46}(0.52,0.15)
+\centering
+\textbf{X-ray Digital Fourier Analysis}
+
+\begin{minipage}[c]{0.65\textwidth}
+Synthetic radiograms
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.3\textwidth}
+\fbox{\parbox{\textwidth}{
+	\movie[width = \textwidth]
+	{\includegraphics[width=\textwidth]{Sources/X-DFA/1000_particles_fake_img.png}}
+	{videos/1000_particles.avi}}}
+\end{minipage}
+\vfill
+\begin{minipage}[c]{0.65\textwidth}
+Experimental validation
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.3\textwidth}
+\fbox{\parbox{\textwidth}{
+	\movie[width =\textwidth, poster, loop]
+	{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/sedimentationROI.png}}
+	{videos/02_750ul_per_min_original.avi}}}
+\end{minipage}
+
+\end{textblock}
+
+
+\begin{textblock}{0.4}(0.3,0.9)
+\visible<3->{
+\colorbox{lightred}{Temporal resolution of X-ray radiography}
+}
 \end{textblock}
 
 }

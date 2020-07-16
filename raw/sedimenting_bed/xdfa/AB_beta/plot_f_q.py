@@ -76,7 +76,8 @@ ax.set_xscale('log')
 
 
 ### colorbar
-q_vec_ticks = [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1]
+# q_vec_ticks = [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1]
+q_vec_ticks = [0.02, 0.04, 0.06, 0.08, 0.1]
 # cbar = fig.colorbar(sm, ticks=np.arange(1., len(q_vec)+1))
 c_bar = fig.colorbar(sm, ticks=q_vec_ticks) # ax=ax)
 # c_bar.ax.set_ytick([0.009, 0.09])

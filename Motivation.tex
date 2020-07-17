@@ -22,22 +22,38 @@
 {\Huge$\vdots$}
 \end{textblock}
 
-\begin{textblock}{0.3}(0.3,0.4)
+\begin{textblock}{0.35}(0.25,0.2)
+\visible<2->{
+\centering
+\textbf{Granular materials are athermal}\\[0.1cm]
+\begin{minipage}[c]{0.25\textwidth}
+\includegraphics[width=\textwidth]{Sources/motivation/lift_particle.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.6\textwidth}
+\begin{align}
+E_\text{pot} &\approx \textcolor{red}{10^{10}} E_\text{thermal}\nonumber
+\end{align}
+\end{minipage}
+}
+\end{textblock}
+
+\begin{textblock}{0.35}(0.25,0.5)
 \centering
 \visible<4->{
-Dissipative interactions\\[0.1cm]
+\textbf{Dissipative interactions}\\[0.1cm]
 \includegraphics[width=\textwidth]{Sources/motivation/Driscoll_et_al_2016.png}\\
 {\scriptsize Driscoll \textit{et al} (2016)}}
 \end{textblock}
 
 \begin{textblock}{0.25}(0.7,0.1)
 \centering
-\visible<2->{
+\visible<3->{
 \textbf{Volume fraction} 
 \[\Phi = \frac{V_\text{Particles}}{V_\text{Container}}\]}
-\only<2>{
+\only<3>{
 \includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_sedimented.pdf}}
-\only<3,4>{
+\only<4,5>{
 \includegraphics[width=\textwidth]{Sources/motivation/setup-fluidized_bed_expanded.pdf}}
 \end{textblock}
 }

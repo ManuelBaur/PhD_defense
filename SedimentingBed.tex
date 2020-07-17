@@ -264,10 +264,10 @@ $\langle v\rangle_\text{xdfa} > \langle v \rangle_\text{front}$ by 9.4\%}
 		\Large Conclusion}
 \end{textblock}
 
-\begin{textblock}{0.46}(0.02,0.15)
+\begin{textblock}{0.46}(0.02,0.13)
 \visible<1->{
 \centering
-\textbf{Correction of X-ray beam hardening}
+\textbf{\Large Correction of beam hardening}
 \vspace{-0.3cm}
 \includegraphics[width=0.9\textwidth]
 {Sources/beam_hardening/2beams_attenuation_marked.pdf}
@@ -284,32 +284,39 @@ $\boldsymbol{\mu_\text{eff}(x) = a + \frac{b}{x^\alpha}}$
 }}}
 \end{textblock}
 
-\begin{textblock}{0.46}(0.52,0.15)
+\begin{textblock}{0.46}(0.5,0.13)
+\visible<2->{
 \centering
-\textbf{X-ray Digital Fourier Analysis}
+\textbf{\Large X-ray Digital Fourier Analysis}
 
-\begin{minipage}[c]{0.65\textwidth}
-Synthetic radiograms
+\begin{minipage}[c]{0.6\textwidth}
+\textbf{Synthetic radiograms}\\
+\xcancel{Particle Tracking}\\
+\xcancel{PIV}
 \end{minipage}
 \hfill
-\begin{minipage}[c]{0.3\textwidth}
+\begin{minipage}[c]{0.33\textwidth}
 \fbox{\parbox{\textwidth}{
 	\movie[width = \textwidth]
-	{\includegraphics[width=\textwidth]{Sources/X-DFA/1000_particles_fake_img.png}}
-	{videos/1000_particles.avi}}}
+	{\includegraphics[width=\textwidth]{Sources/X-DFA/100000_particles_fake_img.png}}
+	{videos/100000_particles.avi}}}
 \end{minipage}
+\vspace{0.2cm}
 \vfill
-\begin{minipage}[c]{0.65\textwidth}
-Experimental validation
+
+\begin{minipage}[c]{0.6\textwidth}
+\textbf{Experimental validation}\\[0.1cm]
+\includegraphics[width=\textwidth]
+{Sources/sedimenting_bed/setup-fluidized_bed_animation.pdf}
 \end{minipage}
 \hfill
-\begin{minipage}[c]{0.3\textwidth}
+\begin{minipage}[c]{0.33\textwidth}
 \fbox{\parbox{\textwidth}{
-	\movie[width =\textwidth, poster, loop]
+	\movie[width =\textwidth]
 	{\includegraphics[width=\textwidth]{Sources/sedimenting_bed/sedimentationROI.png}}
 	{videos/02_750ul_per_min_original.avi}}}
 \end{minipage}
-
+}
 \end{textblock}
 
 
